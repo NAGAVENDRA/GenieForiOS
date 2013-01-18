@@ -1,0 +1,286 @@
+﻿/* 
+ Localizable.strings
+ GenieiPad
+ 
+ Created by cs Siteview on 12-3-10.
+ Copyright 2012年 __MyCompanyName__. All rights reserved.
+ */
+
+//约定： 所有的多语言的Key都以小写字母开头，并且都应该能通过其名称反应出其被使用的地方
+//general
+"cancel"="İptal";
+"close"="Kapat";
+"ok"="Tamam";
+"login"="Oturum Aç";
+"logout"="Oturumu Kapat";
+"back"="Geri";
+"save"="Kaydet";
+
+///////////////////////
+//wait msg
+"wait"="Lütfen bekleyin...";
+"waitForLoadWirelessInfo"="Kablosuz Ayarları Yükleniyor";
+"waitForRefreshWirelessInfo"="Kablosuz Ayarları Yükleniyor";
+"waitForSetWirelessInfo"="Lütfen bekleyin...";
+"waitForLoadGuestInfo"="Konuk Erişimi Yükleniyor";
+"waitForRefreshGuestInfo"="Konuk Erişimi Yükleniyor";
+"waitForSetGuestInfo"="Lütfen bekleyin...";
+"waitForLoadNetworkMapInfo"="Ağ Haritası Yükleniyor";
+"waitForRefreshNetworkMapInfo"="Ağ Haritası Yükleniyor";
+"waitForSetNetworkMapInfo"="Lütfen bekleyin...";
+"waitForLoadTrafficMeterInfo"="Trafik Ölçer Yükleniyor";
+"waitForRefreshTrafficMeterInfo"="Trafik Ölçer Yükleniyor";
+"waitForSetTrafficMeterInfo"="Lütfen bekleyin...";
+
+"waitForLoadLPCInfo"="Ebeveyn Denetimleri Yükleniyor";
+"waitForRefreshLPCInfo"="Ebeveyn Denetimleri Yükleniyor";
+"waitForSetLPCEnableStatus"="Lütfen bekleyin...";
+"waitForSetLPCFilter"="Canlı Ebeveyn Denetimlerini Ayarlama";
+"waitForSignInOpenDns"="OpenDNS oturumu açılıyor…";
+"waitForCreateOpenDNSAccount"="OpenDNS hesabınız oluşturuluyor…";
+"waitForGetLPCAccountRelay"="OpenDNS ile iletişim kuruluyor…";
+
+"msgForNoWIFI"="Lütfen bu aygıtı kablosuz olarak NETGEAR yönlendiricinize bağlayıp yeniden deneyin.";
+"msgForNoInternet"="İnternet bağlantısı algılanmadı.";
+"msgForNetworkError"="Bir ağ sorunu, NETGEAR sunucusuna bağlanmanızı önlüyor. Lütfen yeniden deneyin. Önceden oturum açtıysanız, oturumunuzu kapatmayı ve yeniden oturum açmayı deneyin.";
+"msgForRouterFirmwareNotSupport"="Yönlendirici bu işlevi desteklemiyor.";
+"msgForNotNetgearRouter"="NETGEAR yönlendirici bulunamadı veya  <a href=http://www.netgear.com/landing/en-us/netgear-genie-routers.aspx>desteklenmiyor</a>.";
+"msgForLoginGeniePasskeyInvalid"="Oturum açma başarısız oldu. Lütfen NETGEAR yönlendiriciniz için doğru yönetici parolasını yeniden girin.";
+"msgForTimeout"="Eylem zaman aşımına uğradı. Lütfen yeniden deneyin.";
+"msgForSetAndRebootRouter"="Ayarları değiştirdiğinizde, kablosuz ağdaki etkin trafik kesintiye uğrayabilir. Devam etmek istiyor musunuz?";
+"msgForSetAndRebootRouterSuccessed"="Kablosuz ayarı başarıyla değiştirildi. Lütfen yeni kablosuz ayarını kullanarak kablosuz ağınıza tekrar bağlanın ve genie'de oturum açın.";
+"msgForTimePeriodOutdate"="Konuk Erişimi kullanılıyor. Devre dışı bırakmanız, kablosuz ağdaki etkin trafiği kesintiye uğratabilir. Devam etmek istiyor musunuz?";
+"msgForPasswordNoMatchUsername"="Parola, bu kullanıcı adıyla eşleşmiyor. Lütfen yeniden deneyin.";
+
+"msgForAskIfUserHaveOpenDNSAccount"="Canlı Ebeveyn Denetimleri'ni ayarlamak için bir OpenDNS hesabınız olmalıdır. Zaten bir hesabınız var mı?";
+"msgForOpenDNSHostIsNotAvailable"="Internet kullanılamıyor. Lütfen Yönlendiricinizi önce Internet'e bağlayın.";
+"msgForAuthenticationFailed"="Yönlendirici kimlik doğrulaması başarısız oldu. Lütfen yönlendiricinizde yeniden oturum açın.";
+"msgForLPCCheckUserNameNotAvailable"="Kullanıcı Adı kullanılamıyor.";
+"msgForLPCSignInOpenDNSPassKeyWrong"="Bu kullanıcı adı veya parola tanınmıyor.";
+"msgForLPCSignInOpenDNSDeviceIsNotMine"="Kullanıcı Adı kullanılamıyor.";
+"msgForLPCCreateAccountUserNameFormatIllegal"="Kullanıcı adı bir harf veya rakamla başlamalıdır ve '.', '-' ve '_' karakterlerini de içerebilir.";
+"msgForLPCCreateAccountPasswordLengthIllegal"="Parolalar 6 ile 20 karakter arasında olmalıdır.";
+"msgForLPCCreateAccountConfirmPasswordIllegal"="Parolayı Onaylayın";
+"msgForLPCCreateAccountEmailFormatIllegal"="Geçersiz e-posta";
+"msgForLPCCreateAccountConfirmEmailIllegal"="E-postayı Onayla";
+"msgForLPCCreateAccountEmailIsUnavailable"="E-posta alındı.";
+"msgForLPCCreateAccountFailed"="Hesabınız oluşturulurken bir hata oluştu, lütfen tekrar deneyin.";
+"msgForLPCCreateAccountSuccessed"="Hesabınız başarıyla oluşturuldu!";
+
+"msgForSmartNetworkLoginKeyWrong"="Geçersiz Kullanıcı Adı veya Parola.";
+"msgForSmartNetworkForgetPasswordHTML"="<a href=https://genie.netgear.com/UserProfile/#ForgotPasswordPlace:>Parolanızı mı unuttunuz?</a>";
+"msgForSmartNetworkSignUpHTML"="Kimliğiniz yok mu? <a href=https://genie.netgear.com/UserProfile/#NewUserPlace:>Kaydolun.</a>";
+"msgForSmartNetworkNoRemoteRouterFound" = "No devices were found. To activate your NETGEAR device in genie+ Marketplace:<br/>1. Make sure that your device supports genie+ Marketplace.<br/>2. From a web browser that is on the same local area network as your device (not remote), log into genie+ Marketplace <a href=https://genie.netgear.com>https://genie.netgear.com</a>.<br/>3. Click \"Activate\" on the device to activate it."; 
+////////////////////////////////
+//HomePage
+"searchBarPlaceHolder"="Destek Ara";
+"wirelessSettingHomeBtnTitle"="Kablosuz Ayarları";
+"guestAccessHomeBtnTitle"="Konuk Erişimi";
+"networkMapHomeBtnTitle"="Ağ Haritası";
+"parentalControlsHomeBtnTitle"="Ebeveyn Denetimleri";
+"trafficMeterHomeBtnTitle"="Trafik Ölçer";
+"myMediaHomeBtnTitle"="Ortamım";
+"qrCodeHomeBtnTitle"="QR Kodu";
+"appStoreBtnTitle"="Marketplace";
+
+//login view
+"loginMainPageTitle"="Oturum Aç";
+"loginMainPageModeSwitcherTitle"="uzaktan oturum açma";
+"loginMainPageRouterAdminLabelTitle"="Kullanıcı Adı";
+"loginMainPageSmartNetworkAccountLableTitle"="E-posta";
+"loginMainPagePasswordLabelTitle"="Parola";
+"loginMainPageRememberMeSwitcherTitle"="Beni Hatırla";
+"loginMainPageDefaultPasswordPrompt"="Varsayılan \"password\" sözcüğüdür";
+
+"loginRemoteRouterListPageTitle"="Aygıtlarım";
+"loginRemoteRouterListPageSerialLabelTtitle"="Seri";
+
+"loginRemoteRouterLoginPageTitle"="Yönlendirici Oturumu Aç";
+"loginRemoteRouterLoginAccountTitle"="Kullanıcı Adı";
+"loginRemoteRouterLoginPasswordTitle"="Parola";
+"loginRemoteRouterLoginRememberMeSwitcherTitle"="Beni Hatırla";
+
+"loginRemoteOnlineStatus"="Çevrimiçi";
+"loginRemoteOfflineStatus"="Çevrimdışı";
+//about view
+"aboutDialogTitle"="Hakkında";
+"aboutDialogRouterModelTitle"="Yönlendirici Modeli";
+"aboutDialogFirmwareVersionTitle"="Ürün Yazılımı Sürümü";
+"aboutDialogGenieVersionTitle"="Sürüm";
+"aboutDialogCopyRightInfo"="Telif Hakkı (c) 2012, NETGEAR Inc.";
+"aboutDialogAllRightInfo"="Her Hakkı Saklıdır.";
+"aboutDialogPoweredByInfo"="SiteView tarafından desteklenmektedir";
+"aboutDialogLicenseTitle"="Lisans";
+//wireless setting
+"wirelessSettingInfoPageTitle"="Ayarlar";
+
+"wirelessSSIDTitle"="Ad/SSID";
+"wirelessChannelTitle"="Kanal";
+"wirelessPasswordTitle"="Anahtar/Parola";
+
+"wirelessSetPageTitle"="Ayarları Düzenle";
+"wirelessSecurityModeTitle"="Güvenlik";
+"wirelessPasswordLengthLimitPrompt"="8-63 karakter veya 64 onaltılık değer";
+//guest access
+"guestAccessInfoPageTitle"="Konuk Erişimi";
+
+"guestAccessSwitcherTitle"="Konuk Erişimi";
+"guestAccessSSIDTitle"="Ad/SSID";
+"guestAccessPasswordTitle"="Anahtar/Parola";
+"guestAccessTimePeriodTitle"="Dönem";
+
+"guestAccessSetPageTitle"="Konuk Ayarları";
+"guestAccessSecurityModeTitle"="Güvenlik";
+"guestAccessPasswordLengthLimitPrompt"="8-63 karakter veya 64 onaltılık değer";
+
+"timePeriodAllways"="Her Zaman";
+"timePeriodOneHour"="1 Saat";
+"timePeriodFiveHours"="5 Saat";
+"timePeriodTenHours"="10 Saat";
+"timePeriodOneDay"="1 Gün";
+"timePeriodOneWeek"="1 Hafta";
+//network map
+"networkMapInfoPageTitle"="Ağ Haritası";
+"networkMapInternetLableText"="İnternet";
+"networkMapOnlineStatus"="Çevrimiçi";
+"networkMapOfflineStatus"="Çevrimdışı";
+"networkMapDeviceInfoNameTitle"="Aygıt";
+"networkMapDeviceInfoTypeTitle"="Tür";
+"networkMapDeviceInfoFirmwareVersionTitle"="Ürün Yazılımı Sürümü";
+"networkMapDeviceInfoIpAddrTitle"="IP Adresi";
+"networkMapDeviceInfoStatusTitle"="Durum";
+"networkMapDeviceInfoSignalStengthTitle"="Sinyal Gücü";
+"networkMapDeviceInfoLinkSpeedTitle"="Bağlantı Hızı";
+"networkMapDeviceInfoMacAddrTitle"="MAC Adresi";
+"networkMapDeviceInfoBlockTitle"="Engelle";
+"networkMapBlockSwitcherTitle"="Erişim Denetimi";
+//lpc
+"lpcFirstPageForShowInfo"="Ebeveyn Denetimleri";
+"lpcFirstPageForLogin"="OpenDNS";
+"lpcFirstPageForCreateAccount"="Ücretsiz bir OpenDNS hesabı oluşturun";
+"lpcBtnTitleForLogin"="Oturum Aç";
+"lpcBtnTitleForCreateAccount"="Create";
+
+"lpcCreateAccountPageUserNameTitle"="Kullanıcı Adı";
+"lpcCreateAccountPagePasswordTitle"="Parola";
+"lpcCreateAccountPageConfirmPasswordTitle"="Parolayı Onaylayın";
+"lpcCreateAccountPageEmailTitle"="E-posta";
+"lpcCreateAccountPageConfirmEmailTitle"="E-postayı Onayla";
+"lpcLoginPageUserNameTitle"="Kullanıcı Adı";
+"lpcLoginPagePasswordTitle"="Parola";
+"lpcShowInfoPageSwitcherTitle"="Ebeveyn Denetimleri";
+"lpcShowInfoPageFilteringLevelTitle"="Filtreleme düzeyi";
+"lpcShowInfoPageCustomSettingTitle"="Özel Ayarları Değiştir";
+"lpcShowInfoPageOpenDNSAccountTitle"="OpenDNS Hesabı";
+"lpcShowInfoPageBypassAccountTitle"="Bypass Account";
+
+"lpcAskUserHadOpenDNSAccountBtnYESTitle"="Evet";
+"lpcAskUserHadOpenDNSAccountBtnNOTitle"="Hayır";
+
+"lpcFilterLevelPageTitle"="Filtreleme düzeyi";
+"lpcFilterLevelHighTitle"="Yüksek";
+"lpcFilterLevelModerateTitle"="Orta";
+"lpcFilterLevelLowTitle"="Düşük";
+"lpcFilterLevelMinimalTitle"="En Az";
+"lpcFilterLevelNoneTitle"="Hiçbiri";
+"lpcFilterLevelCustomTitle"="Özel";
+
+"lpcFilterLevelHithDescription"="Yetişkinlere yönelik içeriğe sahip sitelerin, yasadışı etkinliklerin, sosyal ağ sitelerinin, video paylaşım sitelerinin, kimlik avı saldırılarının ve genel olarak zaman kaybına neden olan sitelerin tamamına karşı koruma sağlar";
+"lpcFilterLevelModerateDescription"="Yetişkinlere yönelik içeriğe sahip sitelerin, yasadışı etkinliklerin ve kimlik avı saldırılarının tamamına karşı koruma sağlar.";
+"lpcFilterLevelLowDescription"="Pornografiye ve kimlik avı saldırılarına karşı koruma sağlar.";
+"lpcFilterLevelMinimalDescription"="Yalnızca kimlik avı saldırılarına karşı koruma sağlar.";
+"lpcFilterLevelNoneDescription"="Hiçbir şey engelli değil.";
+
+"lpcBypassAccountListPageTitle"="Bypass Account";
+"lpcBypassAccountLoginAccountLabel"="Bypass Account";
+"lpcBypassAccountLoginPasswordLabel"="Parola";
+"lpcBypassAccountLogoutPageTitle"="Bypass Account";
+"lpcBypassAccountPromptOfLoggedIn"="Şu kullanıcı olarak oturum açtınız:";
+
+//traffic
+"trafficMeterInfoPageTitle"="Trafik Ölçer";
+
+"trafficMeterNoLimit"="Sınırsız";
+"trafficMeterDownloadLimit"="Yalnızca indirme";
+"trafficMeterBothLimit"="İndir ve Yükle";
+
+"trafficMeterSwitchTitle"="Trafik Ölçer";
+"trafficMeterMonthlyLimitTitleOnInfoPage"="Aylık Sınır (MB)";
+"trafficMeterDayTitleOnInfoPage"="Sayaç Başlangıç Günü";
+"trafficMeterTimeTitleOnInfoPage"="Sayaç Başlangıç Saati";
+"trafficMeterLimitModeTitleOnInfoPage"="Trafik Hacmi Sınırı";
+
+"trafficMeterTotalInfoDiagramSubject" = "Total";
+"trafficMeterAverageInfoDiagramSubject" = "Average";
+"trafficMeterDiagramUnitTitle" = "Mbytes";
+"trafficMeterCategoryToday" = "Today";
+"trafficMeterCategoryYesterday" = "Yesterday";
+"trafficMeterCategoryThisWeek" = "This week";
+"trafficMeterCategoryThisMonth" = "This month";
+"trafficMeterCategoryLastMonth" = "Last month";
+"trafficMeterPromptUpload" = "Upload";
+"trafficMeterPromptDownload" = "Download";
+
+"trafficMeterSetPageTitle"="Trafik Ölçer";
+"trafficMeterMonthlyLimitTitleOnModifyPage"="Aylık Sınır (MB)";
+"trafficMeterDayTitleOnModifyPage"="Gün";
+"trafficMeterTimeTitleOnModifyPage"="Saat";
+"trafficMeterTimeOfHourLabelTitle"="Saat";
+"trafficMeterTimeOfMinuteLabelTitle"="Dakika";
+"trafficMeterLimitModeTitleOnModifyPage"="Trafik Hacmi Sınırı";
+"trafficMeterLimitModeTitleForSelectItemPage"="Kontrol Yöntemi";
+"trafficMeterConterStartPrompt"="Trafik Ölçer Başlangıç Saati";
+
+//QR Code
+"qrCodeMainPageTitle"="QR Kodu";
+"qrCodeCameraIsUnavailable"="Aygıtınız resim çekemiyor veya QR Kodunu tarayamıyor.";
+"qrCodeScanBtnTitle"="Tara";
+"qrCodeWifiSSIDTitle"="SSID";
+"qrCodeWifiPasswordTitle"="Parola";
+"qrCodePromptUserHowToScaning"="Taramayı başlatmak için QR kodunu çerçeve içinde hizalayın.";
+"qrCodePromptForGetWebAddressInfo"="Tarayıcıyı bu URL ile açacak.";
+"qrCodePromptForFindURL"="Bulunan URL:";
+"qrCodePromptForOpenURL"="Açmak istiyor musunuz?";
+"qrCodePromptForGetWIFIInfo"="Parola panoya kopyalandı. Bu ağa bağlanmak için Ayarlar > Wi-Fi seçeneğini belirleyin.";
+//my media
+
+
+//---------------------------------------------My media---------------------------------------------------
+"Loading My Media"="Ortamım Yükleniyor";
+
+"Wait Message"="Lütfen bekleyin...";
+"Media not support"="Ortam dosyası biçimi desteklenmiyor.";
+"No player find"="Oynatıcı bulunamadı. Bu aygıttaki dosyaları oynatmak için, Seçenekler'e gidin ve \“Ağda oynatıma izin ver\”i seçin.";
+
+"Select source"="Lütfen bir kaynak seçin.";
+
+"Select player"="Lütfen bir oynatıcı seçin.";
+
+"No device find"="Paylaşılan bir aygıt bulunamadı. Bu özelliği kullanmak için, aygıtlarda ağ üzerinde dosya paylaşımı özelliğini etkinleştirmeniz veya yönlendirici USB depolama bağlantısını destekliyorsa yönlendiricinize bir USB depolama sürücüsü bağlamanız gerekir.";
+
+"Restart media"="Ortam hizmetini yeniden başlat";
+"Refresh source"="Kaynak klasörü yenile";
+"Share files"="Dosyaları ağda paylaş";
+
+"Allow play"="Ağda oynatıma izin ver";
+
+//Option界面 功能说明
+
+//media note:
+"myMediaOptionNote_title"="Not:";
+"myMediaOptionNote_1"="Kablosuz ağ ayarı değiştiğinde ortam hizmetini yeniden başlatın.";
+"myMediaOptionNote_2"="Bu aygıttaki dosyalara başkalarının ağ üzerinden erişmesine izin vermek için dosyaları ağda paylaşın.";
+"myMediaOptionNote_3"="Başkalarının bu aygıtı kullanarak dosyaları ağ üzerinden oynatmalarına izin verin.";
+"myMediaOptionNote_4"="Ortam klasörlerinde bir değişiklik olursa Kaynak klasörü yenile'ye dokunun.";
+
+
+//提示用户打开定位服务
+"Attention title"="Lütfen dikkat";
+//"Attention content"="NOTE: To gain access to your iOS device's photos and videos you need to grant Location Services permission to Genie(Settings->Location Services->Genie shall be switched on). This behavior is enforced by iOS APIs.";
+
+"Attention content"="NOT: iOS aygıtınızdaki fotoğraf ve videolara erişim sağlamak için, genie'ye Konum Servisleri izni atamalısınız. Bu izni atamak için, Ayarlar > Konum Hizmetleri > genie'yi seçin.";
+
+"tabBarLabelSource"="Kaynak";
+"tabBarLabelPlayer"="Oynatıcı";
+"tabBarLabelPlaying"="Oynatılıyor";
+"titleOptions"="Seçenekler";

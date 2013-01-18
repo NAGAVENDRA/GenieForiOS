@@ -1,0 +1,286 @@
+﻿/* 
+ Localizable.strings
+ GenieiPad
+ 
+ Created by cs Siteview on 12-3-10.
+ Copyright 2012年 __MyCompanyName__. All rights reserved.
+ */
+
+//约定： 所有的多语言的Key都以小写字母开头，并且都应该能通过其名称反应出其被使用的地方
+//general
+"cancel"="Zrušiť";
+"close"="Zavrieť";
+"ok"="OK";
+"login"="Prihlásenie";
+"logout"="Odhlásenie";
+"back"="Naspäť";
+"save"="Uložiť";
+
+///////////////////////
+//wait msg
+"wait"="Čakajte, prosím...";
+"waitForLoadWirelessInfo"="Načítavajú sa nastavenia bezdrôtového pripojenia";
+"waitForRefreshWirelessInfo"="Načítavajú sa nastavenia bezdrôtového pripojenia";
+"waitForSetWirelessInfo"="Čakajte, prosím...";
+"waitForLoadGuestInfo"="Načítava sa prístup hosťa";
+"waitForRefreshGuestInfo"="Načítava sa prístup hosťa";
+"waitForSetGuestInfo"="Čakajte, prosím...";
+"waitForLoadNetworkMapInfo"="Načítava sa mapa siete";
+"waitForRefreshNetworkMapInfo"="Načítava sa mapa siete";
+"waitForSetNetworkMapInfo"="Čakajte, prosím...";
+"waitForLoadTrafficMeterInfo"="Načítava sa merač prenosov";
+"waitForRefreshTrafficMeterInfo"="Načítava sa merač prenosov";
+"waitForSetTrafficMeterInfo"="Čakajte, prosím...";
+
+"waitForLoadLPCInfo"="Načítava sa rodičovská kontrola";
+"waitForRefreshLPCInfo"="Načítava sa rodičovská kontrola";
+"waitForSetLPCEnableStatus"="Čakajte, prosím...";
+"waitForSetLPCFilter"="Natavenie funkcie Live Parental Controls";
+"waitForSignInOpenDns"="Prihlasujem sa do služby OpenDNS…";
+"waitForCreateOpenDNSAccount"="Vytváram konto služby OpenDNS…";
+"waitForGetLPCAccountRelay"="Komunikuje sa s OpenDNS...";
+
+"msgForNoWIFI"="Toto zariadenie bezdrôtovo pripojte k vášmu smerovaču NETGEAR a pokus potom zopakujte.";
+"msgForNoInternet"="Nezistilo sa žiadne internetové pripojenie.";
+"msgForNetworkError"="Kvôli problému so sieťou nie je možné pripojiť sa k serveru NETGEAR. Skúste to znova. Ak ste už prihlásení, skúste sa odhlásiť a znova prihlásiť.";
+"msgForRouterFirmwareNotSupport"="Smerovač túto funkciu nepodporuje.";
+"msgForNotNetgearRouter"="Smerovač NETGEAR sa nenašiel alebo nie je <a href=http://www.netgear.com/landing/en-us/netgear-genie-routers.aspx>podporovaný</a>.";
+"msgForLoginGeniePasskeyInvalid"="Prihlásenie zlyhalo. Znovu zadajte správne heslo správcu pre váš smerovač NETGEAR.";
+"msgForTimeout"="Časový limit akcie uplynul. Skúste to znova.";
+"msgForSetAndRebootRouter"="Zmena nastavení môže narušiť aktívne prenosy v bezdrôtovej sieti. Chcete pokračovať?";
+"msgForSetAndRebootRouterSuccessed"="Nastavenie bezdrôtovej komunikácie sa úspešne zmenilo. Pripojte sa k bezdrôtovej sieti pomocou nového nastavenia bezdrôtovej komunikácie a prihláste sa do aplikácie genie.";
+"msgForTimePeriodOutdate"="Používa sa hosťovský prístup. V prípade deaktivácie môže dôjsť k narušeniu aktívnych prenosov v bezdrôtovej sieti. Chcete pokračovať?";
+"msgForPasswordNoMatchUsername"="Heslo sa nezhoduje s týmto používateľským menom. Skúste to znova.";
+
+"msgForAskIfUserHaveOpenDNSAccount"="Ak chcete nastaviť rodičovskú kontrolu v službe Live, je potrebné, aby ste disponovali kontom v službe OpenDNS. Máte už konto vytvorené?";
+"msgForOpenDNSHostIsNotAvailable"="Sieť internet nie je dostupná. Najprv pripojte smerovač do siete internet.";
+"msgForAuthenticationFailed"="Overovanie smerovača zlyhalo. Znovu prihláste smerovač.";
+"msgForLPCCheckUserNameNotAvailable"="Používateľské meno je nedostupné.";
+"msgForLPCSignInOpenDNSPassKeyWrong"="Toto používateľské meno alebo heslo nebolo rozpoznané.";
+"msgForLPCSignInOpenDNSDeviceIsNotMine"="Používateľské meno je nedostupné.";
+"msgForLPCCreateAccountUserNameFormatIllegal"="Používateľské meno sa musí začínať a končiť písmenom alebo číslom a môže taktiež obsahovať znaky „.“, „-“ a „_“.";
+"msgForLPCCreateAccountPasswordLengthIllegal"="Heslo musí pozostávať najmenej zo 6 až 20 znakov.";
+"msgForLPCCreateAccountConfirmPasswordIllegal"="Potvrďte heslo";
+"msgForLPCCreateAccountEmailFormatIllegal"="Neplatná e-mailová adresa";
+"msgForLPCCreateAccountConfirmEmailIllegal"="Potvrďte e-mail";
+"msgForLPCCreateAccountEmailIsUnavailable"="Tento e-mail sa už používa.";
+"msgForLPCCreateAccountFailed"="Pri vytváraní vášho konta sa vyskytla chyba. Prosím, skúste to znova.";
+"msgForLPCCreateAccountSuccessed"="Konto bolo úspešne vytvorené!";
+
+"msgForSmartNetworkLoginKeyWrong"="Neplatné meno používateľa alebo hesla.";
+"msgForSmartNetworkForgetPasswordHTML"="<a href=https://genie.netgear.com/UserProfile/#ForgotPasswordPlace:>Zabudli ste heslo?</a>";
+"msgForSmartNetworkSignUpHTML"="Nemáte identifikačné číslo? <a href=https://genie.netgear.com/UserProfile/#NewUserPlace:>Zaregistrujte sa.</a>";
+"msgForSmartNetworkNoRemoteRouterFound" = "No devices were found. To activate your NETGEAR device in genie+ Marketplace:<br/>1. Make sure that your device supports genie+ Marketplace.<br/>2. From a web browser that is on the same local area network as your device (not remote), log into genie+ Marketplace <a href=https://genie.netgear.com>https://genie.netgear.com</a>.<br/>3. Click \"Activate\" on the device to activate it."; 
+////////////////////////////////
+//HomePage
+"searchBarPlaceHolder"="Vyhľadať podporu";
+"wirelessSettingHomeBtnTitle"="Nastav. bezdrôt. pripojenia";
+"guestAccessHomeBtnTitle"="Hosťovský prístup";
+"networkMapHomeBtnTitle"="Mapa siete";
+"parentalControlsHomeBtnTitle"="Rodičovská kontrola";
+"trafficMeterHomeBtnTitle"="Merač prenosov";
+"myMediaHomeBtnTitle"="Moje médiá";
+"qrCodeHomeBtnTitle"="Kód QR";
+"appStoreBtnTitle"="Marketplace";
+
+//login view
+"loginMainPageTitle"="Prihlásenie";
+"loginMainPageModeSwitcherTitle"="vzdialenej prihlásení";
+"loginMainPageRouterAdminLabelTitle"="Meno používateľa";
+"loginMainPageSmartNetworkAccountLableTitle"="E-mail";
+"loginMainPagePasswordLabelTitle"="Heslo";
+"loginMainPageRememberMeSwitcherTitle"="Zapamätať si ma";
+"loginMainPageDefaultPasswordPrompt"="Predvolená možnosť je \"heslo\"";
+
+"loginRemoteRouterListPageTitle"="Moje zariadenia";
+"loginRemoteRouterListPageSerialLabelTtitle"="Sériové číslo";
+
+"loginRemoteRouterLoginPageTitle"="Prihlasovacie meno smerovača";
+"loginRemoteRouterLoginAccountTitle"="Meno používateľa";
+"loginRemoteRouterLoginPasswordTitle"="Heslo";
+"loginRemoteRouterLoginRememberMeSwitcherTitle"="Zapamätať si ma";
+
+"loginRemoteOnlineStatus"="Online";
+"loginRemoteOfflineStatus"="Offline";
+//about view
+"aboutDialogTitle"="O aplikácii";
+"aboutDialogRouterModelTitle"="Model smerovača";
+"aboutDialogFirmwareVersionTitle"="Verzia firmvéru";
+"aboutDialogGenieVersionTitle"="Verzia";
+"aboutDialogCopyRightInfo"="Autorské práva (c) 2012, NETGEAR Inc.";
+"aboutDialogAllRightInfo"="Všetky práva vyhradené.";
+"aboutDialogPoweredByInfo"="Prevádzkované na báze technológie SiteView";
+"aboutDialogLicenseTitle"="Licencia";
+//wireless setting
+"wirelessSettingInfoPageTitle"="Nastavenia";
+
+"wirelessSSIDTitle"="Meno/identifikátor SSID";
+"wirelessChannelTitle"="Kanál";
+"wirelessPasswordTitle"="Kľúč/Heslo";
+
+"wirelessSetPageTitle"="Upraviť nastavenia";
+"wirelessSecurityModeTitle"="Zabezpečenie";
+"wirelessPasswordLengthLimitPrompt"="8 – 63 znakov alebo 64 šestnástkových hodnôt";
+//guest access
+"guestAccessInfoPageTitle"="Hosťovský prístup";
+
+"guestAccessSwitcherTitle"="Hosťovský prístup";
+"guestAccessSSIDTitle"="Meno/identifikátor SSID";
+"guestAccessPasswordTitle"="Kľúč/Heslo";
+"guestAccessTimePeriodTitle"="Časové obdobie";
+
+"guestAccessSetPageTitle"="Nastavenia hosťa";
+"guestAccessSecurityModeTitle"="Zabezpečenie";
+"guestAccessPasswordLengthLimitPrompt"="8 – 63 znakov alebo 64 šestnástkových hodnôt";
+
+"timePeriodAllways"="Vždy";
+"timePeriodOneHour"="1 hodina";
+"timePeriodFiveHours"="5 hodín";
+"timePeriodTenHours"="10 hodín";
+"timePeriodOneDay"="1 deň";
+"timePeriodOneWeek"="1 týždeň";
+//network map
+"networkMapInfoPageTitle"="Mapa siete";
+"networkMapInternetLableText"="Internet";
+"networkMapOnlineStatus"="Online";
+"networkMapOfflineStatus"="Offline";
+"networkMapDeviceInfoNameTitle"="Zariadenie";
+"networkMapDeviceInfoTypeTitle"="Typ";
+"networkMapDeviceInfoFirmwareVersionTitle"="Verzia firmvéru";
+"networkMapDeviceInfoIpAddrTitle"="Adresa IP";
+"networkMapDeviceInfoStatusTitle"="Stav";
+"networkMapDeviceInfoSignalStengthTitle"="Intenzita signálu";
+"networkMapDeviceInfoLinkSpeedTitle"="Rýchlosť spojenia";
+"networkMapDeviceInfoMacAddrTitle"="Adresa MAC";
+"networkMapDeviceInfoBlockTitle"="Blokovať";
+"networkMapBlockSwitcherTitle"="Riadenie prístupu";
+//lpc
+"lpcFirstPageForShowInfo"="Rodičovská kontrola";
+"lpcFirstPageForLogin"="Služba OpenDNS";
+"lpcFirstPageForCreateAccount"="Vytvoriť bezplatné konto služby OpenDNS";
+"lpcBtnTitleForLogin"="Prihlásenie";
+"lpcBtnTitleForCreateAccount"="Create";
+
+"lpcCreateAccountPageUserNameTitle"="Meno používateľa";
+"lpcCreateAccountPagePasswordTitle"="Heslo";
+"lpcCreateAccountPageConfirmPasswordTitle"="Potvrďte heslo";
+"lpcCreateAccountPageEmailTitle"="E-mail";
+"lpcCreateAccountPageConfirmEmailTitle"="Potvrďte e-mail";
+"lpcLoginPageUserNameTitle"="Meno používateľa";
+"lpcLoginPagePasswordTitle"="Heslo";
+"lpcShowInfoPageSwitcherTitle"="Rodičovská kontrola";
+"lpcShowInfoPageFilteringLevelTitle"="Úroveň filtrovania";
+"lpcShowInfoPageCustomSettingTitle"="Zmeniť vlastné nastavenia";
+"lpcShowInfoPageOpenDNSAccountTitle"="Konto služby OpenDNS";
+"lpcShowInfoPageBypassAccountTitle"="Bypass Account";
+
+"lpcAskUserHadOpenDNSAccountBtnYESTitle"="Áno";
+"lpcAskUserHadOpenDNSAccountBtnNOTitle"="Nie";
+
+"lpcFilterLevelPageTitle"="Úroveň filtrovania";
+"lpcFilterLevelHighTitle"="Vysoká";
+"lpcFilterLevelModerateTitle"="Stredná";
+"lpcFilterLevelLowTitle"="Nízka";
+"lpcFilterLevelMinimalTitle"="Minimálna";
+"lpcFilterLevelNoneTitle"="Žiadne";
+"lpcFilterLevelCustomTitle"="Vlastné";
+
+"lpcFilterLevelHithDescription"="Chráni pred všetkými stránkami pre dospelých, stránkami s nelegálnymi aktivitami, stránkami sociálnych sietí, stránkami zdieľajúcimi videá, útokmi na citlivé informácie a všeobecnými stránkami na zabíjanie času.";
+"lpcFilterLevelModerateDescription"="Chráni pred všetkými stránkami pre dospelých, stránkami s nelegálnymi aktivitami a útokmi na citlivé informácie.";
+"lpcFilterLevelLowDescription"="Chráni pred pornografiou a útokmi na citlivé informácie.";
+"lpcFilterLevelMinimalDescription"="Chráni iba pred útokmi na citlivé informácie.";
+"lpcFilterLevelNoneDescription"="Nič nie je blokované.";
+
+"lpcBypassAccountListPageTitle"="Bypass Account";
+"lpcBypassAccountLoginAccountLabel"="Bypass Account";
+"lpcBypassAccountLoginPasswordLabel"="Heslo";
+"lpcBypassAccountLogoutPageTitle"="Bypass Account";
+"lpcBypassAccountPromptOfLoggedIn"="Ste prihlásení ako";
+
+//traffic
+"trafficMeterInfoPageTitle"="Merač prenosov";
+
+"trafficMeterNoLimit"="Neobmedzené";
+"trafficMeterDownloadLimit"="Iba preberanie";
+"trafficMeterBothLimit"="Preberanie a odovzdávanie";
+
+"trafficMeterSwitchTitle"="Merač prenosov";
+"trafficMeterMonthlyLimitTitleOnInfoPage"="Mesačný limit (MB)";
+"trafficMeterDayTitleOnInfoPage"="Deň začiatku počítadla";
+"trafficMeterTimeTitleOnInfoPage"="Čas začiatku počítadla";
+"trafficMeterLimitModeTitleOnInfoPage"="Limit objemu prenosov";
+
+"trafficMeterTotalInfoDiagramSubject" = "Total";
+"trafficMeterAverageInfoDiagramSubject" = "Average";
+"trafficMeterDiagramUnitTitle" = "Mbytes";
+"trafficMeterCategoryToday" = "Today";
+"trafficMeterCategoryYesterday" = "Yesterday";
+"trafficMeterCategoryThisWeek" = "This week";
+"trafficMeterCategoryThisMonth" = "This month";
+"trafficMeterCategoryLastMonth" = "Last month";
+"trafficMeterPromptUpload" = "Upload";
+"trafficMeterPromptDownload" = "Download";
+
+"trafficMeterSetPageTitle"="Merač prenosov";
+"trafficMeterMonthlyLimitTitleOnModifyPage"="Mesačný limit (MB)";
+"trafficMeterDayTitleOnModifyPage"="Deň";
+"trafficMeterTimeTitleOnModifyPage"="Čas";
+"trafficMeterTimeOfHourLabelTitle"="Hodina";
+"trafficMeterTimeOfMinuteLabelTitle"="Minúta";
+"trafficMeterLimitModeTitleOnModifyPage"="Limit objemu prenosov";
+"trafficMeterLimitModeTitleForSelectItemPage"="Metóda ovládania";
+"trafficMeterConterStartPrompt"="Čas spustenia merača prenosov";
+
+//QR Code
+"qrCodeMainPageTitle"="Kód QR";
+"qrCodeCameraIsUnavailable"="Vaše zariadenie nedokáže zachytávať snímky alebo naskenovať Kód QR.";
+"qrCodeScanBtnTitle"="Skenovať";
+"qrCodeWifiSSIDTitle"="SSID";
+"qrCodeWifiPasswordTitle"="Heslo";
+"qrCodePromptUserHowToScaning"="Skenovanie spustite zameraním kódu QR do rámca.";
+"qrCodePromptForGetWebAddressInfo"="Otvorí sa prehľadávač s touto adresou URL.";
+"qrCodePromptForFindURL"="Našla sa adresa URL";
+"qrCodePromptForOpenURL"="Chcete ju otvoriť?";
+"qrCodePromptForGetWIFIInfo"="Heslo sa skopírovalo do schránky. Ak sa chcete pripojiť k tejto sieti, vyberte možnosť Nastavenia > Wi-Fi.";
+//my media
+
+
+//---------------------------------------------My media---------------------------------------------------
+"Loading My Media"="Načítavajú sa Moje médiá";
+
+"Wait Message"="Čakajte, prosím...";
+"Media not support"="Formát mediálneho súboru nie je podporovaný.";
+"No player find"="Nenašiel sa žiadny prehrávač. Ak chcete prehrávať súbory v tomto zariadení, prejdite do časti Možnosti a vyberte položku\„Povoliť prehrávanie v sieti\“.";
+
+"Select source"="Vyberte zdroj.";
+
+"Select player"="Vyberte prehrávač.";
+
+"No device find"="Nenašlo sa žiadne zdieľané zariadenie. Ak chcete použiť túto funkciu, je potrebné, aby ste povolili funkciu zdieľania súborov v zariadeniach v sieti alebo pripojili pamäťové zariadenie USB k smerovaču, ak smerovač podporuje pripojenie k pamäťovým zariadeniam USB.";
+
+"Restart media"="Reštartovať službu médií";
+"Refresh source"="Obnoviť zdrojový priečinok";
+"Share files"="Zdieľať súbory v sieti";
+
+"Allow play"="Povoliť prehrávanie v sieti";
+
+//Option界面 功能说明
+
+//media note:
+"myMediaOptionNote_title"="Poznámka:";
+"myMediaOptionNote_1"="Keď sa zmení nastavenie bezdrôtovej siete, reštartujte službu médií.";
+"myMediaOptionNote_2"="Zdieľaním súboru v sieti umožníte používateľom získať prístup k súborom v tomto zariadení prostredníctvom siete.";
+"myMediaOptionNote_3"="Umožniť používateľom použiť toto zariadenie na prehrávanie súborov v sieti.";
+"myMediaOptionNote_4"="Ak sa vyskytne akákoľvek zmena priečinkov s médiami, ťuknite na položku Obnoviť zdrojový priečinok.";
+
+
+//提示用户打开定位服务
+"Attention title"="Pozor";
+//"Attention content"="NOTE: To gain access to your iOS device's photos and videos you need to grant Location Services permission to Genie(Settings->Location Services->Genie shall be switched on). This behavior is enforced by iOS APIs.";
+
+"Attention content"="POZNÁMKA: Ak chcete získať prístup k fotografiám a videám v zariadení s iOS, je potrebné, aby ste aplikácii genie udelili povolenie služieb overenia umiestnenia. Ak chcete udeliť toto povolenie, vyberte možnosť Nastavenia > Služby overenia umiestnenia > genie.";
+
+"tabBarLabelSource"="Zdroj";
+"tabBarLabelPlayer"="Prehrávač";
+"tabBarLabelPlaying"="Prehráva sa";
+"titleOptions"="Možnosti";

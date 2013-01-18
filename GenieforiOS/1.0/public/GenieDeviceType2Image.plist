@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Android Device</key>
+	<string>device_androiddevice_icon</string>
+	<key>Android Phone</key>
+	<string>device_androidphone_icon</string>
+	<key>Android Tablet</key>
+	<string>device_androidtablet_icon</string>
+	<key>Blu-ray Player</key>
+	<string>device_bluray_player_icon</string>
+	<key>Bridge</key>
+	<string>device_bridge_icon</string>
+	<key>Cable STB</key>
+	<string>device_cablestb_icon</string>
+	<key>Camera</key>
+	<string>device_camera_icon</string>
+	<key>DVR</key>
+	<string>device_dvr_icon</string>
+	<key>Gaming Console</key>
+	<string>device_gaming_console_icon</string>
+	<key>iMac</key>
+	<string>device_imac_icon</string>
+	<key>iPad</key>
+	<string>device_ipad_icon</string>
+	<key>iPhone</key>
+	<string>device_iphone_icon</string>
+	<key>iPod Touch</key>
+	<string>device_ipod_icon</string>
+	<key>Linux PC</key>
+	<string>device_linuxpc_icon</string>
+	<key>Mac Mini</key>
+	<string>device_macmini_icon</string>
+	<key>Mac Pro</key>
+	<string>device_macpro_icon</string>
+	<key>MacBook</key>
+	<string>device_macbook_icon</string>
+	<key>Media Device</key>
+	<string>device_media_device_icon</string>
+	<key>Network Device</key>
+	<string>device_network_device_icon</string>
+	<key>Other STB</key>
+	<string>device_otherstb_icon</string>
+	<key>Printer</key>
+	<string>device_printer_icon</string>
+	<key>Repeater</key>
+	<string>device_repeater_icon</string>
+	<key>Router</key>
+	<string>device_router_icon</string>
+	<key>Satellite STB</key>
+	<string>device_satellitestb_icon</string>
+	<key>Scanner</key>
+	<string>device_scanner_icon</string>
+	<key>SlingBox</key>
+	<string>device_slingbox_icon</string>
+	<key>Smart Phone</key>
+	<string>device_smartphone_icon</string>
+	<key>Storage</key>
+	<string>device_storage_icon</string>
+	<key>Switch</key>
+	<string>device_switch_icon</string>
+	<key>Tablet</key>
+	<string>device_tablet_icon</string>
+	<key>TV</key>
+	<string>device_tv_icon</string>
+	<key>UNIX PC</key>
+	<string>device_unixpc_icon</string>
+	<key>Windows PC</key>
+	<string>device_windowspc_icon</string>
+</dict>
+</plist>

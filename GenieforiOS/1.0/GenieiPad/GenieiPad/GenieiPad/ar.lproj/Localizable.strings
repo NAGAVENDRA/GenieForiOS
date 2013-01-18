@@ -1,0 +1,286 @@
+﻿/* 
+ Localizable.strings
+ GenieiPad
+ 
+ Created by cs Siteview on 12-3-10.
+ Copyright 2012年 __MyCompanyName__. All rights reserved.
+ */
+
+//约定： 所有的多语言的Key都以小写字母开头，并且都应该能通过其名称反应出其被使用的地方
+//general
+"cancel"="إلغاء";
+"close"="إغلاق";
+"ok"="موافق";
+"login"="تسجيل الدخول";
+"logout"="تسجل الخروج";
+"back"="السابق";
+"save"="حفظ";
+
+///////////////////////
+//wait msg
+"wait"="يرجى الانتظار...";
+"waitForLoadWirelessInfo"="تحميل الإعدادات اللاسلكية";
+"waitForRefreshWirelessInfo"="تحميل الإعدادات اللاسلكية";
+"waitForSetWirelessInfo"="يرجى الانتظار...";
+"waitForLoadGuestInfo"="تحميل وصول الضيوف";
+"waitForRefreshGuestInfo"="تحميل وصول الضيوف";
+"waitForSetGuestInfo"="يرجى الانتظار...";
+"waitForLoadNetworkMapInfo"="تحميل خريطة الشبكة";
+"waitForRefreshNetworkMapInfo"="تحميل خريطة الشبكة";
+"waitForSetNetworkMapInfo"="يرجى الانتظار...";
+"waitForLoadTrafficMeterInfo"="تحميل مقياس حركة المرور";
+"waitForRefreshTrafficMeterInfo"="تحميل مقياس حركة المرور";
+"waitForSetTrafficMeterInfo"="يرجى الانتظار...";
+
+"waitForLoadLPCInfo"="تحميل عناصر تحكم الوالدين";
+"waitForRefreshLPCInfo"="تحميل عناصر تحكم الوالدين";
+"waitForSetLPCEnableStatus"="يرجى الانتظار...";
+"waitForSetLPCFilter"="إعداد عناصر تحكم الوالدين المباشرة";
+"waitForSignInOpenDns"="جارٍ تسجيل الدخول إلى OpenDNS…";
+"waitForCreateOpenDNSAccount"="إنشاء حساب OpenDNS الخاص بك…";
+"waitForGetLPCAccountRelay"="التواصل مع OpenDNS…";
+
+"msgForNoWIFI"="يرجى توصيل هذا الجهاز لاسلكياً إلى موجه NETGEAR لديك، ثم المحاولة من جديد.";
+"msgForNoInternet"="لم يتم اكتشاف اتصال الإنترنت.";
+"msgForNetworkError"="حدثت مشكلة تتعلق بالشبكة تمنعك من الاتصال بخادم NETGEAR. يرجى المحاولة مرة أخرى. إذا قمت بتسجيل الدخول مسبقاً، حاول تسجيل الخروج ومن ثم عاود تسجيل الدخول.";
+"msgForRouterFirmwareNotSupport"="لا يدعم الموجه هذه الوظيفة.";
+"msgForNotNetgearRouter"="لم يتم العثور على موجه NETGEAR أو أنه ليس  <a href=http://www.netgear.com/landing/en-us/netgear-genie-routers.aspx>معتمداً</a>.";
+"msgForLoginGeniePasskeyInvalid"="فشل تسجيل الدخول. يرجى إعادة إدخال كلمة مرور المسؤول الصحيحة لموجه NETGEAR";
+"msgForTimeout"="انتهت مهلة الإجراء. يرجى المحاولة مرة أخرى.";
+"msgForSetAndRebootRouter"="يمكن أن يؤدي تغيير الإعدادات إلى تعطيل حركة المرور النشطة على الشبكة اللاسلكية. هل تريد المتابعة؟";
+"msgForSetAndRebootRouterSuccessed"="تم تغيير الإعداد اللاسلكي بنجاح. يرجى الانضمام مجدداً إلى الشبكة اللاسلكية من خلال استخدام إدخال لاسلكي جديد وتسجيل الدخول إلى genie.";
+"msgForTimePeriodOutdate"="ميزة وصول الضيوف قيد الاستخدام. ويمكن أن يؤدي تعطيلها إلى تعطيل حركة المرور النشطة على الشبكة اللاسلكية. هل تريد المتابعة؟";
+"msgForPasswordNoMatchUsername"="لا تتطابق كلمة المرور مع اسم المستخدم، يرجى المحاولة مرة أخرى.";
+
+"msgForAskIfUserHaveOpenDNSAccount"="لإعداد عناصر تحكم الوالدين المباشرة، تحتاج إلى حساب OpenDNS. هل لديك حساب بالفعل؟";
+"msgForOpenDNSHostIsNotAvailable"="إنترنت غير متوفر. يرجى توصيل الموجه بإنترنت أولاً.";
+"msgForAuthenticationFailed"="فشل مصادقة الموجهة. يرجى إعادة تسجيل دخول الموجه.";
+"msgForLPCCheckUserNameNotAvailable"="اسم المستخدم غير متوفر.";
+"msgForLPCSignInOpenDNSPassKeyWrong"="لم نتعرف على اسم المستخدم أو كلمة المرور.";
+"msgForLPCSignInOpenDNSDeviceIsNotMine"="اسم المستخدم غير متوفر.";
+"msgForLPCCreateAccountUserNameFormatIllegal"="يجب أن يبدأ اسم المستخدم وينتهي بحرف أو رقم كما يمكن أن يحتوي على '.' و  '-' و '_'.";
+"msgForLPCCreateAccountPasswordLengthIllegal"="يجب أن تتراوح كلمات المرور بين 6 أحرف و20 حرفاً.";
+"msgForLPCCreateAccountConfirmPasswordIllegal"="تأكيد كلمة المرور";
+"msgForLPCCreateAccountEmailFormatIllegal"="بريد إلكتروني غير صالح";
+"msgForLPCCreateAccountConfirmEmailIllegal"="تأكيد البريد الإلكتروني";
+"msgForLPCCreateAccountEmailIsUnavailable"="إن اسم المستخدم لعنوان البريد الإلكتروني هذا مُستخدم بالفعل.";
+"msgForLPCCreateAccountFailed"="حدث خطأ عند إنشاء حسابك، يرجى المحاولة مجدداً.";
+"msgForLPCCreateAccountSuccessed"="تم إنشاء حسابك بنجاح!";
+
+"msgForSmartNetworkLoginKeyWrong"="اسم المستخدم أو كلمة المرور غير صالحة.";
+"msgForSmartNetworkForgetPasswordHTML"="<a href=https://genie.netgear.com/UserProfile/#ForgotPasswordPlace:>هل نسيت كلمة المرور؟</a>";
+"msgForSmartNetworkSignUpHTML"="ليس لديك معرّف؟ <a href=https://genie.netgear.com/UserProfile/#NewUserPlace:>تسجيل الدخول.</a>";
+"msgForSmartNetworkNoRemoteRouterFound" = "No devices were found. To activate your NETGEAR device in genie+ Marketplace:<br/>1. Make sure that your device supports genie+ Marketplace.<br/>2. From a web browser that is on the same local area network as your device (not remote), log into genie+ Marketplace <a href=https://genie.netgear.com>https://genie.netgear.com</a>.<br/>3. Click \"Activate\" on the device to activate it."; 
+////////////////////////////////
+//HomePage
+"searchBarPlaceHolder"="البحث في موقع الدعم";
+"wirelessSettingHomeBtnTitle"="الإعدادات اللاسلكية";
+"guestAccessHomeBtnTitle"="وصول الضيوف";
+"networkMapHomeBtnTitle"="خريطة الشبكة";
+"parentalControlsHomeBtnTitle"="عناصر تحكم الوالدين";
+"trafficMeterHomeBtnTitle"="مقياس حركة المرور";
+"myMediaHomeBtnTitle"="الوسائط الخاصة بي";
+"qrCodeHomeBtnTitle"="رمز QR";
+"appStoreBtnTitle"="Marketplace";
+
+//login view
+"loginMainPageTitle"="تسجيل الدخول";
+"loginMainPageModeSwitcherTitle"="بعد تسجيل الدخول";
+"loginMainPageRouterAdminLabelTitle"="اسم المستخدم";
+"loginMainPageSmartNetworkAccountLableTitle"="البريد الإلكتروني";
+"loginMainPagePasswordLabelTitle"="كلمة المرور";
+"loginMainPageRememberMeSwitcherTitle"="تذكرني";
+"loginMainPageDefaultPasswordPrompt"="\"\الإعداد الافتراضي هو\ \"كلمة المرور";
+
+"loginRemoteRouterListPageTitle"="الأجهزة الخاصة بي";
+"loginRemoteRouterListPageSerialLabelTtitle"="تسلسلي";
+
+"loginRemoteRouterLoginPageTitle"="تسجيل دخول الموجه";
+"loginRemoteRouterLoginAccountTitle"="اسم المستخدم";
+"loginRemoteRouterLoginPasswordTitle"="كلمة المرور";
+"loginRemoteRouterLoginRememberMeSwitcherTitle"="تذكرني";
+
+"loginRemoteOnlineStatus"="متصل";
+"loginRemoteOfflineStatus"="غير متصل";
+//about view
+"aboutDialogTitle"="حول";
+"aboutDialogRouterModelTitle"="طراز الموجه";
+"aboutDialogFirmwareVersionTitle"="إصدار البرنامج الثابت";
+"aboutDialogGenieVersionTitle"="الإصدار";
+"aboutDialogCopyRightInfo"="حقوق النشر (c)‏ 2012، ‏NETGEAR Inc.";
+"aboutDialogAllRightInfo"="كافة الحقوق محفوظة.";
+"aboutDialogPoweredByInfo"="يتم التشغيل بواسطة SiteView";
+"aboutDialogLicenseTitle"="الترخيص";
+//wireless setting
+"wirelessSettingInfoPageTitle"="الإعدادات";
+
+"wirelessSSIDTitle"="الاسم/SSID";
+"wirelessChannelTitle"="القناة";
+"wirelessPasswordTitle"="المفتاح/كلمة المرور";
+
+"wirelessSetPageTitle"="تحرير الإعدادات";
+"wirelessSecurityModeTitle"="الأمان";
+"wirelessPasswordLengthLimitPrompt"="من 8 إلى 63 حرفاً أو 64 قيماً سداسيةً عشريةً";
+//guest access
+"guestAccessInfoPageTitle"="وصول الضيوف";
+
+"guestAccessSwitcherTitle"="وصول الضيوف";
+"guestAccessSSIDTitle"="الاسم/SSID";
+"guestAccessPasswordTitle"="المفتاح/كلمة المرور";
+"guestAccessTimePeriodTitle"="الفترة الزمنية";
+
+"guestAccessSetPageTitle"="إعدادات الضيف";
+"guestAccessSecurityModeTitle"="الأمان";
+"guestAccessPasswordLengthLimitPrompt"="من 8 إلى 63 حرفاً أو 64 قيماً سداسيةً عشريةً";
+
+"timePeriodAllways"="دائمًا";
+"timePeriodOneHour"="ساعة واحدة";
+"timePeriodFiveHours"="5 ساعات";
+"timePeriodTenHours"="10 ساعات";
+"timePeriodOneDay"="يوم واحد";
+"timePeriodOneWeek"="أسبوع واحد";
+//network map
+"networkMapInfoPageTitle"="خريطة الشبكة";
+"networkMapInternetLableText"="الإنترنت";
+"networkMapOnlineStatus"="متصل";
+"networkMapOfflineStatus"="غير متصل";
+"networkMapDeviceInfoNameTitle"="الجهاز";
+"networkMapDeviceInfoTypeTitle"="النوع";
+"networkMapDeviceInfoFirmwareVersionTitle"="إصدار البرنامج الثابت";
+"networkMapDeviceInfoIpAddrTitle"="عنوان IP";
+"networkMapDeviceInfoStatusTitle"="الحالة";
+"networkMapDeviceInfoSignalStengthTitle"="قوة الإشارة";
+"networkMapDeviceInfoLinkSpeedTitle"="سرعة الارتباط";
+"networkMapDeviceInfoMacAddrTitle"="عنوان MAC";
+"networkMapDeviceInfoBlockTitle"="حظر";
+"networkMapBlockSwitcherTitle"="التحكم بالوصول";
+//lpc
+"lpcFirstPageForShowInfo"="عناصر تحكم الوالدين";
+"lpcFirstPageForLogin"="OpenDNS";
+"lpcFirstPageForCreateAccount"="إنشاء حساب OpenDNS مجاني";
+"lpcBtnTitleForLogin"="تسجيل الدخول";
+"lpcBtnTitleForCreateAccount"="Create";
+
+"lpcCreateAccountPageUserNameTitle"="اسم المستخدم";
+"lpcCreateAccountPagePasswordTitle"="كلمة المرور";
+"lpcCreateAccountPageConfirmPasswordTitle"="تأكيد كلمة المرور";
+"lpcCreateAccountPageEmailTitle"="البريد الإلكتروني";
+"lpcCreateAccountPageConfirmEmailTitle"="تأكيد البريد الإلكتروني";
+"lpcLoginPageUserNameTitle"="اسم المستخدم";
+"lpcLoginPagePasswordTitle"="كلمة المرور";
+"lpcShowInfoPageSwitcherTitle"="عناصر تحكم الوالدين";
+"lpcShowInfoPageFilteringLevelTitle"="مستوى التصفية";
+"lpcShowInfoPageCustomSettingTitle"="تغيير الإعدادات المخصصة";
+"lpcShowInfoPageOpenDNSAccountTitle"="حساب OpenDNS";
+"lpcShowInfoPageBypassAccountTitle"="Bypass Account";
+
+"lpcAskUserHadOpenDNSAccountBtnYESTitle"="نعم";
+"lpcAskUserHadOpenDNSAccountBtnNOTitle"="لا";
+
+"lpcFilterLevelPageTitle"="مستوى التصفية";
+"lpcFilterLevelHighTitle"="عالي";
+"lpcFilterLevelModerateTitle"="معتدل";
+"lpcFilterLevelLowTitle"="منخفض";
+"lpcFilterLevelMinimalTitle"="الأدنى";
+"lpcFilterLevelNoneTitle"="بلا";
+"lpcFilterLevelCustomTitle"="مخصص";
+
+"lpcFilterLevelHithDescription"="يحمي من المواقع المخصصة للراشدين والنشاط غير المشروع ومواقع الشبكات الاجتماعية ومواقع مشاركة الفيديو وهجمات التصيد الاحتيالي والمواقع العامة التي تهدر الوقت";
+"lpcFilterLevelModerateDescription"="يحمي من كل المواقع المخصصة للراشدين والنشاط غير المشروع وهجمات التصيد الاحتيالي.";
+"lpcFilterLevelLowDescription"="يحمي من الإباحية وهجمات التصيد الاحتيالي.";
+"lpcFilterLevelMinimalDescription"="يحمي فقط من هجمات التصيد الاحتيالي.";
+"lpcFilterLevelNoneDescription"="لا شيء محظور";
+
+"lpcBypassAccountListPageTitle"="Bypass Account";
+"lpcBypassAccountLoginAccountLabel"="Bypass Account";
+"lpcBypassAccountLoginPasswordLabel"="كلمة المرور";
+"lpcBypassAccountLogoutPageTitle"="Bypass Account";
+"lpcBypassAccountPromptOfLoggedIn"="تم تسجيل دخولك كـ";
+
+//traffic
+"trafficMeterInfoPageTitle"="مقياس حركة المرور";
+
+"trafficMeterNoLimit"="غير محدود";
+"trafficMeterDownloadLimit"="تنزيل فقط";
+"trafficMeterBothLimit"="تنزيل وتحميل";
+
+"trafficMeterSwitchTitle"="مقياس حركة المرور";
+"trafficMeterMonthlyLimitTitleOnInfoPage"="حد شهري (ميغابايت)";
+"trafficMeterDayTitleOnInfoPage"="يوم بدء العداد";
+"trafficMeterTimeTitleOnInfoPage"="وقت بدء العداد";
+"trafficMeterLimitModeTitleOnInfoPage"="حد حجم حركة المرور";
+
+"trafficMeterTotalInfoDiagramSubject" = "Total";
+"trafficMeterAverageInfoDiagramSubject" = "Average";
+"trafficMeterDiagramUnitTitle" = "Mbytes";
+"trafficMeterCategoryToday" = "Today";
+"trafficMeterCategoryYesterday" = "Yesterday";
+"trafficMeterCategoryThisWeek" = "This week";
+"trafficMeterCategoryThisMonth" = "This month";
+"trafficMeterCategoryLastMonth" = "Last month";
+"trafficMeterPromptUpload" = "Upload";
+"trafficMeterPromptDownload" = "Download";
+
+"trafficMeterSetPageTitle"="مقياس حركة المرور";
+"trafficMeterMonthlyLimitTitleOnModifyPage"="حد شهري (ميغابايت)";
+"trafficMeterDayTitleOnModifyPage"="يوم";
+"trafficMeterTimeTitleOnModifyPage"="الوقت";
+"trafficMeterTimeOfHourLabelTitle"="ساعة";
+"trafficMeterTimeOfMinuteLabelTitle"="دقيقة";
+"trafficMeterLimitModeTitleOnModifyPage"="حد حجم حركة المرور";
+"trafficMeterLimitModeTitleForSelectItemPage"="أسلوب التحكم";
+"trafficMeterConterStartPrompt"=" وقت بدء قياس حركة المرور";
+
+//QR Code
+"qrCodeMainPageTitle"="رمز QR";
+"qrCodeCameraIsUnavailable"="يتعذّر على جهازك التقاط الصور أو مسح رمز QR.";
+"qrCodeScanBtnTitle"="مسح ضوئي";
+"qrCodeWifiSSIDTitle"="SSID";
+"qrCodeWifiPasswordTitle"="كلمة المرور";
+"qrCodePromptUserHowToScaning"="قم بمحاذاة رمز. QR مع الإطار لبدء عملية المسح";
+"qrCodePromptForGetWebAddressInfo"="سيفتح المستعرض بواسطة عنوان URL هذا.";
+"qrCodePromptForFindURL"="تم العثور على عنوان URL التالي:";
+"qrCodePromptForOpenURL"="هل تريد فتحه؟";
+"qrCodePromptForGetWIFIInfo"="تم نسخ كلمة المرور إلى الحافظة. للاتصال بهذه الشبكة، حدد إعدادات > Wi-Fi.";
+//my media
+
+
+//---------------------------------------------My media---------------------------------------------------
+"Loading My Media"="تحميل وسائطي";
+
+"Wait Message"="يرجى الانتظار...";
+"Media not support"="تنسيق ملف الوسائط غير مدعوم.";
+"No player find"="\”لم يتم العثور على مشغل. لتشغيل الملفات على هذا الجهاز، انتقل إلى الخيارات وحدد \”السماح بالتشغيل في الشبكة.";
+
+"Select source"="يرجى تحديد مصدر.";
+
+"Select player"="يرجى تحديد مشغّل.";
+
+"No device find"="لم يتم العثور على جهاز مشترك. لاستخدام هذه الميزة، عليك تمكين ميزة مشاركة الملف للأجهزة في الشبكة أو توصيل محرك أقراص تخزين USB بالموجه إذا كان هذا الأخير يدعم اتصال تخزين USB.";
+
+"Restart media"="إعادة تشغيل خدمة الوسائط";
+"Refresh source"="تحديث مجلد المصدر";
+"Share files"="مشاركة الملفات في الشبكة";
+
+"Allow play"="السماح بالتشغيل في الشبكة";
+
+//Option界面 功能说明
+
+//media note:
+"myMediaOptionNote_title"="ملاحظة:";
+"myMediaOptionNote_1"="إعادة تشغيل خدمة الوسائط عند تغيير إعداد الشبكة اللاسلكية.";
+"myMediaOptionNote_2"="مشاركة الملف في الشبكة للسماح للأشخاص بالوصول إلى الملفات الموجودة في هذا الجهاز عبر الشبكة.";
+"myMediaOptionNote_3"="السماح للأشخاص باستخدام هذا الجهاز لتشغيل الملفات عبر الشبكة.";
+"myMediaOptionNote_4"="اضغط على مجلد مصدر التحديث في حال حدوث أي تغيير في مجلد (مجلدات) الوسائط.";
+
+
+//提示用户打开定位服务
+"Attention title"="يرجى الانتباه";
+//"Attention content"="NOTE: To gain access to your iOS device's photos and videos you need to grant Location Services permission to Genie(Settings->Location Services->Genie shall be switched on). This behavior is enforced by iOS APIs.";
+
+"Attention content"="ملاحظة: للوصول إلى الصور وملفات الفيديو على جهاز iOS، يجب عليك أن تمنح إذن خدمات الموقع إلى genie. لمنح هذا الإذن، حدد إعدادات > خدمات الموقع > genie.";
+
+"tabBarLabelSource"="مصدر";
+"tabBarLabelPlayer"="مشغل";
+"tabBarLabelPlaying"="قيد التشغيل";
+"titleOptions"="خيارات";

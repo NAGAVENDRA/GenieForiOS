@@ -1,0 +1,288 @@
+﻿/* 
+ Localizable.strings
+ GenieiPad
+ 
+ Created by cs Siteview on 12-3-10.
+ Copyright 2012年 __MyCompanyName__. All rights reserved.
+ */
+
+//约定： 所有的多语言的Key都以小写字母开头，并且都应该能通过其名称反应出其被使用的地方
+//general
+"cancel"="Annuleren";
+"close"="Sluiten";
+"ok"="OK";
+"login"="Aanmelden";
+"logout"="Afmelden";
+"back"="Terug";
+"save"="Back-up maken";
+
+///////////////////////
+//wait msg
+"wait"="Een ogenblik geduld...";
+"waitForLoadWirelessInfo"="Draadloze instellingen laden";
+"waitForRefreshWirelessInfo"="Draadloze instellingen laden";
+"waitForSetWirelessInfo"="Een ogenblik geduld...";
+"waitForLoadGuestInfo"="Gasttoegang laden";
+"waitForRefreshGuestInfo"="Gasttoegang laden";
+"waitForSetGuestInfo"="Een ogenblik geduld...";
+"waitForLoadNetworkMapInfo"="Netwerkoverzicht laden";
+"waitForRefreshNetworkMapInfo"="Netwerkoverzicht laden";
+"waitForSetNetworkMapInfo"="Een ogenblik geduld...";
+"waitForLoadTrafficMeterInfo"="Verkeersmeter laden";
+"waitForRefreshTrafficMeterInfo"="Verkeersmeter laden";
+"waitForSetTrafficMeterInfo"="Een ogenblik geduld...";
+
+"waitForLoadLPCInfo"="Parental Controls laden";
+"waitForRefreshLPCInfo"="Parental Controls laden";
+"waitForSetLPCEnableStatus"="Een ogenblik geduld...";
+"waitForSetLPCFilter"="Live Parental Controls installeren";
+"waitForSignInOpenDns"="Bezig met aanmelden bij OpenDNS…";
+"waitForCreateOpenDNSAccount"="Bezig met aanmaken van uw OpenDNS-account…";
+"waitForGetLPCAccountRelay"="Communiceren met OpenDNS…";
+
+"msgForNoWIFI"="Breng een draadloze verbinding tot stand tussen dit apparaat en uw NETGEAR-router, en probeer het vervolgens opnieuw.";
+"msgForNoInternet"="Er is geen internetverbinding gedetecteerd.";
+"msgForNetworkError"="Een netwerkprobleem zorgt ervoor dat u geen verbinding kunt maken met de NETGEAR-server. Probeer het opnieuw. Als u al bent aangemeld, probeer u dan af te melden en vervolgens weer aan te melden.";
+"msgForRouterFirmwareNotSupport"="De router ondersteunt deze functie niet.";
+"msgForNotNetgearRouter"="NETGEAR-router is niet gevonden of wordt niet  <a href=http://www.netgear.com/landing/en-us/netgear-genie-routers.aspx>ondersteund</a>.";
+"msgForLoginGeniePasskeyInvalid"="Aanmelden is mislukt. Voer het juiste beheerderswachtwoord voor uw NETGEAR-router in.";
+"msgForTimeout"="Bewerking onderbroken. Probeer het opnieuw.";
+"msgForSetAndRebootRouter"="Wijziging van de instellingen kan het actieve verkeer op het draadloze netwerk verstoren. Wilt u doorgaan?";
+"msgForSetAndRebootRouterSuccessed"="Draadloze instelling is gewijzigd. Gebruik de nieuwe draadloze instelling om opnieuw verbinding te maken met het netwerk en meld u aan bij genie.";
+"msgForTimePeriodOutdate"="Gasttoegang is in gebruik. Gasttoegang uitschakelen kan het actieve verkeer op het draadloze netwerk verstoren. Wilt u doorgaan?";
+"msgForPasswordNoMatchUsername"="Het wachtwoord komt niet overeen met de gebruikersnaam. Probeer het opnieuw.";
+
+"msgForAskIfUserHaveOpenDNSAccount"="U hebt een OpenDNS-account nodig om Live Parental Controls in te stellen. Hebt u al een account?";
+"msgForOpenDNSHostIsNotAvailable"="Er is geen internetverbinding. Verbind uw router eerst met internet.";
+"msgForAuthenticationFailed"="Routerverificatie mislukt. Meld uw router opnieuw aan.";
+"msgForLPCCheckUserNameNotAvailable"="Gebruikersnaam is niet beschikbaar.";
+"msgForLPCSignInOpenDNSPassKeyWrong"="Deze gebruikersnaam of dit wachtwoord wordt niet herkend.";
+"msgForLPCSignInOpenDNSDeviceIsNotMine"="Gebruikersnaam is niet beschikbaar.";
+"msgForLPCCreateAccountUserNameFormatIllegal"="De gebruikersnaam moet met een letter of cijfer beginnen en eindigen en mag ook de tekens'.', '-' en '_' bevatten.";
+"msgForLPCCreateAccountPasswordLengthIllegal"="Het wachtwoord moet tussen de 6 en 20 tekens lang zijn.";
+"msgForLPCCreateAccountConfirmPasswordIllegal"="Wachtwoord bevestigen";
+"msgForLPCCreateAccountEmailFormatIllegal"="Ongeldige e-mail";
+"msgForLPCCreateAccountConfirmEmailIllegal"="E-mail bevestigen";
+"msgForLPCCreateAccountEmailIsUnavailable"="E-mailadres al in gebruik.";
+"msgForLPCCreateAccountFailed"="Fout bij het aanmaken van uw account. Probeer het opnieuw.";
+"msgForLPCCreateAccountSuccessed"="Uw account is gemaakt.";
+
+"msgForSmartNetworkLoginKeyWrong"="Ongeldige gebruikersnaam of wachtwoord.";
+"msgForSmartNetworkForgetPasswordHTML"="<a href=https://genie.netgear.com/UserProfile/#ForgotPasswordPlace:>Wachtwoord vergeten?</a>";
+"msgForSmartNetworkSignUpHTML"="Geen ID? <a href=https://genie.netgear.com/UserProfile/#NewUserPlace:>Meld u aan.</a>";
+"msgForSmartNetworkNoRemoteRouterFound"="No devices were found. To activate your NETGEAR device in genie+ Marketplace:<br/>1. Make sure that your device supports genie+ Marketplace.<br/>2. From a web browser that is on the same local area network as your device (not remote), log into genie+ Marketplace <a href=https://genie.netgear.com>https://genie.netgear.com</a>.<br/>3. Click \"Activate\" on the device to activate it.";
+
+////////////////////////////////
+//HomePage
+"searchBarPlaceHolder"="Zoeken in Support";
+"wirelessSettingHomeBtnTitle"="Draadloze instellingen";
+"guestAccessHomeBtnTitle"="Gasttoegang";
+"networkMapHomeBtnTitle"="Netwerkoverzicht";
+"parentalControlsHomeBtnTitle"="Parental Controls";
+"trafficMeterHomeBtnTitle"="Verkeersmeter";
+"myMediaHomeBtnTitle"="Mijn media";
+"qrCodeHomeBtnTitle"="QR-code";
+"appStoreBtnTitle"="Marketplace";
+
+//login view
+"loginMainPageTitle"="Aanmelden";
+"loginMainPageModeSwitcherTitle"="verwijderd redekundig";
+"loginMainPageRouterAdminLabelTitle"="Gebruikersnaam";
+"loginMainPageSmartNetworkAccountLableTitle"="E-mail";
+"loginMainPagePasswordLabelTitle"="Wachtwoord";
+"loginMainPageRememberMeSwitcherTitle"="Mij onthouden";
+"loginMainPageDefaultPasswordPrompt"="Standaard is \"password\"";
+
+"loginRemoteRouterListPageTitle"="Mijn apparaten";
+"loginRemoteRouterListPageSerialLabelTtitle"="Serienummer";
+
+"loginRemoteRouterLoginPageTitle"="Router aanmelden";
+"loginRemoteRouterLoginAccountTitle"="Gebruikersnaam";
+"loginRemoteRouterLoginPasswordTitle"="Wachtwoord";
+"loginRemoteRouterLoginRememberMeSwitcherTitle"="Mij onthouden";
+
+"loginRemoteOnlineStatus"="Online";
+"loginRemoteOfflineStatus"="Offline";
+//about view
+"aboutDialogTitle"="Info";
+"aboutDialogRouterModelTitle"="Routermodel";
+"aboutDialogFirmwareVersionTitle"="Firmwareversie";
+"aboutDialogGenieVersionTitle"="Versie";
+"aboutDialogCopyRightInfo"="Copyright (c) 2012, NETGEAR Inc.";
+"aboutDialogAllRightInfo"="Alle rechten voorbehouden.";
+"aboutDialogPoweredByInfo"="Powered by SiteView";
+"aboutDialogLicenseTitle"="Licentie";
+//wireless setting
+"wirelessSettingInfoPageTitle"="Instellingen";
+
+"wirelessSSIDTitle"="Naam/SSID";
+"wirelessChannelTitle"="Kanaal";
+"wirelessPasswordTitle"="Sleutel/wachtwoord";
+
+"wirelessSetPageTitle"="Instellingen bewerken";
+"wirelessSecurityModeTitle"="Beveiliging";
+"wirelessPasswordLengthLimitPrompt"="8 - 63 tekens of 64 hexadecimale waarden";
+//guest access
+"guestAccessInfoPageTitle"="Gasttoegang";
+
+"guestAccessSwitcherTitle"="Gasttoegang";
+"guestAccessSSIDTitle"="Naam/SSID";
+"guestAccessPasswordTitle"="Sleutel/wachtwoord";
+"guestAccessTimePeriodTitle"="Periode";
+
+"guestAccessSetPageTitle"="Gastinstellingen";
+"guestAccessSecurityModeTitle"="Beveiliging";
+"guestAccessPasswordLengthLimitPrompt"="8 - 63 tekens of 64 hexadecimale waarden";
+
+"timePeriodAllways"="Altijd";
+"timePeriodOneHour"="1 uur";
+"timePeriodFiveHours"="5 uur";
+"timePeriodTenHours"="10 uur";
+"timePeriodOneDay"="1 dag";
+"timePeriodOneWeek"="1 week";
+//network map
+"networkMapInfoPageTitle"="Netwerkoverzicht";
+"networkMapInternetLableText"="Internet";
+"networkMapOnlineStatus"="Online";
+"networkMapOfflineStatus"="Offline";
+"networkMapDeviceInfoNameTitle"="Apparaat";
+"networkMapDeviceInfoTypeTitle"="Type";
+"networkMapDeviceInfoFirmwareVersionTitle"="Firmwareversie";
+"networkMapDeviceInfoIpAddrTitle"="IP-adres";
+"networkMapDeviceInfoStatusTitle"="Status";
+"networkMapDeviceInfoSignalStengthTitle"="Signaalsterkte";
+"networkMapDeviceInfoLinkSpeedTitle"="Snelheid van verbinding";
+"networkMapDeviceInfoMacAddrTitle"="MAC-adres";
+"networkMapDeviceInfoBlockTitle"="Blokkeren";
+"networkMapBlockSwitcherTitle"="Toegangscontrole";
+//lpc
+"lpcFirstPageForShowInfo"="Parental Controls";
+"lpcFirstPageForLogin"="OpenDNS";
+"lpcFirstPageForCreateAccount"="Maak een gratis OpenDNS-account aan";
+"lpcBtnTitleForLogin"="Aanmelden";
+"lpcBtnTitleForCreateAccount"="Create";
+
+"lpcCreateAccountPageUserNameTitle"="Gebruikersnaam";
+"lpcCreateAccountPagePasswordTitle"="Wachtwoord";
+"lpcCreateAccountPageConfirmPasswordTitle"="Wachtwoord bevestigen";
+"lpcCreateAccountPageEmailTitle"="E-mail";
+"lpcCreateAccountPageConfirmEmailTitle"="E-mail bevestigen";
+"lpcLoginPageUserNameTitle"="Gebruikersnaam";
+"lpcLoginPagePasswordTitle"="Wachtwoord";
+"lpcShowInfoPageSwitcherTitle"="Parental Controls";
+"lpcShowInfoPageFilteringLevelTitle"="Blokkeerniveau";
+"lpcShowInfoPageCustomSettingTitle"="Aangepaste instellingen wijzigen";
+"lpcShowInfoPageOpenDNSAccountTitle"="OpenDNS-account";
+"lpcShowInfoPageBypassAccountTitle"="Bypass Account";
+
+"lpcAskUserHadOpenDNSAccountBtnYESTitle"="Ja";
+"lpcAskUserHadOpenDNSAccountBtnNOTitle"="Nee";
+
+"lpcFilterLevelPageTitle"="Blokkeerniveau";
+"lpcFilterLevelHighTitle"="Hoog";
+"lpcFilterLevelModerateTitle"="Gemiddeld";
+"lpcFilterLevelLowTitle"="Laag";
+"lpcFilterLevelMinimalTitle"="Minimaal";
+"lpcFilterLevelNoneTitle"="Geen";
+"lpcFilterLevelCustomTitle"="Aangepast";
+
+"lpcFilterLevelHithDescription"="Bescherming tegen alle sites met content die alleen geschikt is voor mensen van 18 jaar en ouder, illegale activiteiten, social networking-sites, sites voor het delen van video's, phishing-aanvallen en overige zaken die inbreuk maken op uw internetervaring.";
+"lpcFilterLevelModerateDescription"="Bescherming tegen alle sites met content die alleen geschikt is voor mensen van 18 jaar en ouder, illegale activiteiten en phishing-aanvallen.";
+"lpcFilterLevelLowDescription"="Bescherming tegen pornografie en phishing-aanvallen.";
+"lpcFilterLevelMinimalDescription"="Alleen bescherming tegen phishing-aanvallen.";
+"lpcFilterLevelNoneDescription"="Geen enkele website wordt geblokkeerd.";
+
+"lpcBypassAccountListPageTitle"="Bypass Account";
+"lpcBypassAccountLoginAccountLabel"="Bypass Account";
+"lpcBypassAccountLoginPasswordLabel"="Wachtwoord";
+"lpcBypassAccountLogoutPageTitle"="Bypass Account";
+"lpcBypassAccountPromptOfLoggedIn"="U bent aangemeld als";
+
+//traffic
+"trafficMeterInfoPageTitle"="Verkeersmeter";
+
+"trafficMeterNoLimit"="Onbeperkt";
+"trafficMeterDownloadLimit"="Alleen downloaden";
+"trafficMeterBothLimit"="Downloaden en uploaden";
+
+"trafficMeterSwitchTitle"="Verkeersmeter";
+"trafficMeterMonthlyLimitTitleOnInfoPage"="Maandelijks limiet (MB)";
+"trafficMeterDayTitleOnInfoPage"="Teller Begin van dag";
+"trafficMeterTimeTitleOnInfoPage"="Teller Begintijd";
+"trafficMeterLimitModeTitleOnInfoPage"="Limiet verkeersvolume";
+
+"trafficMeterTotalInfoDiagramSubject" = "Total";
+"trafficMeterAverageInfoDiagramSubject" = "Average";
+"trafficMeterDiagramUnitTitle" = "Mbytes";
+"trafficMeterCategoryToday" = "Today";
+"trafficMeterCategoryYesterday" = "Yesterday";
+"trafficMeterCategoryThisWeek" = "This week";
+"trafficMeterCategoryThisMonth" = "This month";
+"trafficMeterCategoryLastMonth" = "Last month";
+"trafficMeterPromptUpload" = "Upload";
+"trafficMeterPromptDownload" = "Download";
+
+
+"trafficMeterSetPageTitle"="Verkeersmeter";
+"trafficMeterMonthlyLimitTitleOnModifyPage"="Maandelijks limiet (MB)";
+"trafficMeterDayTitleOnModifyPage"="Dag";
+"trafficMeterTimeTitleOnModifyPage"="Tijd";
+"trafficMeterTimeOfHourLabelTitle"="Uur";
+"trafficMeterTimeOfMinuteLabelTitle"="Minu(u)t(en)";
+"trafficMeterLimitModeTitleOnModifyPage"="Limiet verkeersvolume";
+"trafficMeterLimitModeTitleForSelectItemPage"="Controlemethode";
+"trafficMeterConterStartPrompt"="Begintijd Verkeersmeter";
+
+//QR Code
+"qrCodeMainPageTitle"="QR-code";
+"qrCodeCameraIsUnavailable"="Uw apparaat kan geen foto's maken of de QR-code scannen.";
+"qrCodeScanBtnTitle"="Scannen";
+"qrCodeWifiSSIDTitle"="SSID";
+"qrCodeWifiPasswordTitle"="Wachtwoord";
+"qrCodePromptUserHowToScaning"="Lijn de QR-code uit binnen het frame om te scannen.";
+"qrCodePromptForGetWebAddressInfo"="De browser wordt geopend met deze URL.";
+"qrCodePromptForFindURL"="URL gevonden:";
+"qrCodePromptForOpenURL"="Wilt u dit opnemen?";
+"qrCodePromptForGetWIFIInfo"="Het wachtwoord is naar het klembord gekopieerd. Selecteer Instellingen > Wi-Fi als u verbinding met dit netwerk wil maken.";
+//my media
+
+
+//---------------------------------------------My media---------------------------------------------------
+"Loading My Media"="Mijn media laden...";
+
+"Wait Message"="Een ogenblik geduld...";
+"Media not support"="De bestandsindeling van de media wordt niet ondersteund.";
+"No player find"="Geen speler gevonden. Ga naar Opties en selecteer \"Afspelen via het netwerk toestaan\" om bestanden op dit apparaat af te spelen.";
+
+"Select source"="Selecteer een bron.";
+
+"Select player"="Selecteer een speler.";
+
+"No device find"="Er is geen gedeeld apparaat gevonden. Als u deze optie wilt gebruiken, moet u de optie bestanden delen inschakelen voor apparaten op het netwerk of moet u een USB-opslagstation op de router aansluiten als deze een USB-aansluiting heeft.";
+
+"Restart media"="Mediaservice opnieuw opstarten";
+"Refresh source"="Bronmap vernieuwen";
+"Share files"="Bestanden delen via het netwerk";
+
+"Allow play"="Afspelen via het netwerk toestaan";
+
+//Option界面 功能说明
+
+//media note:
+"myMediaOptionNote_title"="Opmerking:";
+"myMediaOptionNote_1"="Mediaservice opnieuw opstarten als de draadloze netwerkinstelling is gewijzigd.";
+"myMediaOptionNote_2"="Deel het bestand via het netwerk zodat anderen ook toegang hebben tot de bestanden op dit apparaat via het netwerk.";
+"myMediaOptionNote_3"="Anderen toestaan dit apparaat te gebruiken om bestanden via het netwerk af te spelen.";
+"myMediaOptionNote_4"="Tik op Bronmap vernieuwen als er wijzigingen zijn aangebracht in de mediamap(pen).";
+
+
+//提示用户打开定位服务
+"Attention title"="Opgelet";
+//"Attention content"="NOTE: To gain access to your iOS device's photos and videos you need to grant Location Services permission to Genie(Settings->Location Services->Genie shall be switched on). This behavior is enforced by iOS APIs.";
+
+"Attention content"="Opmerking: om foto's en video's op uw iOS-apparaat te openen, moet u genie toegang voor Locatievoorzieningen verlenen. Dit doet u als volgt: selecteer Instellingen > Locatievoorzieningen > genie.";
+"Attention content6"="Opmerking: om foto's en video's op uw iOS-apparaat te openen, moet u genie toegang voor Locatievoorzieningen verlenen. Dit doet u als volgt: selecteer Instellingen > privacy > Locatievoorzieningen > genie.";
+"tabBarLabelSource"="Bron";
+"tabBarLabelPlayer"="Speler";
+"tabBarLabelPlaying"="Afspelen";
+"titleOptions"="Opties";

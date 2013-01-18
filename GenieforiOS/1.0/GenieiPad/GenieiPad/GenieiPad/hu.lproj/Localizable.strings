@@ -1,0 +1,286 @@
+﻿/* 
+ Localizable.strings
+ GenieiPad
+ 
+ Created by cs Siteview on 12-3-10.
+ Copyright 2012年 __MyCompanyName__. All rights reserved.
+ */
+
+//约定： 所有的多语言的Key都以小写字母开头，并且都应该能通过其名称反应出其被使用的地方
+//general
+"cancel"="Mégse";
+"close"="Bezárás";
+"ok"="OK";
+"login"="Bejelentkezés";
+"logout"="Kijelentkezés";
+"back"="Vissza";
+"save"="Biztonsági mentés";
+
+///////////////////////
+//wait msg
+"wait"="Kérem, várjon...";
+"waitForLoadWirelessInfo"="Vezeték nélküli beállítások betöltése";
+"waitForRefreshWirelessInfo"="Vezeték nélküli beállítások betöltése";
+"waitForSetWirelessInfo"="Kérem, várjon...";
+"waitForLoadGuestInfo"="Vendéghozzáférés betöltése";
+"waitForRefreshGuestInfo"="Vendéghozzáférés betöltése";
+"waitForSetGuestInfo"="Kérem, várjon...";
+"waitForLoadNetworkMapInfo"="Hálózattérkép betöltése";
+"waitForRefreshNetworkMapInfo"="Hálózattérkép betöltése";
+"waitForSetNetworkMapInfo"="Kérem, várjon...";
+"waitForLoadTrafficMeterInfo"="Forgalommérő betöltése";
+"waitForRefreshTrafficMeterInfo"="Forgalommérő betöltése";
+"waitForSetTrafficMeterInfo"="Kérem, várjon...";
+
+"waitForLoadLPCInfo"="Szülői felügyelet betöltése";
+"waitForRefreshLPCInfo"="Szülői felügyelet betöltése";
+"waitForSetLPCEnableStatus"="Kérem, várjon...";
+"waitForSetLPCFilter"="A Live Parental Controls program beállítása";
+"waitForSignInOpenDns"="ejelentkezés az OpenDNS fiókba..";
+"waitForCreateOpenDNSAccount"="Saját OpenDNS fiók létrehozása…";
+"waitForGetLPCAccountRelay"="Kommunikáció az OpenDNS-sel…";
+
+"msgForNoWIFI"="Csatlakoztassa az eszközt vezeték nélkül a NETGEAR útválasztóra, majd próbálja meg újra.";
+"msgForNoInternet"="A rendszer nem észlelt internetkapcsolatot.";
+"msgForNetworkError"="Hálózati hiba miatt nem lehet csatlakozni a NETGEAR kiszolgálóhoz. Próbálja újra. Ha már belépett, jelentkezzen ki, majd jelentkezzen be ismét.";
+"msgForRouterFirmwareNotSupport"="Az útválasztó nem támogatja ezt a funkciót.";
+"msgForNotNetgearRouter"="A NETGEAR útválasztó nem található vagy nem <a href=http://www.netgear.com/landing/en-us/netgear-genie-routers.aspx>támogatott</a>.";
+"msgForLoginGeniePasskeyInvalid"="Bejelentkezés sikertelen. Írja be ismét a NETGEAR útválasztó helyes rendszergazda-jelszavát.";
+"msgForTimeout"="A művelet túllépte a rendelkezésre álló időt. Próbálja újra.";
+"msgForSetAndRebootRouter"="A beállítások módosítása megszakíthatja az aktív adatforgalmat a vezeték nélküli hálózaton. Folytatja?";
+"msgForSetAndRebootRouterSuccessed"="A vezeték nélküli beállítás módosítása sikerült. Csatlakozzon újra a vezeték nélküli hálózathoz az új vezeték nélküli beállítással, és lépjen be a genie alkalmazásba.";
+"msgForTimePeriodOutdate"="Vendég hozzáférés használatban. Ha letiltja, megszakad az aktív adatforgalom a vezeték nélküli hálózaton. Folytatja?";
+"msgForPasswordNoMatchUsername"="A megadott felhasználói névhez más jelszó tartozik. Próbálja újra.";
+
+"msgForAskIfUserHaveOpenDNSAccount"="Az Élő szülői felügyelet beállításához OpenDNS fiók szükséges. Van már fiókja?";
+"msgForOpenDNSHostIsNotAvailable"="Az internet nem érhető el. Először csatlakoztassa az útválasztót az internethez.";
+"msgForAuthenticationFailed"="Nem sikerült az útválasztó hitelesítése. Jelentkezzen be újra az útválasztóba.";
+"msgForLPCCheckUserNameNotAvailable"="A felhasználónév nem érhető el.";
+"msgForLPCSignInOpenDNSPassKeyWrong"="A felhasználónév vagy a jelszó nem megfelelő.";
+"msgForLPCSignInOpenDNSDeviceIsNotMine"="A felhasználónév nem érhető el.";
+"msgForLPCCreateAccountUserNameFormatIllegal"="A felhasználónév első és utolsó karakterének betűnek vagy számnak kell lennie, de tartalmazhatja ezeket a karaktereket is: '.', '-' és '_'.";
+"msgForLPCCreateAccountPasswordLengthIllegal"="A jelszavak 6 és 20 karakter közötti hosszúságúak lehetnek.";
+"msgForLPCCreateAccountConfirmPasswordIllegal"="Jelszó megerősítése";
+"msgForLPCCreateAccountEmailFormatIllegal"="Érvénytelen e-mail";
+"msgForLPCCreateAccountConfirmEmailIllegal"="E-mail megerősítése";
+"msgForLPCCreateAccountEmailIsUnavailable"="Az e-mail cím foglalt.";
+"msgForLPCCreateAccountFailed"="Hiba történt a fiók létrehozása közben. Kérjük, próbálja újra.";
+"msgForLPCCreateAccountSuccessed"="A fiókja létrehozása sikerült!";
+
+"msgForSmartNetworkLoginKeyWrong"="Érvénytelen felhasználónév vagy jelszó.";
+"msgForSmartNetworkForgetPasswordHTML"="<a href=https://genie.netgear.com/UserProfile/#ForgotPasswordPlace:>Elfelejtette a jelszavát?</a>";
+"msgForSmartNetworkSignUpHTML"="Nem rendelkezik azonosítóval? <a href=https://genie.netgear.com/UserProfile/#NewUserPlace:>Regisztráljon.</a>";
+"msgForSmartNetworkNoRemoteRouterFound" = "No devices were found. To activate your NETGEAR device in genie+ Marketplace:<br/>1. Make sure that your device supports genie+ Marketplace.<br/>2. From a web browser that is on the same local area network as your device (not remote), log into genie+ Marketplace <a href=https://genie.netgear.com>https://genie.netgear.com</a>.<br/>3. Click \"Activate\" on the device to activate it."; 
+////////////////////////////////
+//HomePage
+"searchBarPlaceHolder"="Támogatás keresése";
+"wirelessSettingHomeBtnTitle"="Vezeték nélküli beállítások";
+"guestAccessHomeBtnTitle"="Vendég hozzáférés";
+"networkMapHomeBtnTitle"="Hálózattérkép";
+"parentalControlsHomeBtnTitle"="Szülői felü.";
+"trafficMeterHomeBtnTitle"="Forgalommérő";
+"myMediaHomeBtnTitle"="Saját média";
+"qrCodeHomeBtnTitle"="QR-kód";
+"appStoreBtnTitle"="Marketplace";
+
+//login view
+"loginMainPageTitle"="Bejelentkezés";
+"loginMainPageModeSwitcherTitle"="távoli logika";
+"loginMainPageRouterAdminLabelTitle"="Felhasználónév";
+"loginMainPageSmartNetworkAccountLableTitle"="E-mail";
+"loginMainPagePasswordLabelTitle"="Jelszó";
+"loginMainPageRememberMeSwitcherTitle"="Emlékezzen rám";
+"loginMainPageDefaultPasswordPrompt"="Az alapértelmezett jelszó: \"password\"";
+
+"loginRemoteRouterListPageTitle"="Saját eszközök";
+"loginRemoteRouterListPageSerialLabelTtitle"="Sorozatszám";
+
+"loginRemoteRouterLoginPageTitle"="Bejelentkezés az útválasztóba";
+"loginRemoteRouterLoginAccountTitle"="Felhasználónév";
+"loginRemoteRouterLoginPasswordTitle"="Jelszó";
+"loginRemoteRouterLoginRememberMeSwitcherTitle"="Emlékezzen rám";
+
+"loginRemoteOnlineStatus"="Online";
+"loginRemoteOfflineStatus"="Offline";
+//about view
+"aboutDialogTitle"="Névjegy";
+"aboutDialogRouterModelTitle"="Útválasztó típusa";
+"aboutDialogFirmwareVersionTitle"="Készülékszoftver-verzió";
+"aboutDialogGenieVersionTitle"="Verzió";
+"aboutDialogCopyRightInfo"="Copyright (c) 2012, NETGEAR Inc.";
+"aboutDialogAllRightInfo"="Minden jog fenntartva.";
+"aboutDialogPoweredByInfo"="Powered by SiteView";
+"aboutDialogLicenseTitle"="Licenc";
+//wireless setting
+"wirelessSettingInfoPageTitle"="Beállítások";
+
+"wirelessSSIDTitle"="Név/SSID";
+"wirelessChannelTitle"="Csatorna";
+"wirelessPasswordTitle"="Kulcs / Jelszó";
+
+"wirelessSetPageTitle"="Beállítások szerkesztése";
+"wirelessSecurityModeTitle"="Biztonság";
+"wirelessPasswordLengthLimitPrompt"="8-63 karakter vagy 64 hexadecimális érték";
+//guest access
+"guestAccessInfoPageTitle"="Vendég hozzáférés";
+
+"guestAccessSwitcherTitle"="Vendég hozzáférés";
+"guestAccessSSIDTitle"="Név/SSID";
+"guestAccessPasswordTitle"="Kulcs / Jelszó";
+"guestAccessTimePeriodTitle"="Időszak";
+
+"guestAccessSetPageTitle"="Vendég beállításai";
+"guestAccessSecurityModeTitle"="Biztonság";
+"guestAccessPasswordLengthLimitPrompt"="8-63 karakter vagy 64 hexadecimális érték";
+
+"timePeriodAllways"="Mindig";
+"timePeriodOneHour"="1 óra";
+"timePeriodFiveHours"="5 óra";
+"timePeriodTenHours"="10 óra";
+"timePeriodOneDay"="1 nap";
+"timePeriodOneWeek"="1 hét";
+//network map
+"networkMapInfoPageTitle"="Hálózattérkép";
+"networkMapInternetLableText"="Internet";
+"networkMapOnlineStatus"="Online";
+"networkMapOfflineStatus"="Offline";
+"networkMapDeviceInfoNameTitle"="Eszköz";
+"networkMapDeviceInfoTypeTitle"="Típus";
+"networkMapDeviceInfoFirmwareVersionTitle"="Készülékszoftver-verzió";
+"networkMapDeviceInfoIpAddrTitle"="IP-cím";
+"networkMapDeviceInfoStatusTitle"="Állapot";
+"networkMapDeviceInfoSignalStengthTitle"="Jelerősség";
+"networkMapDeviceInfoLinkSpeedTitle"="Kapcsolat sebessége";
+"networkMapDeviceInfoMacAddrTitle"="MAC-cím";
+"networkMapDeviceInfoBlockTitle"="Letiltás";
+"networkMapBlockSwitcherTitle"="Hozzáférés-vezérlés";
+//lpc
+"lpcFirstPageForShowInfo"="Szülői felü.";
+"lpcFirstPageForLogin"="OpenDNS";
+"lpcFirstPageForCreateAccount"="Ingyenes OpenDNS fiók létrehozása";
+"lpcBtnTitleForLogin"="Bejelentkezés";
+"lpcBtnTitleForCreateAccount"="Create";
+
+"lpcCreateAccountPageUserNameTitle"="Felhasználónév";
+"lpcCreateAccountPagePasswordTitle"="Jelszó";
+"lpcCreateAccountPageConfirmPasswordTitle"="Jelszó megerősítése";
+"lpcCreateAccountPageEmailTitle"="E-mail";
+"lpcCreateAccountPageConfirmEmailTitle"="E-mail megerősítése";
+"lpcLoginPageUserNameTitle"="Felhasználónév";
+"lpcLoginPagePasswordTitle"="Jelszó";
+"lpcShowInfoPageSwitcherTitle"="Szülői felü.";
+"lpcShowInfoPageFilteringLevelTitle"="Szűrési szint";
+"lpcShowInfoPageCustomSettingTitle"="Egyedi beállítások módosítása";
+"lpcShowInfoPageOpenDNSAccountTitle"="OpenDNS fiók";
+"lpcShowInfoPageBypassAccountTitle"="Bypass Account";
+
+"lpcAskUserHadOpenDNSAccountBtnYESTitle"="Igen";
+"lpcAskUserHadOpenDNSAccountBtnNOTitle"="Nem";
+
+"lpcFilterLevelPageTitle"="Szűrési szint";
+"lpcFilterLevelHighTitle"="Magas";
+"lpcFilterLevelModerateTitle"="Közepes";
+"lpcFilterLevelLowTitle"="Alacsony";
+"lpcFilterLevelMinimalTitle"="Minimális";
+"lpcFilterLevelNoneTitle"="Nincs";
+"lpcFilterLevelCustomTitle"="Egyedi";
+
+"lpcFilterLevelHithDescription"="Védelmet nyújt minden felnőtt témát tartalmazó, illegális tevékenységet közvetítő, videomegosztási és közösségi oldallal szemben, illetve az adathalászó támadások és általában az időrabló oldalak ellen.";
+"lpcFilterLevelModerateDescription"="Védelmet nyújt minden felnőtt témát tartalmazó, illegális tevékenységet közvetítő oldallal, illetve az adathalászó támadásokkal szemben.";
+"lpcFilterLevelLowDescription"="Védelmet nyújt a pornográfia és az adathalászó támadások ellen.";
+"lpcFilterLevelMinimalDescription"="Csak az adathalászó támadások ellen véd.";
+"lpcFilterLevelNoneDescription"="Semmi sincs letiltva.";
+
+"lpcBypassAccountListPageTitle"="Bypass Account";
+"lpcBypassAccountLoginAccountLabel"="Bypass Account";
+"lpcBypassAccountLoginPasswordLabel"="Jelszó";
+"lpcBypassAccountLogoutPageTitle"="Bypass Account";
+"lpcBypassAccountPromptOfLoggedIn"="Ön a következő felhasználónévvel van bejelentkezve:";
+
+//traffic
+"trafficMeterInfoPageTitle"="Forgalommérő";
+
+"trafficMeterNoLimit"="Korlátlan";
+"trafficMeterDownloadLimit"="Csak letöltés";
+"trafficMeterBothLimit"="Letöltés és feltöltés";
+
+"trafficMeterSwitchTitle"="Forgalommérő";
+"trafficMeterMonthlyLimitTitleOnInfoPage"="Havi korlátozás (MB)";
+"trafficMeterDayTitleOnInfoPage"="Számláló elindításának dátuma";
+"trafficMeterTimeTitleOnInfoPage"="Számláló elindításának ideje";
+"trafficMeterLimitModeTitleOnInfoPage"="Forgalommennyiség korlátozása";
+
+"trafficMeterTotalInfoDiagramSubject" = "Total";
+"trafficMeterAverageInfoDiagramSubject" = "Average";
+"trafficMeterDiagramUnitTitle" = "Mbytes";
+"trafficMeterCategoryToday" = "Today";
+"trafficMeterCategoryYesterday" = "Yesterday";
+"trafficMeterCategoryThisWeek" = "This week";
+"trafficMeterCategoryThisMonth" = "This month";
+"trafficMeterCategoryLastMonth" = "Last month";
+"trafficMeterPromptUpload" = "Upload";
+"trafficMeterPromptDownload" = "Download";
+
+"trafficMeterSetPageTitle"="Forgalommérő";
+"trafficMeterMonthlyLimitTitleOnModifyPage"="Havi korlátozás (MB)";
+"trafficMeterDayTitleOnModifyPage"="Nap";
+"trafficMeterTimeTitleOnModifyPage"="Idő";
+"trafficMeterTimeOfHourLabelTitle"="Óra";
+"trafficMeterTimeOfMinuteLabelTitle"="Perc";
+"trafficMeterLimitModeTitleOnModifyPage"="Forgalommennyiség korlátozása";
+"trafficMeterLimitModeTitleForSelectItemPage"="Szabályozási mód";
+"trafficMeterConterStartPrompt"="Forgalommérő elindításának ideje";
+
+//QR Code
+"qrCodeMainPageTitle"="QR-kód";
+"qrCodeCameraIsUnavailable"="A készülékkel nem lehet fényképezni vagy QR-kódot beolvasni.";
+"qrCodeScanBtnTitle"="Beolvasás";
+"qrCodeWifiSSIDTitle"="SSID";
+"qrCodeWifiPasswordTitle"="Jelszó";
+"qrCodePromptUserHowToScaning"="A leolvasás elindításához igazítsa a QR-kódot a keretbe.";
+"qrCodePromptForGetWebAddressInfo"="Ezt az URL-címet a böngészőben fogja megnyitni.";
+"qrCodePromptForFindURL"="A következő URL-címet találtuk:";
+"qrCodePromptForOpenURL"="Szeretné megnyitni?";
+"qrCodePromptForGetWIFIInfo"="A jelszó átmásolva a vágólapra. A hálózathoz való csatlakozáshoz válassza a Beállítások > Wi-Fi lehetőséget.";
+//my media
+
+
+//---------------------------------------------My media---------------------------------------------------
+"Loading My Media"="Médiafájl betöltése";
+
+"Wait Message"="Kérem, várjon...";
+"Media not support"="A médiafájl formátumát a rendszer nem támogatja.";
+"No player find"="Nem található lejátszó. Fájlok lejátszásához a készüléken lépjen az Opciók menüre, és válassza a \“Hálózaton történő lejátszás engedélyezése\” menüpontot.";
+
+"Select source"="Válasszon egy forrást.";
+
+"Select player"="Válasszon egy lejátszót.";
+
+"No device find"="Nem található megosztott készülék. A szolgáltatás használatához engedélyeznie kell a hálózathoz kapcsolódó készülékek számára a fájlmegosztási szolgáltatást, vagy csatlakoztasson egy USB-tárolóeszközt az útválasztóhoz, ha az támogatja az USB-tárolóeszköz csatlakozását.";
+
+"Restart media"="Médiaszolgáltatás újraindítása";
+"Refresh source"="Forrásmappa frissítése";
+"Share files"="Fájlok megosztása a hálózaton";
+
+"Allow play"="Hálózaton történő lejátszás engedélyezése";
+
+//Option界面 功能说明
+
+//media note:
+"myMediaOptionNote_title"="Megjegyzés:";
+"myMediaOptionNote_1"="A médiaszolgáltatás újraindítása a vezeték nélküli hálózat beállításának módosítása után.";
+"myMediaOptionNote_2"="Fájl megosztása a hálózaton, mellyel engedélyezi, hogy mások a hálózaton keresztül hozzáférjenek a készüléken található fájlokhoz.";
+"myMediaOptionNote_3"="Engedélyezés mások számára, hogy a készülékkel fájlokat játsszanak le a hálózaton keresztül.";
+"myMediaOptionNote_4"="Érintse meg a Forrásmappa frissítése ikont, ha a médiamappá(k)ban bármilyen változás történt.";
+
+
+//提示用户打开定位服务
+"Attention title"="Figyelem!";
+//"Attention content"="NOTE: To gain access to your iOS device's photos and videos you need to grant Location Services permission to Genie(Settings->Location Services->Genie shall be switched on). This behavior is enforced by iOS APIs.";
+
+"Attention content"="MEGJEGYZÉS: Ahhoz, hogy hozzáférhessen az iOS készüléken lévő fényképekhez és videókhoz, meg kell adnia a Helyszolgáltatások engedélyt a genie számára. Az engedély megadásához válassza a Beállítások > Hely > genie lehetőséget.";
+
+"tabBarLabelSource"="Forrás";
+"tabBarLabelPlayer"="Lejátszó";
+"tabBarLabelPlaying"="Lejátszás";
+"titleOptions"="Beállítások";

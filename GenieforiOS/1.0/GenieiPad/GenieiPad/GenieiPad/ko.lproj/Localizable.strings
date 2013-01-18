@@ -1,0 +1,286 @@
+﻿/* 
+ Localizable.strings
+ GenieiPad
+ 
+ Created by cs Siteview on 12-3-10.
+ Copyright 2012年 __MyCompanyName__. All rights reserved.
+ */
+
+//约定： 所有的多语言的Key都以小写字母开头，并且都应该能通过其名称反应出其被使用的地方
+//general
+"cancel"="취소";
+"close"="닫기";
+"ok"=" 확인 ";
+"login"="로그인";
+"logout"="로그아웃";
+"back"="뒤로";
+"save"="저장";
+
+///////////////////////
+//wait msg
+"wait"="잠시만 기다려 주세요...";
+"waitForLoadWirelessInfo"="무선 설정 로딩";
+"waitForRefreshWirelessInfo"="무선 설정 로딩";
+"waitForSetWirelessInfo"="잠시만 기다려 주세요...";
+"waitForLoadGuestInfo"="게스트 액세스 로딩";
+"waitForRefreshGuestInfo"="게스트 액세스 로딩";
+"waitForSetGuestInfo"="잠시만 기다려 주세요...";
+"waitForLoadNetworkMapInfo"="네트워크 맵 로딩";
+"waitForRefreshNetworkMapInfo"="네트워크 맵 로딩";
+"waitForSetNetworkMapInfo"="잠시만 기다려 주세요...";
+"waitForLoadTrafficMeterInfo"="트래픽 미터 로딩";
+"waitForRefreshTrafficMeterInfo"="트래픽 미터 로딩";
+"waitForSetTrafficMeterInfo"="잠시만 기다려 주세요...";
+
+"waitForLoadLPCInfo"="자녀 보호 로딩";
+"waitForRefreshLPCInfo"="자녀 보호 로딩";
+"waitForSetLPCEnableStatus"="잠시만 기다려 주세요...";
+"waitForSetLPCFilter"="실시간 자녀 보호 설정";
+"waitForSignInOpenDns"="OpenDNS에 로그인 중…";
+"waitForCreateOpenDNSAccount"="OpenDNS 계정 생성 중…";
+"waitForGetLPCAccountRelay"="OpenDNS와 통신 중…";
+
+"msgForNoWIFI"="이 장치를 NETGEAR 공유기에 무선으로 연결한 다음 다시 시도하십시오.";
+"msgForNoInternet"="인터넷 연결을 검색하지 못했습니다";
+"msgForNetworkError"="네트워크 문제로 인해 NETGEAR 서버에 연결할 수 없습니다. 다시 시도해 주십시오. 이미 로그인한 상태라면 로그아웃한 다음 다시 로그인하십시오.";
+"msgForRouterFirmwareNotSupport"="공유기가 이 기능을 지원하지 않습니다.";
+"msgForNotNetgearRouter"="NETGEAR 공유기를 찾을 수 없거나 <a href=http://www.netgear.com/landing/en-us/netgear-genie-routers.aspx>지원되지</a> 않습니다.";
+"msgForLoginGeniePasskeyInvalid"="로그인에 실패했습니다. NETGEAR 공유기의 올바른 관리자 암호를 다시 입력하십시오.";
+"msgForTimeout"="작업 제한 시간이 초과되었습니다. 다시 시도해 주십시오.";
+"msgForSetAndRebootRouter"="설정을 변경하면 무선 네트워크의 활성 트래픽이 중단될 수 있습니다. 계속하시겠습니까?";
+"msgForSetAndRebootRouterSuccessed"="무선 설정이 변경되었습니다. 새로운 무선 설정을 사용하여 무선 네트워크에 다시 연결하고 genie에 로그인하십시오.";
+"msgForTimePeriodOutdate"="게스트 액세스가 사용 중입니다. 이것을 비활성화하면 무선 네트워크의 활성 트래픽이 중단될 수 있습니다. 계속하시겠습니까?";
+"msgForPasswordNoMatchUsername"="암호가 이 사용자 이름과 일치하지 않습니다. 다시 시도해 주십시오.";
+
+"msgForAskIfUserHaveOpenDNSAccount"="실시간 자녀 보호(Live Parental Controls)를 설정하려면 OpenDNS 계정이 필요합니다. 이미 계정을 가지고 있습니까?";
+"msgForOpenDNSHostIsNotAvailable"="인터넷을 사용할 수 없습니다. 먼저 공유기를 인터넷에 연결하십시오.";
+"msgForAuthenticationFailed"="공유기를 인증하지 못했습니다. 공유기에 다시 로그인해 주십시오.";
+"msgForLPCCheckUserNameNotAvailable"="사용자 이름을 사용할 수 없습니다.";
+"msgForLPCSignInOpenDNSPassKeyWrong"="사용자 이름 또는 암호를 인식할 수 없습니다.";
+"msgForLPCSignInOpenDNSDeviceIsNotMine"="사용자 이름을 사용할 수 없습니다.";
+"msgForLPCCreateAccountUserNameFormatIllegal"="사용자 이름의 시작과 끝은 문자 또는 숫자를 사용해야 하며 '.',  '-' 및 '_'을 포함할 수도 있습니다.";
+"msgForLPCCreateAccountPasswordLengthIllegal"="암호는 6 ~ 20자를 입력해야 합니다.";
+"msgForLPCCreateAccountConfirmPasswordIllegal"="암호 확인";
+"msgForLPCCreateAccountEmailFormatIllegal"="잘못된 이메일";
+"msgForLPCCreateAccountConfirmEmailIllegal"="이메일 확인";
+"msgForLPCCreateAccountEmailIsUnavailable"="이메일이 접수되었습니다.";
+"msgForLPCCreateAccountFailed"="계정을 만드는 동안 오류가 발생했습니다. 다시 시도해 주십시오.";
+"msgForLPCCreateAccountSuccessed"="계정이 만들어졌습니다!";
+
+"msgForSmartNetworkLoginKeyWrong"="사용자 이름 또는 암호가 잘못되었습니다.";
+"msgForSmartNetworkForgetPasswordHTML"="<a href=https://genie.netgear.com/UserProfile/#ForgotPasswordPlace:>암호를 잊었습니까?</a>";
+"msgForSmartNetworkSignUpHTML"="ID가 없습니까? <a href=https://genie.netgear.com/UserProfile/#NewUserPlace:>등록하십시오.</a>";
+"msgForSmartNetworkNoRemoteRouterFound" = "No devices were found. To activate your NETGEAR device in genie+ Marketplace:<br/>1. Make sure that your device supports genie+ Marketplace.<br/>2. From a web browser that is on the same local area network as your device (not remote), log into genie+ Marketplace <a href=https://genie.netgear.com>https://genie.netgear.com</a>.<br/>3. Click \"Activate\" on the device to activate it."; 
+////////////////////////////////
+//HomePage
+"searchBarPlaceHolder"="지원 검색";
+"wirelessSettingHomeBtnTitle"="무선 설정";
+"guestAccessHomeBtnTitle"="게스트 액세스";
+"networkMapHomeBtnTitle"="네트워크 맵";
+"parentalControlsHomeBtnTitle"="자녀 보호";
+"trafficMeterHomeBtnTitle"="트래픽 미터";
+"myMediaHomeBtnTitle"="내 미디어";
+"qrCodeHomeBtnTitle"="QR 코드";
+"appStoreBtnTitle"="Marketplace";
+
+//login view
+"loginMainPageTitle"="로그인";
+"loginMainPageModeSwitcherTitle"="원격 로그인";
+"loginMainPageRouterAdminLabelTitle"="사용자 이름";
+"loginMainPageSmartNetworkAccountLableTitle"="이메일";
+"loginMainPagePasswordLabelTitle"="암호";
+"loginMainPageRememberMeSwitcherTitle"="사용자 이름 및 암호 저장";
+"loginMainPageDefaultPasswordPrompt"="기본 값은 \"password\"입니다.";
+
+"loginRemoteRouterListPageTitle"="내 장치";
+"loginRemoteRouterListPageSerialLabelTtitle"="시리얼";
+
+"loginRemoteRouterLoginPageTitle"="공유기 로그인";
+"loginRemoteRouterLoginAccountTitle"="사용자 이름";
+"loginRemoteRouterLoginPasswordTitle"="암호";
+"loginRemoteRouterLoginRememberMeSwitcherTitle"="사용자 이름 및 암호 저장";
+
+"loginRemoteOnlineStatus"="온라인";
+"loginRemoteOfflineStatus"="오프라인";
+//about view
+"aboutDialogTitle"="정보";
+"aboutDialogRouterModelTitle"="공유기 모델";
+"aboutDialogFirmwareVersionTitle"="펌웨어 버전";
+"aboutDialogGenieVersionTitle"="버전";
+"aboutDialogCopyRightInfo"="Copyright (c) 2012, NETGEAR Inc.";
+"aboutDialogAllRightInfo"="All Rights Reserved.";
+"aboutDialogPoweredByInfo"="SiteView 제공";
+"aboutDialogLicenseTitle"="라이센스";
+//wireless setting
+"wirelessSettingInfoPageTitle"="Settings";
+
+"wirelessSSIDTitle"="이름/SSID";
+"wirelessChannelTitle"="채널";
+"wirelessPasswordTitle"="키/암호";
+
+"wirelessSetPageTitle"="설정 편집";
+"wirelessSecurityModeTitle"="보안";
+"wirelessPasswordLengthLimitPrompt"="8-63자 또는 16진수 64자리";
+//guest access
+"guestAccessInfoPageTitle"="게스트 액세스";
+
+"guestAccessSwitcherTitle"="게스트 액세스";
+"guestAccessSSIDTitle"="이름/SSID";
+"guestAccessPasswordTitle"="키/암호";
+"guestAccessTimePeriodTitle"="기간";
+
+"guestAccessSetPageTitle"="게스트 설정";
+"guestAccessSecurityModeTitle"="보안";
+"guestAccessPasswordLengthLimitPrompt"="8-63자 또는 16진수 64자리";
+
+"timePeriodAllways"="항상";
+"timePeriodOneHour"="1 시간";
+"timePeriodFiveHours"="5 시간";
+"timePeriodTenHours"="10 시간";
+"timePeriodOneDay"="1 일";
+"timePeriodOneWeek"="1 주";
+//network map
+"networkMapInfoPageTitle"="네트워크 맵";
+"networkMapInternetLableText"="인터넷";
+"networkMapOnlineStatus"="온라인";
+"networkMapOfflineStatus"="오프라인";
+"networkMapDeviceInfoNameTitle"="장치";
+"networkMapDeviceInfoTypeTitle"="유형";
+"networkMapDeviceInfoFirmwareVersionTitle"="펌웨어 버전";
+"networkMapDeviceInfoIpAddrTitle"="IP 주소";
+"networkMapDeviceInfoStatusTitle"="상태";
+"networkMapDeviceInfoSignalStengthTitle"="신호 강도";
+"networkMapDeviceInfoLinkSpeedTitle"="링크 속도";
+"networkMapDeviceInfoMacAddrTitle"="MAC 주소";
+"networkMapDeviceInfoBlockTitle"="차단";
+"networkMapBlockSwitcherTitle"="액세스 제어";
+//lpc
+"lpcFirstPageForShowInfo"="자녀 보호";
+"lpcFirstPageForLogin"="OpenDNS";
+"lpcFirstPageForCreateAccount"="무료 OpenDNS 계정 만들기";
+"lpcBtnTitleForLogin"="로그인";
+"lpcBtnTitleForCreateAccount"="Create";
+
+"lpcCreateAccountPageUserNameTitle"="사용자 이름";
+"lpcCreateAccountPagePasswordTitle"="암호";
+"lpcCreateAccountPageConfirmPasswordTitle"="암호 확인";
+"lpcCreateAccountPageEmailTitle"="이메일";
+"lpcCreateAccountPageConfirmEmailTitle"="이메일 확인";
+"lpcLoginPageUserNameTitle"="사용자 이름";
+"lpcLoginPagePasswordTitle"="암호";
+"lpcShowInfoPageSwitcherTitle"="자녀 보호";
+"lpcShowInfoPageFilteringLevelTitle"="필터링 수준";
+"lpcShowInfoPageCustomSettingTitle"="사용자 정의 설정 변경";
+"lpcShowInfoPageOpenDNSAccountTitle"="OpenDNS 계정";
+"lpcShowInfoPageBypassAccountTitle"="Bypass Account";
+
+"lpcAskUserHadOpenDNSAccountBtnYESTitle"=" 예 ";
+"lpcAskUserHadOpenDNSAccountBtnNOTitle"=" 아니오 ";
+
+"lpcFilterLevelPageTitle"="필터링 수준";
+"lpcFilterLevelHighTitle"="우선";
+"lpcFilterLevelModerateTitle"="보통";
+"lpcFilterLevelLowTitle"="낮음";
+"lpcFilterLevelMinimalTitle"="최소";
+"lpcFilterLevelNoneTitle"="없음";
+"lpcFilterLevelCustomTitle"="사용자 지정";
+
+"lpcFilterLevelHithDescription"="모든 성인 관련 사이트, 불법 활동, 소셜 네트워크 사이트, 동영상 공유 사이트, 피싱 공격 및 일반적인 시간 낭비 사이트 차단";
+"lpcFilterLevelModerateDescription"="모든 성인 관련 사이트, 불법 활동 및 피싱 공격 차단.";
+"lpcFilterLevelLowDescription"="포르노 및 피싱 공격 차단.";
+"lpcFilterLevelMinimalDescription"="피싱 공격만 차단.";
+"lpcFilterLevelNoneDescription"="아무 것도 차단하지 않음.";
+
+"lpcBypassAccountListPageTitle"="Bypass Account";
+"lpcBypassAccountLoginAccountLabel"="Bypass Account";
+"lpcBypassAccountLoginPasswordLabel"="암호";
+"lpcBypassAccountLogoutPageTitle"="Bypass Account";
+"lpcBypassAccountPromptOfLoggedIn"="다음 계정으로 로그인:";
+
+//traffic
+"trafficMeterInfoPageTitle"="트래픽 미터";
+
+"trafficMeterNoLimit"="무제한";
+"trafficMeterDownloadLimit"="다운로드만";
+"trafficMeterBothLimit"="다운로드 및 업로드";
+
+"trafficMeterSwitchTitle"="트래픽 미터";
+"trafficMeterMonthlyLimitTitleOnInfoPage"="월별 제한(MB)";
+"trafficMeterDayTitleOnInfoPage"="카운터 시작 일";
+"trafficMeterTimeTitleOnInfoPage"="카운터 시작 시간";
+"trafficMeterLimitModeTitleOnInfoPage"="트래픽 용량 제한";
+
+"trafficMeterTotalInfoDiagramSubject" = "Total";
+"trafficMeterAverageInfoDiagramSubject" = "Average";
+"trafficMeterDiagramUnitTitle" = "Mbytes";
+"trafficMeterCategoryToday" = "Today";
+"trafficMeterCategoryYesterday" = "Yesterday";
+"trafficMeterCategoryThisWeek" = "This week";
+"trafficMeterCategoryThisMonth" = "This month";
+"trafficMeterCategoryLastMonth" = "Last month";
+"trafficMeterPromptUpload" = "Upload";
+"trafficMeterPromptDownload" = "Download";
+
+"trafficMeterSetPageTitle"="트래픽 미터";
+"trafficMeterMonthlyLimitTitleOnModifyPage"="월별 제한(MB)";
+"trafficMeterDayTitleOnModifyPage"="요일";
+"trafficMeterTimeTitleOnModifyPage"="시간";
+"trafficMeterTimeOfHourLabelTitle"="시";
+"trafficMeterTimeOfMinuteLabelTitle"="분";
+"trafficMeterLimitModeTitleOnModifyPage"="트래픽 용량 제한";
+"trafficMeterLimitModeTitleForSelectItemPage"="제어 방법";
+"trafficMeterConterStartPrompt"="트래픽 미터 시작 시간";
+
+//QR Code
+"qrCodeMainPageTitle"="QR 코드";
+"qrCodeCameraIsUnavailable"="장치가 사진을 찍거나 QR 코드를 스캔할 수 없습니다.";
+"qrCodeScanBtnTitle"="스캔";
+"qrCodeWifiSSIDTitle"="SSID";
+"qrCodeWifiPasswordTitle"="암호";
+"qrCodePromptUserHowToScaning"="스캔 시작 프레임 안에 QR 코드 정렬.";
+"qrCodePromptForGetWebAddressInfo"="이 URL을 사용하여 브라우저를 엽니다.";
+"qrCodePromptForFindURL"="찾은 URL:";
+"qrCodePromptForOpenURL"="여시겠습니까?";
+"qrCodePromptForGetWIFIInfo"="암호가 클립보드에 복사됩니다. 이 네트워크를 연결하려면 설정 > Wi-Fi를 선택하십시오.";
+//my media
+
+
+//---------------------------------------------My media---------------------------------------------------
+"Loading My Media"="내 미디어 로드 중";
+
+"Wait Message"="잠시만 기다려 주세요...";
+"Media not support"="지원되지 않는 미디어 파일 형식입니다.";
+"No player find"="플레이어를 찾을 수 없습니다. 이 장치에서 파일을 재생하려면 옵션에서 \“네트워크에서 재생 허용\”을 선택하십시오.";
+
+"Select source"="소스를 선택하십시오.";
+
+"Select player"="플레이어를 선택하십시오.";
+
+"No device find"="공유 장치를 찾을 수 없습니다. 이 기능을 사용하려면 네트워크에서 장치의 파일 공유 기능을 활성화하거나, 공유기가 USB 스토리지 연결을 지원하는 경우에는 USB 스토리지 드라이브를 공유기에 연결해야 합니다.";
+
+"Restart media"="미디어 서비스 다시 시작";
+"Refresh source"="소스 폴더 새로 고침";
+"Share files"="네트워크에서 파일 공유";
+
+"Allow play"="네트워크에서 재생 허용";
+
+//Option界面 功能说明
+
+//media note:
+"myMediaOptionNote_title"="참고:";
+"myMediaOptionNote_1"="무선 설정이 변경되면 미디어 서비스를 다시 시작합니다.";
+"myMediaOptionNote_2"="네트워크를 통해 이 장치의 파일에 액세스할 수 있도록 네트워크에서 파일을 공유합니다.";
+"myMediaOptionNote_3"="네트워크에서 이 장치를 사용하여 파일을 플레이할 수 있도록 허용합니다.";
+"myMediaOptionNote_4"="미디어 폴더에 변경 내용이 있으면 소스 폴더 새로 고침을 누릅니다.";
+
+
+//提示用户打开定位服务
+"Attention title"="주의";
+//"Attention content"="NOTE: To gain access to your iOS device's photos and videos you need to grant Location Services permission to Genie(Settings->Location Services->Genie shall be switched on). This behavior is enforced by iOS APIs.";
+
+"Attention content"="참고: iOS 장치에서 사진과 비디오에 액세스하려면 genie에 위치 서비스 권한을 부여해야 합니다. 이 권한을 부여하려면 설정 > 위치 서비스 > genie를 선택하십시오.";
+
+"tabBarLabelSource"="소스";
+"tabBarLabelPlayer"="플레이어";
+"tabBarLabelPlaying"="재생";
+"titleOptions"="옵션";

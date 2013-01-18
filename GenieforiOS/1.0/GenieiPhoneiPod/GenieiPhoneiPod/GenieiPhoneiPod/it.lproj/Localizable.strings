@@ -1,0 +1,289 @@
+﻿/* 
+ Localizable.strings
+ GenieiPad
+ 
+ Created by cs Siteview on 12-3-10.
+ Copyright 2012年 __MyCompanyName__. All rights reserved.
+ */
+
+//约定： 所有的多语言的Key都以小写字母开头，并且都应该能通过其名称反应出其被使用的地方
+//general
+"cancel"="Annulla";
+"close"="Chiudi";
+"ok"="OK ";
+"login"="Accedi";
+"logout"="Esci";
+"back"="Indietro";
+"save"="Backup";
+
+///////////////////////
+//wait msg
+"wait"="Attendere...";
+"waitForLoadWirelessInfo"="Caricamento impostazioni wireless";
+"waitForRefreshWirelessInfo"="Caricamento impostazioni wireless";
+"waitForSetWirelessInfo"="Attendere...";
+"waitForLoadGuestInfo"="Caricamento accesso guest";
+"waitForRefreshGuestInfo"="Caricamento accesso guest";
+"waitForSetGuestInfo"="Attendere...";
+"waitForLoadNetworkMapInfo"="Caricamento mappa di rete";
+"waitForRefreshNetworkMapInfo"="Caricamento mappa di rete";
+"waitForSetNetworkMapInfo"="Attendere...";
+"waitForLoadTrafficMeterInfo"="Caricamento Statistiche traffico";
+"waitForRefreshTrafficMeterInfo"="Caricamento Statistiche traffico";
+"waitForSetTrafficMeterInfo"="Attendere...";
+
+"waitForLoadLPCInfo"="Caricamento Parental Controls";
+"waitForRefreshLPCInfo"="Caricamento Parental Controls";
+"waitForSetLPCEnableStatus"="Attendere...";
+"waitForSetLPCFilter"="Configurazione di Live Parental Controls";
+"waitForSignInOpenDns"="Accesso a OpenDNS in corso…";
+"waitForCreateOpenDNSAccount"="Creazione dell'account OpenDNS in corso…";
+"waitForGetLPCAccountRelay"="Comunicazione con OpenDNS...";
+
+"msgForNoWIFI"="Connettere questo dispositivo in modalità wireless al router NETGEAR, quindi riprovare.";
+"msgForNoInternet"="Non è stata rilevata nessuna connessione a Internet.";
+"msgForNetworkError"="Un problema di rete impedisce la connessione al server NETGEAR. Riprovare. Se è già stato eseguito l'accesso, disconnettersi e provare a eseguire di nuovo l'accesso.";
+"msgForRouterFirmwareNotSupport"="Il router non supporta questa funzione.";
+"msgForNotNetgearRouter"="Router NETGEAR non trovato o non  <a href=http://www.netgear.com/landing/en-us/netgear-genie-routers.aspx>supportato</a>.";
+"msgForLoginGeniePasskeyInvalid"="Accesso non riuscito. Immettere nuovamente la password admin corretta per il router NETGEAR in uso.";
+"msgForTimeout"="Azione scaduta. Riprovare.";
+"msgForSetAndRebootRouter"="La modifica delle impostazioni, potrebbe causare l'interruzione del traffico attivo sulla rete wireless. Continuare?";
+"msgForSetAndRebootRouterSuccessed"="L'impostazione wireless è stata modificata. Riconnettere la rete wireless utilizzando la nuova impostazione wireless, quindi accedere a genie.";
+"msgForTimePeriodOutdate"="Accesso guest in uso. Se l'accesso guest viene disattivato, il traffico attivo sulla rete wireless potrebbe essere interrotto. Continuare?";
+"msgForPasswordNoMatchUsername"="La password non corrisponde al nome utente. Riprovare.";
+
+"msgForAskIfUserHaveOpenDNSAccount"="Per configurare Live Parental Controls, è richiesto un account OpenDNS. Si dispone già di un account?";
+"msgForOpenDNSHostIsNotAvailable"="Internet non disponibile. Per prima cosa, connettere il router a Internet.";
+"msgForAuthenticationFailed"="Autenticazione router non riuscita. Ripetere l'accesso del router.";
+"msgForLPCCheckUserNameNotAvailable"="Il nome utente non è disponibile.";
+"msgForLPCSignInOpenDNSPassKeyWrong"="Nome utente o password non riconosciuti.";
+"msgForLPCSignInOpenDNSDeviceIsNotMine"="Il nome utente non è disponibile.";
+"msgForLPCCreateAccountUserNameFormatIllegal"="I nomi utente devono iniziare e terminare con una lettera o un numero e possono contenere '.', '-' e '_'.";
+"msgForLPCCreateAccountPasswordLengthIllegal"="Le password devono contenere tra 6 e 20 caratteri.";
+"msgForLPCCreateAccountConfirmPasswordIllegal"="Conferma password";
+"msgForLPCCreateAccountEmailFormatIllegal"="Indirizzo e-mail non valido";
+"msgForLPCCreateAccountConfirmEmailIllegal"="Conferma e-mail";
+"msgForLPCCreateAccountEmailIsUnavailable"="Indirizzo e-mail già in uso.";
+"msgForLPCCreateAccountFailed"="Si è verificato un errore durante la creazione dell'account. Riprovare.";
+"msgForLPCCreateAccountSuccessed"="L'account è stato creato.";
+
+"msgForSmartNetworkLoginKeyWrong"="Nome utente o password non validi.";
+"msgForSmartNetworkForgetPasswordHTML"="<a href=https://genie.netgear.com/UserProfile/#ForgotPasswordPlace:>Password dimenticata?</a>";
+"msgForSmartNetworkSignUpHTML"="Non hai un ID? <a href=https://genie.netgear.com/UserProfile/#NewUserPlace:>Registrati.</a>";
+"msgForSmartNetworkNoRemoteRouterFound"="No devices were found. To activate your NETGEAR device in genie+ Marketplace:<br/>1. Make sure that your device supports genie+ Marketplace.<br/>2. From a web browser that is on the same local area network as your device (not remote), log into genie+ Marketplace <a href=https://genie.netgear.com>https://genie.netgear.com</a>.<br/>3. Click \"Activate\" on the device to activate it.";
+
+////////////////////////////////
+//HomePage
+"searchBarPlaceHolder"="Cerca nel supporto";
+"wirelessSettingHomeBtnTitle"="Impostazioni wireless";
+"guestAccessHomeBtnTitle"="Accesso guest";
+"networkMapHomeBtnTitle"="Mappa di rete";
+"parentalControlsHomeBtnTitle"="Parental Controls";
+"trafficMeterHomeBtnTitle"="Indicatore di traffico";
+"myMediaHomeBtnTitle"="I miei contenuti multimediali";
+"qrCodeHomeBtnTitle"="Codice QR";
+"appStoreBtnTitle"="Marketplace";
+
+//login view
+"loginMainPageTitle"="Accedi";
+"loginMainPageModeSwitcherTitle"="remoto inizio attività";
+"loginMainPageRouterAdminLabelTitle"="Nome utente";
+"loginMainPageSmartNetworkAccountLableTitle"="Indirizzo e-mail";
+"loginMainPagePasswordLabelTitle"="Password";
+"loginMainPageRememberMeSwitcherTitle"="Memorizza";
+"loginMainPageDefaultPasswordPrompt"="Valore predefinito: \"password\"";
+
+"loginRemoteRouterListPageTitle"="I miei dispositivi";
+"loginRemoteRouterListPageSerialLabelTtitle"="Seriale";
+
+"loginRemoteRouterLoginPageTitle"="Accesso al router";
+"loginRemoteRouterLoginAccountTitle"="Nome utente";
+"loginRemoteRouterLoginPasswordTitle"="Password";
+"loginRemoteRouterLoginRememberMeSwitcherTitle"="Memorizza";
+
+"loginRemoteOnlineStatus"="Online";
+"loginRemoteOfflineStatus"="Offline";
+//about view
+"aboutDialogTitle"="Informazioni su";
+"aboutDialogRouterModelTitle"="Modello router";
+"aboutDialogFirmwareVersionTitle"="Versione firmware";
+"aboutDialogGenieVersionTitle"="Versione";
+"aboutDialogCopyRightInfo"="Copyright (c) 2012, NETGEAR Inc.";
+"aboutDialogAllRightInfo"="Tutti i diritti riservati.";
+"aboutDialogPoweredByInfo"="Con tecnologia SiteView";
+"aboutDialogLicenseTitle"="Licenza";
+//wireless setting
+"wirelessSettingInfoPageTitle"="Impostazioni";
+
+"wirelessSSIDTitle"="Nome/SSID";
+"wirelessChannelTitle"="Canale";
+"wirelessPasswordTitle"="Chiave/Password";
+
+"wirelessSetPageTitle"="Modifica impostazioni";
+"wirelessSecurityModeTitle"="Protezione";
+"wirelessPasswordLengthLimitPrompt"="Da 8 a 63 caratteri o 64 valori esadecimali";
+//guest access
+"guestAccessInfoPageTitle"="Accesso guest";
+
+"guestAccessSwitcherTitle"="Accesso guest";
+"guestAccessSSIDTitle"="Nome/SSID";
+"guestAccessPasswordTitle"="Chiave/Password";
+"guestAccessTimePeriodTitle"="Intervallo di tempo";
+
+"guestAccessSetPageTitle"="Impostazioni guest";
+"guestAccessSecurityModeTitle"="Protezione";
+"guestAccessPasswordLengthLimitPrompt"="Da 8 a 63 caratteri o 64 valori esadecimali";
+
+"timePeriodAllways"="Sempre";
+"timePeriodOneHour"="1 ora";
+"timePeriodFiveHours"="5 ore";
+"timePeriodTenHours"="10 ore";
+"timePeriodOneDay"="1 giorno";
+"timePeriodOneWeek"="1 settimana";
+//network map
+"networkMapInfoPageTitle"="Mappa di rete";
+"networkMapInternetLableText"="Internet";
+"networkMapOnlineStatus"="Online";
+"networkMapOfflineStatus"="Offline";
+"networkMapDeviceInfoNameTitle"="Dispositivo";
+"networkMapDeviceInfoTypeTitle"="Tipo";
+"networkMapDeviceInfoFirmwareVersionTitle"="Versione firmware";
+"networkMapDeviceInfoIpAddrTitle"="Indirizzo IP";
+"networkMapDeviceInfoStatusTitle"="Stato";
+"networkMapDeviceInfoSignalStengthTitle"="Livello segnale";
+"networkMapDeviceInfoLinkSpeedTitle"="Velocità collegamento";
+"networkMapDeviceInfoMacAddrTitle"="Indirizzo MAC";
+"networkMapDeviceInfoBlockTitle"="Blocca";
+"networkMapBlockSwitcherTitle"="Controllo accessi";
+//lpc
+"lpcFirstPageForShowInfo"="Parental Controls";
+"lpcFirstPageForLogin"="OpenDNS";
+"lpcFirstPageForCreateAccount"="Crea un account gratuito OpenDNS";
+"lpcBtnTitleForLogin"="Accedi";
+"lpcBtnTitleForCreateAccount"="Create";
+
+"lpcCreateAccountPageUserNameTitle"="Nome utente";
+"lpcCreateAccountPagePasswordTitle"="Password";
+"lpcCreateAccountPageConfirmPasswordTitle"="Conferma password";
+"lpcCreateAccountPageEmailTitle"="Indirizzo e-mail";
+"lpcCreateAccountPageConfirmEmailTitle"="Conferma e-mail";
+"lpcLoginPageUserNameTitle"="Nome utente";
+"lpcLoginPagePasswordTitle"="Password";
+"lpcShowInfoPageSwitcherTitle"="Parental Controls";
+"lpcShowInfoPageFilteringLevelTitle"="Livello filtro";
+"lpcShowInfoPageCustomSettingTitle"="Modifica le impostazioni personalizzate";
+"lpcShowInfoPageOpenDNSAccountTitle"="Account OpenDNS";
+"lpcShowInfoPageBypassAccountTitle"="Bypass Account";
+
+"lpcAskUserHadOpenDNSAccountBtnYESTitle"=" Sì ";
+"lpcAskUserHadOpenDNSAccountBtnNOTitle"=" No ";
+
+"lpcFilterLevelPageTitle"="Livello filtro";
+"lpcFilterLevelHighTitle"="Alta";
+"lpcFilterLevelModerateTitle"="Media";
+"lpcFilterLevelLowTitle"="Bassa";
+"lpcFilterLevelMinimalTitle"="Minima";
+"lpcFilterLevelNoneTitle"="Nessuna";
+"lpcFilterLevelCustomTitle"="Personalizza";
+
+"lpcFilterLevelHithDescription"="Protezione da siti con contenuti per adulti, attività illegali, siti di social network, siti di condivisione di video, siti di phishing e \"perditempo\".";
+"lpcFilterLevelModerateDescription"="Protezione da siti con contenuti per adulti, attività illegali e phishing.";
+"lpcFilterLevelLowDescription"="Protezione da pornografia e phishing.";
+"lpcFilterLevelMinimalDescription"="Protezione solo da phishing.";
+"lpcFilterLevelNoneDescription"="Nessun contenuto bloccato.";
+
+"lpcBypassAccountListPageTitle"="Bypass Account";
+"lpcBypassAccountLoginAccountLabel"="Bypass Account";
+"lpcBypassAccountLoginPasswordLabel"="Password";
+"lpcBypassAccountLogoutPageTitle"="Bypass Account";
+"lpcBypassAccountPromptOfLoggedIn"="L'accesso è stato effettuato come";
+
+//traffic
+"trafficMeterInfoPageTitle"="Indicatore di traffico";
+
+"trafficMeterNoLimit"="Nessun limite";
+"trafficMeterDownloadLimit"="Solo download";
+"trafficMeterBothLimit"="Download e caricamento";
+
+"trafficMeterSwitchTitle"="Indicatore di traffico";
+"trafficMeterMonthlyLimitTitleOnInfoPage"="Limite mensile (MB)";
+"trafficMeterDayTitleOnInfoPage"="Giorno di inizio del contatore";
+"trafficMeterTimeTitleOnInfoPage"="Ora di inizio del contatore";
+"trafficMeterLimitModeTitleOnInfoPage"="Limite volume di traffico";
+
+"trafficMeterTotalInfoDiagramSubject" = "Total";
+"trafficMeterAverageInfoDiagramSubject" = "Average";
+"trafficMeterDiagramUnitTitle" = "Mbytes";
+"trafficMeterCategoryToday" = "Today";
+"trafficMeterCategoryYesterday" = "Yesterday";
+"trafficMeterCategoryThisWeek" = "This week";
+"trafficMeterCategoryThisMonth" = "This month";
+"trafficMeterCategoryLastMonth" = "Last month";
+"trafficMeterPromptUpload" = "Upload";
+"trafficMeterPromptDownload" = "Download";
+
+
+"trafficMeterSetPageTitle"="Indicatore di traffico";
+"trafficMeterMonthlyLimitTitleOnModifyPage"="Limite mensile (MB)";
+"trafficMeterDayTitleOnModifyPage"="Giorno";
+"trafficMeterTimeTitleOnModifyPage"="Ora";
+"trafficMeterTimeOfHourLabelTitle"="Ora";
+"trafficMeterTimeOfMinuteLabelTitle"="Minuti";
+"trafficMeterLimitModeTitleOnModifyPage"="Limite volume di traffico";
+"trafficMeterLimitModeTitleForSelectItemPage"="Metodo di controllo";
+"trafficMeterConterStartPrompt"="Ora di inizio statistiche traffico";
+
+//QR Code
+"qrCodeMainPageTitle"="Codice QR";
+"qrCodeCameraIsUnavailable"="Il dispositivo non scatta fotografie né scansiona il Codice QR.";
+"qrCodeScanBtnTitle"="Scansiona";
+"qrCodeWifiSSIDTitle"="SSID";
+"qrCodeWifiPasswordTitle"="Password";
+"qrCodePromptUserHowToScaning"="Per avviare la scansione, allineare il codice QR all'interno del frame.";
+"qrCodePromptForGetWebAddressInfo"="Il browser verrà aperto con questo URL.";
+"qrCodePromptForFindURL"="URL trovato:";
+"qrCodePromptForOpenURL"="Aprirlo?";
+"qrCodePromptForGetWIFIInfo"="La password viene copiata negli appunti. Per connettersi a questa rete, selezionare Impostazioni > Wi-Fi.";
+//my media
+
+
+//---------------------------------------------My media---------------------------------------------------
+"Loading My Media"="Caricamento di I miei contenuti multimediali in corso";
+
+"Wait Message"="Attendere...";
+"Media not support"="Il formato del file multimediale non è supportato.";
+"No player find"="Nessun lettore trovato. Per riprodurre i file sul dispositivo, accedere a Opzioni e selezionare \"Consenti riproduzione nella rete\".";
+
+"Select source"="Selezionare un'origine.";
+
+"Select player"="Selezionare un lettore.";
+
+"No device find"="Nessun dispositivo condiviso trovato. Per utilizzare questa funzione, è necessario abilitare la funzione Condivisione file per i dispositivi della rete oppure connettere un'unità di storage USB al router, se il router supporta la connessione di storage USB.";
+
+"Restart media"="Riavvia servizio multimediale";
+"Refresh source"="Aggiorna cartella di origine";
+"Share files"="Condividi file nella rete";
+
+"Allow play"="Consenti riproduzione nella rete";
+
+//Option界面 功能说明
+
+//media note:
+"myMediaOptionNote_title"="Nota:";
+"myMediaOptionNote_1"="Consente di riavviare il servizio multimediale se l'impostazione della rete wireless cambia.";
+"myMediaOptionNote_2"="Consente di condividere i file nella rete per consentire alle persone di accedere ai file su questo dispositivo tramite la rete.";
+"myMediaOptionNote_3"="Consente alle persone di utilizzare questo dispositivo per riprodurre i file tramite la rete.";
+"myMediaOptionNote_4"="Toccare Aggiorna cartella di origine se le cartelle multimediali vengono modificate.";
+
+
+//提示用户打开定位服务
+"Attention title"="Attenzione";
+//"Attention content"="NOTE: To gain access to your iOS device's photos and videos you need to grant Location Services permission to Genie(Settings->Location Services->Genie shall be switched on). This behavior is enforced by iOS APIs.";
+
+"Attention content"="NOTA: per accedere alle foto e ai video sul dispositivo iOS, è necessario assegnare l'autorizzazione Servizi di posizione a genie. Per assegnare l'autorizzazione, selezionare Impostazioni > Servizi di posizione > genie.";
+
+"Attention content6"="NOTA: per accedere alle foto e ai video sul dispositivo iOS, è necessario assegnare l'autorizzazione Servizi di posizione a genie. Per assegnare l'autorizzazione, selezionare Impostazioni > vita privata > Servizi di posizione > genie.";
+"tabBarLabelSource"="Origine";
+"tabBarLabelPlayer"="Lettore";
+"tabBarLabelPlaying"="Riproduzione";
+"titleOptions"="Opzioni";

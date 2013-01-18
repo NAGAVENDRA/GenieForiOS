@@ -1,0 +1,286 @@
+﻿/* 
+ Localizable.strings
+ GenieiPad
+ 
+ Created by cs Siteview on 12-3-10.
+ Copyright 2012年 __MyCompanyName__. All rights reserved.
+ */
+
+//约定： 所有的多语言的Key都以小写字母开头，并且都应该能通过其名称反应出其被使用的地方
+//general
+"cancel"="Peruuta";
+"close"="Sulje";
+"ok"="OK";
+"login"="Käyttäjätunnus";
+"logout"="Uloskirjaus";
+"back"="Edellinen";
+"save"="Varmuuskopioi";
+
+///////////////////////
+//wait msg
+"wait"="Odota...";
+"waitForLoadWirelessInfo"="Ladataan langattomia asetuksia";
+"waitForRefreshWirelessInfo"="Ladataan langattomia asetuksia";
+"waitForSetWirelessInfo"="Odota...";
+"waitForLoadGuestInfo"="Ladataan vieraskäyttöä";
+"waitForRefreshGuestInfo"="Ladataan vieraskäyttöä";
+"waitForSetGuestInfo"="Odota...";
+"waitForLoadNetworkMapInfo"="Ladataan verkkokarttaa";
+"waitForRefreshNetworkMapInfo"="Ladataan verkkokarttaa";
+"waitForSetNetworkMapInfo"="Odota...";
+"waitForLoadTrafficMeterInfo"="Ladataan liikennemittari";
+"waitForRefreshTrafficMeterInfo"="Ladataan liikennemittari";
+"waitForSetTrafficMeterInfo"="Odota...";
+
+"waitForLoadLPCInfo"="Ladataan lapsilukkoja";
+"waitForRefreshLPCInfo"="Ladataan lapsilukkoja";
+"waitForSetLPCEnableStatus"="Odota...";
+"waitForSetLPCFilter"="Live Parental Controls -ratkaisun asentaminen";
+"waitForSignInOpenDns"="Kirjaudutaan kohteeseen OpenDNS…";
+"waitForCreateOpenDNSAccount"="Luodaan OpenDNS-tiliä…";
+"waitForGetLPCAccountRelay"="Lähetetään kohteeseen OpenDNS…";
+
+"msgForNoWIFI"="Liitä tämä laite langattomasti NETGEAR-reitittimeen ja yritä uudelleen.";
+"msgForNoInternet"="Internet-yhteyttä ei tunnisteta.";
+"msgForNetworkError"="NETGEAR-palvelimeen ei saada yhteyttä verkko-ongelman vuoksi. Yritä uudelleen. Jos olet jo kirjautunut sisään, kokeile kirjautua ulos ja uudelleen sisään.";
+"msgForRouterFirmwareNotSupport"="Reititin ei tue tätä toimintoa.";
+"msgForNotNetgearRouter"="NETGEAR-reititintä ei löydy, tai se ei ole <a href=http://www.netgear.com/landing/en-us/netgear-genie-routers.aspx>tuettu</a>.";
+"msgForLoginGeniePasskeyInvalid"="Kirjautuminen epäonnistui. Kirjoita NETGEAR-reitittimen oikea järjestelmänvalvojan salasana uudelleen.";
+"msgForTimeout"="Toiminto aikakatkaistiin. Yritä uudelleen.";
+"msgForSetAndRebootRouter"="Asetusten muuttaminen voi keskeyttää langattoman verkon aktiivisen liikenteen. Haluatko jatkaa?";
+"msgForSetAndRebootRouterSuccessed"="Langattomat asetukset on muutettu. Liity langattomaan verkkoon uudelleen uusien langattomien asetusten avulla ja kirjaudu genieen.";
+"msgForTimePeriodOutdate"="Vieraskäyttö on käytössä. Sen poistaminen käytöstä voi keskeyttää langattoman verkon aktiivisen liikenteen. Haluatko jatkaa?";
+"msgForPasswordNoMatchUsername"="Salasana ei vastaa käyttäjänimeä. Yritä uudelleen.";
+
+"msgForAskIfUserHaveOpenDNSAccount"="Live Parental Controls -lapsilukkojen määrittäminen vaatii OpenDNS-tilin. Onko sinulla jo tili?";
+"msgForOpenDNSHostIsNotAvailable"="Internet ei ole käytettävissä. Yhdistä reititin ensin Internetiin.";
+"msgForAuthenticationFailed"="Reitittimen todennus epäonnistui. Kirjaa reititin uudelleen sisään.";
+"msgForLPCCheckUserNameNotAvailable"="Käyttäjänimi ei ole käytettävissä.";
+"msgForLPCSignInOpenDNSPassKeyWrong"="Käyttäjätunnusta tai salasanaa ei tunnisteta.";
+"msgForLPCSignInOpenDNSDeviceIsNotMine"="Käyttäjänimi ei ole käytettävissä.";
+"msgForLPCCreateAccountUserNameFormatIllegal"="Käyttäjätunnuksen ensimmäisen ja viimeisen merkin on oltava kirjain tai numero. Se saa sisältää myös merkkejä \".\", \"-\" ja \"_\".";
+"msgForLPCCreateAccountPasswordLengthIllegal"="Salasanassa on oltava 6–20 merkkiä.";
+"msgForLPCCreateAccountConfirmPasswordIllegal"="Vahvista salasana";
+"msgForLPCCreateAccountEmailFormatIllegal"="Virheellinen sähköposti";
+"msgForLPCCreateAccountConfirmEmailIllegal"="Vahvista sähköposti";
+"msgForLPCCreateAccountEmailIsUnavailable"="Sähköpostiosoite on käytössä.";
+"msgForLPCCreateAccountFailed"="Tilin luominen ei onnistunut. Yritä uudelleen.";
+"msgForLPCCreateAccountSuccessed"="Tilin luonti onnistui.";
+
+"msgForSmartNetworkLoginKeyWrong"="Virheellinen käyttäjätunnus tai salasana.";
+"msgForSmartNetworkForgetPasswordHTML"="<a href=https://genie.netgear.com/UserProfile/#ForgotPasswordPlace:>Unohditko salasanan?</a>";
+"msgForSmartNetworkSignUpHTML"="Eikö sinulla ole tunnusta? <a href=https://genie.netgear.com/UserProfile/#NewUserPlace:>Kirjaudu.</a>";
+"msgForSmartNetworkNoRemoteRouterFound" = "No devices were found. To activate your NETGEAR device in genie+ Marketplace:<br/>1. Make sure that your device supports genie+ Marketplace.<br/>2. From a web browser that is on the same local area network as your device (not remote), log into genie+ Marketplace <a href=https://genie.netgear.com>https://genie.netgear.com</a>.<br/>3. Click \"Activate\" on the device to activate it."; 
+////////////////////////////////
+//HomePage
+"searchBarPlaceHolder"="Hae tuesta";
+"wirelessSettingHomeBtnTitle"="Langattomat asetukset";
+"guestAccessHomeBtnTitle"="Vieraskäyttö";
+"networkMapHomeBtnTitle"="Verkkokartta";
+"parentalControlsHomeBtnTitle"="Parental Controls";
+"trafficMeterHomeBtnTitle"="Liikennemittari";
+"myMediaHomeBtnTitle"="Omat mediatiedostot";
+"qrCodeHomeBtnTitle"="QR-koodi";
+"appStoreBtnTitle"="Marketplace";
+
+//login view
+"loginMainPageTitle"="Käyttäjätunnus";
+"loginMainPageModeSwitcherTitle"="etäinen johdonmukaisuus";
+"loginMainPageRouterAdminLabelTitle"="Käyttäjätunnus";
+"loginMainPageSmartNetworkAccountLableTitle"="Sähköposti";
+"loginMainPagePasswordLabelTitle"="Salasana";
+"loginMainPageRememberMeSwitcherTitle"="Muista minut";
+"loginMainPageDefaultPasswordPrompt"="Oletussalasana on \"password\"";
+
+"loginRemoteRouterListPageTitle"="Omat laitteet";
+"loginRemoteRouterListPageSerialLabelTtitle"="Sarja";
+
+"loginRemoteRouterLoginPageTitle"="Reitittimen sisäänkirjaus";
+"loginRemoteRouterLoginAccountTitle"="Käyttäjätunnus";
+"loginRemoteRouterLoginPasswordTitle"="Salasana";
+"loginRemoteRouterLoginRememberMeSwitcherTitle"="Muista minut";
+
+"loginRemoteOnlineStatus"="Online";
+"loginRemoteOfflineStatus"="Offline";
+//about view
+"aboutDialogTitle"="Tietoja";
+"aboutDialogRouterModelTitle"="Reitittimen malli";
+"aboutDialogFirmwareVersionTitle"="Laiteohjelman versio";
+"aboutDialogGenieVersionTitle"="Versio";
+"aboutDialogCopyRightInfo"="Copyright (c) 2012, NETGEAR Inc.";
+"aboutDialogAllRightInfo"="Kaikki oikeudet pidätetään.";
+"aboutDialogPoweredByInfo"="Powered by SiteView";
+"aboutDialogLicenseTitle"="Käyttöoikeus";
+//wireless setting
+"wirelessSettingInfoPageTitle"="Asetukset";
+
+"wirelessSSIDTitle"="Nimi/SSID";
+"wirelessChannelTitle"="Kanava";
+"wirelessPasswordTitle"="Tunnus/salasana";
+
+"wirelessSetPageTitle"="Muokkaa asetuksia";
+"wirelessSecurityModeTitle"="Suojaus";
+"wirelessPasswordLengthLimitPrompt"="8–63 merkkiä tai 64 heksadesimaalista arvoa";
+//guest access
+"guestAccessInfoPageTitle"="Vieraskäyttö";
+
+"guestAccessSwitcherTitle"="Vieraskäyttö";
+"guestAccessSSIDTitle"="Nimi/SSID";
+"guestAccessPasswordTitle"="Tunnus/salasana";
+"guestAccessTimePeriodTitle"="Ajanjakso";
+
+"guestAccessSetPageTitle"="Vierasasetukset";
+"guestAccessSecurityModeTitle"="Suojaus";
+"guestAccessPasswordLengthLimitPrompt"="8–63 merkkiä tai 64 heksadesimaalista arvoa";
+
+"timePeriodAllways"="Aina";
+"timePeriodOneHour"="1 tunti";
+"timePeriodFiveHours"="5 tuntia";
+"timePeriodTenHours"="10 tuntia";
+"timePeriodOneDay"="1 päivä";
+"timePeriodOneWeek"="1 viikko";
+//network map
+"networkMapInfoPageTitle"="Verkkokartta";
+"networkMapInternetLableText"="Internet";
+"networkMapOnlineStatus"="Online";
+"networkMapOfflineStatus"="Offline";
+"networkMapDeviceInfoNameTitle"="Laite";
+"networkMapDeviceInfoTypeTitle"="Tyyppi";
+"networkMapDeviceInfoFirmwareVersionTitle"="Laiteohjelman versio";
+"networkMapDeviceInfoIpAddrTitle"="IP-osoite";
+"networkMapDeviceInfoStatusTitle"="Tila";
+"networkMapDeviceInfoSignalStengthTitle"="Signaalin voimakkuus";
+"networkMapDeviceInfoLinkSpeedTitle"="Siirtonopeus";
+"networkMapDeviceInfoMacAddrTitle"="MAC-osoite";
+"networkMapDeviceInfoBlockTitle"="Estä";
+"networkMapBlockSwitcherTitle"="Käytön valvonta";
+//lpc
+"lpcFirstPageForShowInfo"="Parental Controls";
+"lpcFirstPageForLogin"="OpenDNS";
+"lpcFirstPageForCreateAccount"="Luo ilmainen OpenDNS-tili";
+"lpcBtnTitleForLogin"="Käyttäjätunnus";
+"lpcBtnTitleForCreateAccount"="Create";
+
+"lpcCreateAccountPageUserNameTitle"="Käyttäjätunnus";
+"lpcCreateAccountPagePasswordTitle"="Salasana";
+"lpcCreateAccountPageConfirmPasswordTitle"="Vahvista salasana";
+"lpcCreateAccountPageEmailTitle"="Sähköposti";
+"lpcCreateAccountPageConfirmEmailTitle"="Vahvista sähköposti";
+"lpcLoginPageUserNameTitle"="Käyttäjätunnus";
+"lpcLoginPagePasswordTitle"="Salasana";
+"lpcShowInfoPageSwitcherTitle"="Parental Controls";
+"lpcShowInfoPageFilteringLevelTitle"="Suodatustaso";
+"lpcShowInfoPageCustomSettingTitle"="Muuta asetuksia";
+"lpcShowInfoPageOpenDNSAccountTitle"="OpenDNS-tili";
+"lpcShowInfoPageBypassAccountTitle"="Bypass Account";
+
+"lpcAskUserHadOpenDNSAccountBtnYESTitle"="Kyllä";
+"lpcAskUserHadOpenDNSAccountBtnNOTitle"="Ei";
+
+"lpcFilterLevelPageTitle"="Suodatustaso";
+"lpcFilterLevelHighTitle"="Korkea";
+"lpcFilterLevelModerateTitle"="Keskitaso";
+"lpcFilterLevelLowTitle"="Alhainen";
+"lpcFilterLevelMinimalTitle"="Minimaalinen";
+"lpcFilterLevelNoneTitle"="Ei mitään";
+"lpcFilterLevelCustomTitle"="Mukautettu";
+
+"lpcFilterLevelHithDescription"="Estää pääsyn aikuisviihdesivustoille, yhteisösivustoille, laittomille sivustoille, videoiden jakosivustoille ja muille vastaaville. Lisäksi suojaa tietojenkalasteluyrityksiltä.";
+"lpcFilterLevelModerateDescription"="Estää pääsyn aikuisviihdesivustoille ja laittomille sivustoille sekä suojaa tietojenkalasteluyrityksiltä.";
+"lpcFilterLevelLowDescription"="Estää pääsyn pornografisille sivustoille ja suojaa tietojenkalasteluyrityksiltä.";
+"lpcFilterLevelMinimalDescription"="Suojaa vain tietojenkalasteluyrityksiltä.";
+"lpcFilterLevelNoneDescription"="Mitään ei ole estetty.";
+
+"lpcBypassAccountListPageTitle"="Bypass Account";
+"lpcBypassAccountLoginAccountLabel"="Bypass Account";
+"lpcBypassAccountLoginPasswordLabel"="Salasana";
+"lpcBypassAccountLogoutPageTitle"="Bypass Account";
+"lpcBypassAccountPromptOfLoggedIn"="Et ole kirjautuneena sisään tunnuksella";
+
+//traffic
+"trafficMeterInfoPageTitle"="Liikennemittari";
+
+"trafficMeterNoLimit"="Rajoittamaton";
+"trafficMeterDownloadLimit"="Vain verkosta lataus";
+"trafficMeterBothLimit"="Lataus verkosta ja lataus verkkoon";
+
+"trafficMeterSwitchTitle"="Liikennemittari";
+"trafficMeterMonthlyLimitTitleOnInfoPage"="Kuukausiraja (Mt)";
+"trafficMeterDayTitleOnInfoPage"="Laskurin käynnistyspäivä";
+"trafficMeterTimeTitleOnInfoPage"="Laskurin käynnistysaika";
+"trafficMeterLimitModeTitleOnInfoPage"="Liikennemäärän rajoitus";
+
+"trafficMeterTotalInfoDiagramSubject" = "Total";
+"trafficMeterAverageInfoDiagramSubject" = "Average";
+"trafficMeterDiagramUnitTitle" = "Mbytes";
+"trafficMeterCategoryToday" = "Today";
+"trafficMeterCategoryYesterday" = "Yesterday";
+"trafficMeterCategoryThisWeek" = "This week";
+"trafficMeterCategoryThisMonth" = "This month";
+"trafficMeterCategoryLastMonth" = "Last month";
+"trafficMeterPromptUpload" = "Upload";
+"trafficMeterPromptDownload" = "Download";
+
+"trafficMeterSetPageTitle"="Liikennemittari";
+"trafficMeterMonthlyLimitTitleOnModifyPage"="Kuukausiraja (Mt)";
+"trafficMeterDayTitleOnModifyPage"="Päivä";
+"trafficMeterTimeTitleOnModifyPage"="Aika";
+"trafficMeterTimeOfHourLabelTitle"="Tunti";
+"trafficMeterTimeOfMinuteLabelTitle"="Minuutit";
+"trafficMeterLimitModeTitleOnModifyPage"="Liikennemäärän rajoitus";
+"trafficMeterLimitModeTitleForSelectItemPage"="Ohjausmenetelmä";
+"trafficMeterConterStartPrompt"="Liikennemittarin käynnistysaika";
+
+//QR Code
+"qrCodeMainPageTitle"="QR-koodi";
+"qrCodeCameraIsUnavailable"="Laitteesi ei voi ottaa kuvia tai skannata QR-koodia.";
+"qrCodeScanBtnTitle"="Skannaa";
+"qrCodeWifiSSIDTitle"="SSID";
+"qrCodeWifiPasswordTitle"="Salasana";
+"qrCodePromptUserHowToScaning"="Aloita skannaus kohdistamalla QR-koodi kehykseen.";
+"qrCodePromptForGetWebAddressInfo"="Se avaa selaimen tällä URL-osoitteella.";
+"qrCodePromptForFindURL"="Löytynyt URL:";
+"qrCodePromptForOpenURL"="Haluatko avata sen?";
+"qrCodePromptForGetWIFIInfo"="Salasana kopioidaan leikepöydälle. Muodosta yhteys tähän verkkoon valitsemalla asetukset > Wi-Fi.";
+//my media
+
+
+//---------------------------------------------My media---------------------------------------------------
+"Loading My Media"="Ladataan Omat mediatiedostot -toimintoa";
+
+"Wait Message"="Odota...";
+"Media not support"="Mediatiedostomuotoa ei tueta.";
+"No player find"="Soitinta ei löydy. Toista tiedostoja tällä laitteella siirtymällä kohtaan Valinnat ja valitsemalla \“Salli toisto verkossa.\”";
+
+"Select source"="Valitse lähde.";
+
+"Select player"="Valitse soitin.";
+
+"No device find"="Jaettua laitetta ei löytynyt. Tämän toiminnon käyttäminen edellyttää, että tiedostojen jakaminen on mahdollista verkossa olevilla laitteilla, tai että USB-muisti on liitetty reitittimeen, jos reititin tukee USB-liitäntää.";
+
+"Restart media"="Käynnistä mediapalvelu uudelleen";
+"Refresh source"="Päivitä lähdekansio";
+"Share files"="Jaa tiedostot verkossa";
+
+"Allow play"="Salli toisto verkossa";
+
+//Option界面 功能说明
+
+//media note:
+"myMediaOptionNote_title"="Huomautus:";
+"myMediaOptionNote_1"="Käynnistä mediapalvelu uudelleen, kun langaton verkkoasetus on vaihdettu.";
+"myMediaOptionNote_2"="Salli muiden käyttää tässä laitteessa olevia tiedostoja verkossa jakamalla tiedosto verkon kautta.";
+"myMediaOptionNote_3"="Salli muiden käyttää tätä laitetta tiedostojen toistoon verkon kautta.";
+"myMediaOptionNote_4"="Jos mediakansioissa on muutoksia, paina kohtaa Päivitä lähdekansio.";
+
+
+//提示用户打开定位服务
+"Attention title"="Huomio";
+//"Attention content"="NOTE: To gain access to your iOS device's photos and videos you need to grant Location Services permission to Genie(Settings->Location Services->Genie shall be switched on). This behavior is enforced by iOS APIs.";
+
+"Attention content"="HUOMAUTUS: iOS-laitteessasi olevien valokuvien ja videoiden käyttöä varten sinun on annettava sijaintipalvelulle lupa päästä genieen. Anna lupa valitsemalla Asetukset > Sijaintipalvelu > genie.";
+
+"tabBarLabelSource"="Lähde";
+"tabBarLabelPlayer"="Soitin";
+"tabBarLabelPlaying"="Toistetaan";
+"titleOptions"="Valinnat";

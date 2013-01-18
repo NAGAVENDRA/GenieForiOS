@@ -1,0 +1,286 @@
+﻿/* 
+ Localizable.strings
+ GenieiPad
+ 
+ Created by cs Siteview on 12-3-10.
+ Copyright 2012年 __MyCompanyName__. All rights reserved.
+ */
+
+//约定： 所有的多语言的Key都以小写字母开头，并且都应该能通过其名称反应出其被使用的地方
+//general
+"cancel"="Отмена";
+"close"="Закрыть";
+"ok"="OK";
+"login"="Вход в систему";
+"logout"="Выход";
+"back"="Назад ";
+"save"="Резервное копирование";
+
+///////////////////////
+//wait msg
+"wait"="Подождите...";
+"waitForLoadWirelessInfo"="Загрузка параметров беспроводного соединения";
+"waitForRefreshWirelessInfo"="Загрузка параметров беспроводного соединения";
+"waitForSetWirelessInfo"="Подождите...";
+"waitForLoadGuestInfo"="Загрузка гостевого доступа";
+"waitForRefreshGuestInfo"="Загрузка гостевого доступа";
+"waitForSetGuestInfo"="Подождите...";
+"waitForLoadNetworkMapInfo"="Загрузка карты сети";
+"waitForRefreshNetworkMapInfo"="Загрузка карты сети";
+"waitForSetNetworkMapInfo"="Подождите...";
+"waitForLoadTrafficMeterInfo"="Загрузка счетчика трафика";
+"waitForRefreshTrafficMeterInfo"="Загрузка счетчика трафика";
+"waitForSetTrafficMeterInfo"="Подождите...";
+
+"waitForLoadLPCInfo"="Загрузка родительского контроля";
+"waitForRefreshLPCInfo"="Загрузка родительского контроля";
+"waitForSetLPCEnableStatus"="Подождите...";
+"waitForSetLPCFilter"="Настройка Live Parental Controls";
+"waitForSignInOpenDns"="Выполняется регистрация в OpenDNS…";
+"waitForCreateOpenDNSAccount"="Выполняется создание вашей учетной записи OpenDNS…";
+"waitForGetLPCAccountRelay"="Подключение к OpenDNS…";
+
+"msgForNoWIFI"="Подключите устройство по беспроводному соединению к маршрутизатору NETGEAR и повторите попытку.";
+"msgForNoInternet"="Подключение к Интернету не обнаружено.";
+"msgForNetworkError"="Не удается подключиться к серверу NETGEAR вследствие возникновения проблемы в сети. Повторите попытку. Если вы уже вошли в систему, выйдите из нее и снова зарегистрируйтесь.";
+"msgForRouterFirmwareNotSupport"="Маршрутизатор не поддерживает данную функцию.";
+"msgForNotNetgearRouter"="Маршрутизатор NETGEAR не найден или не  <a href=http://www.netgear.com/landing/en-us/netgear-genie-routers.aspx>поддерживается</a>.";
+"msgForLoginGeniePasskeyInvalid"="Не удалось войти в систему. Введите правильный пароль администратора для маршрутизатора NETGEAR.";
+"msgForTimeout"="Время ожидания для операции истекло. Повторите попытку.";
+"msgForSetAndRebootRouter"="При изменении настроек активный трафик в беспроводной сети может быть приостановлен. Продолжить?";
+"msgForSetAndRebootRouterSuccessed"="Параметры беспроводного соединения успешно изменены. Повторно подключитесь к беспроводной сети, используя новые параметры соединения, и войдите в программу genie.";
+"msgForTimePeriodOutdate"="Используется доступ для гостей. При отключении доступа для гостей активный трафик в беспроводной сети может быть приостановлен. Продолжить?";
+"msgForPasswordNoMatchUsername"="Пароль не соответствует этому имени пользователя. Повторите попытку.";
+
+"msgForAskIfUserHaveOpenDNSAccount"="Для установки родительского контроля Live Parental Controls необходимо иметь учетную запись OpenDNS. Учетная запись уже создана?";
+"msgForOpenDNSHostIsNotAvailable"="Отсутствует соединение с Интернетом. Сначала подключите маршрутизатор к Интернету.";
+"msgForAuthenticationFailed"="Ошибка аутентификации маршрутизатора. Повторите подключение к маршрутизатору.";
+"msgForLPCCheckUserNameNotAvailable"="Имя пользователя недоступно.";
+"msgForLPCSignInOpenDNSPassKeyWrong"="Указанное имя пользователя или пароль неизвестны.";
+"msgForLPCSignInOpenDNSDeviceIsNotMine"="Имя пользователя недоступно.";
+"msgForLPCCreateAccountUserNameFormatIllegal"="Имена пользователей должны начинаться и заканчиваться буквой или цифрой, а также могут содержать символы '.', '-' и '_'.";
+"msgForLPCCreateAccountPasswordLengthIllegal"="Пароль должен содержать от 6 до 20 символов.";
+"msgForLPCCreateAccountConfirmPasswordIllegal"="Подтвердите пароль";
+"msgForLPCCreateAccountEmailFormatIllegal"="Недействительный адрес эл. Почты";
+"msgForLPCCreateAccountConfirmEmailIllegal"="Подтвердите адрес эл. Почты";
+"msgForLPCCreateAccountEmailIsUnavailable"="Адрес электронной почты занят.";
+"msgForLPCCreateAccountFailed"="При создании вашей учетной записи произошла ошибка, повторите попытку.";
+"msgForLPCCreateAccountSuccessed"="Ваша учетная запись успешно создана!";
+
+"msgForSmartNetworkLoginKeyWrong"="Недействительное имя пользователя или пароль";
+"msgForSmartNetworkForgetPasswordHTML"="<a href=https://genie.netgear.com/UserProfile/#ForgotPasswordPlace:>Забыли пароль?</a>";
+"msgForSmartNetworkSignUpHTML"="Еще не зарегистрированы? <a href=https://genie.netgear.com/UserProfile/#NewUserPlace:>Зарегистрируйтесь.</a>";
+"msgForSmartNetworkNoRemoteRouterFound" = "No devices were found. To activate your NETGEAR device in genie+ Marketplace:<br/>1. Make sure that your device supports genie+ Marketplace.<br/>2. From a web browser that is on the same local area network as your device (not remote), log into genie+ Marketplace <a href=https://genie.netgear.com>https://genie.netgear.com</a>.<br/>3. Click \"Activate\" on the device to activate it."; 
+////////////////////////////////
+//HomePage
+"searchBarPlaceHolder"="Поиск поддержки";
+"wirelessSettingHomeBtnTitle"="Настройки Wi-Fi";
+"guestAccessHomeBtnTitle"="Гостевой доступ";
+"networkMapHomeBtnTitle"="Карта сети";
+"parentalControlsHomeBtnTitle"="Родительск. контроль";
+"trafficMeterHomeBtnTitle"="Счетчик трафика";
+"myMediaHomeBtnTitle"="Мои мультимедиа";
+"qrCodeHomeBtnTitle"="QR-код";
+"appStoreBtnTitle"="Marketplace";
+
+//login view
+"loginMainPageTitle"="Вход в систему";
+"loginMainPageModeSwitcherTitle"="отдаленный логика";
+"loginMainPageRouterAdminLabelTitle"="Имя пользователя";
+"loginMainPageSmartNetworkAccountLableTitle"="Адрес эл. Почты";
+"loginMainPagePasswordLabelTitle"="Пароль";
+"loginMainPageRememberMeSwitcherTitle"="Запомнить меня";
+"loginMainPageDefaultPasswordPrompt"="По умолчанию – \"password\"";
+
+"loginRemoteRouterListPageTitle"="Мои устройства";
+"loginRemoteRouterListPageSerialLabelTtitle"="Серийный";
+
+"loginRemoteRouterLoginPageTitle"="Вход в систему маршрутизатора";
+"loginRemoteRouterLoginAccountTitle"="Имя пользователя";
+"loginRemoteRouterLoginPasswordTitle"="Пароль";
+"loginRemoteRouterLoginRememberMeSwitcherTitle"="Запомнить меня";
+
+"loginRemoteOnlineStatus"="В сети";
+"loginRemoteOfflineStatus"="Не в сети";
+//about view
+"aboutDialogTitle"="Информация";
+"aboutDialogRouterModelTitle"="Модель маршрутизатора";
+"aboutDialogFirmwareVersionTitle"="Версия микропрограммного обеспечения";
+"aboutDialogGenieVersionTitle"="Версия";
+"aboutDialogCopyRightInfo"="Авторские права (c) NETGEAR Inc., 2012";
+"aboutDialogAllRightInfo"="Все права защищены.";
+"aboutDialogPoweredByInfo"="С использованием сервиса SiteView";
+"aboutDialogLicenseTitle"="Лицензия";
+//wireless setting
+"wirelessSettingInfoPageTitle"="Настройки";
+
+"wirelessSSIDTitle"="Имя/SSID";
+"wirelessChannelTitle"="Канал";
+"wirelessPasswordTitle"="Ключ/пароль";
+
+"wirelessSetPageTitle"="Редактировать параметры";
+"wirelessSecurityModeTitle"="Безопасность";
+"wirelessPasswordLengthLimitPrompt"="8–63 символа или 64 шестнадцатеричных значений";
+//guest access
+"guestAccessInfoPageTitle"="Гостевой доступ";
+
+"guestAccessSwitcherTitle"="Гостевой доступ";
+"guestAccessSSIDTitle"="Имя/SSID";
+"guestAccessPasswordTitle"="Ключ/пароль";
+"guestAccessTimePeriodTitle"="Период времени";
+
+"guestAccessSetPageTitle"="Параметры гостевого доступа";
+"guestAccessSecurityModeTitle"="Безопасность";
+"guestAccessPasswordLengthLimitPrompt"="8–63 символа или 64 шестнадцатеричных значений";
+
+"timePeriodAllways"="Всегда";
+"timePeriodOneHour"="1 час";
+"timePeriodFiveHours"="5 часов";
+"timePeriodTenHours"="10 часов";
+"timePeriodOneDay"="1 день";
+"timePeriodOneWeek"="1 неделя";
+//network map
+"networkMapInfoPageTitle"="Карта сети";
+"networkMapInternetLableText"="Интернет";
+"networkMapOnlineStatus"="В сети";
+"networkMapOfflineStatus"="Не в сети";
+"networkMapDeviceInfoNameTitle"="Устройство";
+"networkMapDeviceInfoTypeTitle"="Тип";
+"networkMapDeviceInfoFirmwareVersionTitle"="Версия микропрограммного обеспечения";
+"networkMapDeviceInfoIpAddrTitle"="IP-адрес";
+"networkMapDeviceInfoStatusTitle"="Состояние";
+"networkMapDeviceInfoSignalStengthTitle"="Уровень сигнала";
+"networkMapDeviceInfoLinkSpeedTitle"="Скорость связи";
+"networkMapDeviceInfoMacAddrTitle"="MAC-адрес";
+"networkMapDeviceInfoBlockTitle"="Блокировать";
+"networkMapBlockSwitcherTitle"="Контроль доступа";
+//lpc
+"lpcFirstPageForShowInfo"="Родительск. контроль";
+"lpcFirstPageForLogin"="OpenDNS";
+"lpcFirstPageForCreateAccount"="Создание бесплатной учетной записи OpenDNS.";
+"lpcBtnTitleForLogin"="Вход в систему";
+"lpcBtnTitleForCreateAccount"="Create";
+
+"lpcCreateAccountPageUserNameTitle"="Имя пользователя";
+"lpcCreateAccountPagePasswordTitle"="Пароль";
+"lpcCreateAccountPageConfirmPasswordTitle"="Подтвердите пароль";
+"lpcCreateAccountPageEmailTitle"="Адрес эл. Почты";
+"lpcCreateAccountPageConfirmEmailTitle"="Подтвердите адрес эл. Почты";
+"lpcLoginPageUserNameTitle"="Имя пользователя";
+"lpcLoginPagePasswordTitle"="Пароль";
+"lpcShowInfoPageSwitcherTitle"="Родительск. контроль";
+"lpcShowInfoPageFilteringLevelTitle"="Уровень фильтрации";
+"lpcShowInfoPageCustomSettingTitle"="Изменение пользовательских настроек";
+"lpcShowInfoPageOpenDNSAccountTitle"="Учетная запись OpenDNS";
+"lpcShowInfoPageBypassAccountTitle"="Bypass Account";
+
+"lpcAskUserHadOpenDNSAccountBtnYESTitle"=" Да ";
+"lpcAskUserHadOpenDNSAccountBtnNOTitle"=" Нет ";
+
+"lpcFilterLevelPageTitle"="Уровень фильтрации";
+"lpcFilterLevelHighTitle"="Высокий";
+"lpcFilterLevelModerateTitle"="Средний";
+"lpcFilterLevelLowTitle"="Низкий";
+"lpcFilterLevelMinimalTitle"="Минимальный";
+"lpcFilterLevelNoneTitle"="Отсутствует";
+"lpcFilterLevelCustomTitle"="Пользовательская установка";
+
+"lpcFilterLevelHithDescription"="Защита от посещения всех веб-сайтов, предназначенных для взрослых, веб-сайтов, занимающихся противозаконной деятельностью, веб-сайтов социальных сетей, веб-сайтов, предназначенных для обмена видеоматериалами, от фишинг-атак и от посещения веб-сайтов, напрасно отнимающих время.";
+"lpcFilterLevelModerateDescription"="Защита от посещения всех веб-сайтов, предназначенных для взрослых, веб-сайтов, занимающихся противозаконной деятельностью, и от фишинг-атак.";
+"lpcFilterLevelLowDescription"="Защита от посещения веб-сайтов с порнографическим содержимым и от фишинг-атак.";
+"lpcFilterLevelMinimalDescription"="Защита только от фишинг-атак.";
+"lpcFilterLevelNoneDescription"="Блокировка не включена.";
+
+"lpcBypassAccountListPageTitle"="Bypass Account";
+"lpcBypassAccountLoginAccountLabel"="Bypass Account";
+"lpcBypassAccountLoginPasswordLabel"="Пароль";
+"lpcBypassAccountLogoutPageTitle"="Bypass Account";
+"lpcBypassAccountPromptOfLoggedIn"="Вы зарегистрированы как";
+
+//traffic
+"trafficMeterInfoPageTitle"="Счетчик трафика";
+
+"trafficMeterNoLimit"="Без ограничений";
+"trafficMeterDownloadLimit"="Только загрузка";
+"trafficMeterBothLimit"="Загрузка и передача";
+
+"trafficMeterSwitchTitle"="Счетчик трафика";
+"trafficMeterMonthlyLimitTitleOnInfoPage"="Ограничение объема трафика в месяц (МБ)";
+"trafficMeterDayTitleOnInfoPage"="Дата запуска счетчика";
+"trafficMeterTimeTitleOnInfoPage"="Время запуска счетчика";
+"trafficMeterLimitModeTitleOnInfoPage"="Ограничение объема трафика";
+
+"trafficMeterTotalInfoDiagramSubject" = "Total";
+"trafficMeterAverageInfoDiagramSubject" = "Average";
+"trafficMeterDiagramUnitTitle" = "Mbytes";
+"trafficMeterCategoryToday" = "Today";
+"trafficMeterCategoryYesterday" = "Yesterday";
+"trafficMeterCategoryThisWeek" = "This week";
+"trafficMeterCategoryThisMonth" = "This month";
+"trafficMeterCategoryLastMonth" = "Last month";
+"trafficMeterPromptUpload" = "Upload";
+"trafficMeterPromptDownload" = "Download";
+
+"trafficMeterSetPageTitle"="Счетчик трафика";
+"trafficMeterMonthlyLimitTitleOnModifyPage"="Ограничение объема трафика в месяц (МБ)";
+"trafficMeterDayTitleOnModifyPage"="День";
+"trafficMeterTimeTitleOnModifyPage"="Время";
+"trafficMeterTimeOfHourLabelTitle"="Часов";
+"trafficMeterTimeOfMinuteLabelTitle"="Минут";
+"trafficMeterLimitModeTitleOnModifyPage"="Ограничение объема трафика";
+"trafficMeterLimitModeTitleForSelectItemPage"="Метод управления";
+"trafficMeterConterStartPrompt"="Время запуска счетчика трафика";
+
+//QR Code
+"qrCodeMainPageTitle"="QR-код";
+"qrCodeCameraIsUnavailable"="Фотографирование или сканирование QR-кода на вашем устройстве невозможно.";
+"qrCodeScanBtnTitle"="Скнр";
+"qrCodeWifiSSIDTitle"="SSID";
+"qrCodeWifiPasswordTitle"="Пароль";
+"qrCodePromptUserHowToScaning"="Для запуска сканирования выровняйте QR-код по рамке.";
+"qrCodePromptForGetWebAddressInfo"="Откроется браузер с этим URL-адресом.";
+"qrCodePromptForFindURL"="URL-адрес найден:";
+"qrCodePromptForOpenURL"="Открыть его?";
+"qrCodePromptForGetWIFIInfo"="Пароль скопирован в буфер обмена. Для подключения к данной сети выберите пункт меню \"Настройки\" > Wi-Fi.";
+//my media
+
+
+//---------------------------------------------My media---------------------------------------------------
+"Loading My Media"="Загрузка \"Мои мультимедиа";
+
+"Wait Message"="Подождите...";
+"Media not support"="Указанный формат файлов мультимедиа не поддерживается.";
+"No player find"="Проигрыватель не найден. Для воспроизведения файлов на этом устройстве перейдите в раздел параметров и выберите \"Разрешить воспроизведение по сети.\"";
+
+"Select source"="Выберите источник.";
+
+"Select player"="Выберите проигрыватель.";
+
+"No device find"="Общие устройства не обнаружены. Для использования этой функции необходимо разрешить доступ к файлам устройств по сети или, если маршрутизатор поддерживает подключение USB-накопителей, подключить к маршрутизатору USB-накопитель.";
+
+"Restart media"="Перезапустить мультимедийную службу";
+"Refresh source"="Обновить папку-источник";
+"Share files"="Открыть доступ к файлам по сети";
+
+"Allow play"="Разрешить воспроизведение в сети";
+
+//Option界面 功能说明
+
+//media note:
+"myMediaOptionNote_title"="Примечание:";
+"myMediaOptionNote_1"="Перезапустить мультимедийную службу при изменении параметров беспроводной сети.";
+"myMediaOptionNote_2"="Откройте доступ к файлам по сети, чтобы позволить другим пользователям работать с файлами на этом устройстве по сети.";
+"myMediaOptionNote_3"="Разрешите пользователям доступ к этому устройству для воспроизведения файлов по сети.";
+"myMediaOptionNote_4"="При изменении в папках мультимедиа нажмите \"Обновить папку-источник\".";
+
+
+//提示用户打开定位服务
+"Attention title"="Внимание!";
+//"Attention content"="NOTE: To gain access to your iOS device's photos and videos you need to grant Location Services permission to Genie(Settings->Location Services->Genie shall be switched on). This behavior is enforced by iOS APIs.";
+
+"Attention content"="ПРИМЕЧАНИЕ. Для получения доступа к фотографиям и видеозаписям, хранящимся на вашем устройстве iOS, следует предоставить genie права на использование служб определения местоположения. Чтобы предоставить такие права, выберите пункт меню \"Параметры\" > \"Службы определения местоположения\" > \"genie\".";
+
+"tabBarLabelSource"="Источник";
+"tabBarLabelPlayer"="Проигрыватель";
+"tabBarLabelPlaying"="Воспроизведение";
+"titleOptions"="Параметры";

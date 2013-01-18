@@ -1,0 +1,288 @@
+﻿/* 
+ Localizable.strings
+ GenieiPad
+ 
+ Created by cs Siteview on 12-3-10.
+ Copyright 2012年 __MyCompanyName__. All rights reserved.
+ */
+
+//约定： 所有的多语言的Key都以小写字母开头，并且都应该能通过其名称反应出其被使用的地方
+//general
+"cancel"="取消";
+"close"="关闭";
+"ok"=" 确定 ";
+"login"="登录";
+"logout"="注销";
+"back"="上一步";
+"save"="保存";
+
+///////////////////////
+//wait msg
+"wait"="请等待一会...";
+"waitForLoadWirelessInfo"="正在加载无线设置";
+"waitForRefreshWirelessInfo"="正在加载无线设置";
+"waitForSetWirelessInfo"="请等待一会...";
+"waitForLoadGuestInfo"="正在加载访客访问";
+"waitForRefreshGuestInfo"="正在加载访客访问";
+"waitForSetGuestInfo"="请等待一会...";
+"waitForLoadNetworkMapInfo"="正在加载网络映射";
+"waitForRefreshNetworkMapInfo"="正在加载网络映射";
+"waitForSetNetworkMapInfo"="请等待一会...";
+"waitForLoadTrafficMeterInfo"="正在加载流量计";
+"waitForRefreshTrafficMeterInfo"="正在加载流量计";
+"waitForSetTrafficMeterInfo"="请等待一会...";
+
+"waitForLoadLPCInfo"="正在加载家长控制";
+"waitForRefreshLPCInfo"="正在加载家长控制";
+"waitForSetLPCEnableStatus"="请等待一会...";
+"waitForSetLPCFilter"="正在设置实时家长控制";
+"waitForSignInOpenDns"="正在登录OpenDNS……";
+"waitForCreateOpenDNSAccount"="正在创建您的OpenDNS账号……";
+"waitForGetLPCAccountRelay"="正在与OpenDNS通信……";
+
+"msgForNoWIFI"="请将此设备通过无线方式连接到NETGEAR路由器，然后重试。";
+"msgForNoInternet"="没有检测到因特网连接";
+"msgForNetworkError"="网络问题导致您无法连接 NETGEAR 服务器。请重试。如果已登录，请尝试注销后再重新登录。";
+"msgForRouterFirmwareNotSupport"="路由器不支持该功能。";
+"msgForNotNetgearRouter"="未找到 NETGEAR 路由器，或者路由器不受 <a href=http://www.netgear.com/landing/en-us/netgear-genie-routers.aspx>支持</a>。";
+"msgForLoginGeniePasskeyInvalid"="登录失败。请重新输入NETGEAR路由器的正确管理员密码。";
+"msgForTimeout"="操作已超时。请重试。";
+"msgForSetAndRebootRouter"="更改设置会中断无线网络上的活动流量。要继续吗？";
+"msgForSetAndRebootRouterSuccessed"="已成功更改无线设置。请使用新的无线设置重新加入无线网络，再登录精灵。";
+"msgForTimePeriodOutdate"="正在使用访客访问。禁用访客访问会中断无线网络上的活动流量。要继续吗？";
+"msgForPasswordNoMatchUsername"="密码与此用户名不匹配。请重试。";
+
+"msgForAskIfUserHaveOpenDNSAccount"="要设置实时家长控制，您需要拥有 OpenDNS 帐户。已经有帐户了吗？";
+"msgForOpenDNSHostIsNotAvailable"="因特网不可用。请先将路由器连接到因特网。";
+"msgForAuthenticationFailed"="路由器认证失败。请重新登录路由器。";
+"msgForLPCCheckUserNameNotAvailable"="用户名不可用。";
+"msgForLPCSignInOpenDNSPassKeyWrong"="我们无法识别该用户名或密码。";
+"msgForLPCSignInOpenDNSDeviceIsNotMine"="用户名不可用。";
+"msgForLPCCreateAccountUserNameFormatIllegal"="用户名首尾必须使用字母或数字，中间可包含“.”、“-”和“_”。";
+"msgForLPCCreateAccountPasswordLengthIllegal"="密码应在6-20个字符之间";
+"msgForLPCCreateAccountConfirmPasswordIllegal"="确认密码";
+"msgForLPCCreateAccountEmailFormatIllegal"="无效电子邮件地址";
+"msgForLPCCreateAccountConfirmEmailIllegal"="确认电子邮件地址";
+"msgForLPCCreateAccountEmailIsUnavailable"="电子邮件已接收。";
+"msgForLPCCreateAccountFailed"="创建您的账号时出现错误，请重试。";
+"msgForLPCCreateAccountSuccessed"="已成功创建您的帐户！";
+
+"msgForSmartNetworkLoginKeyWrong"="用户名或密码无效。";
+"msgForSmartNetworkForgetPasswordHTML"="<a href=https://genie.netgear.com/UserProfile/#ForgotPasswordPlace:>忘记密码？</a>";
+"msgForSmartNetworkSignUpHTML"="没有 ID？ <a href=https://genie.netgear.com/UserProfile/#NewUserPlace:>注册。</a>";
+"msgForSmartNetworkNoRemoteRouterFound" = "No devices were found. To activate your NETGEAR device in genie+ Marketplace:<br/>1. Make sure that your device supports genie+ Marketplace.<br/>2. From a web browser that is on the same local area network as your device (not remote), log into genie+ Marketplace <a href=https://genie.netgear.com>https://genie.netgear.com</a>.<br/>3. Click \"Activate\" on the device to activate it."; 
+////////////////////////////////
+//HomePage
+"searchBarPlaceHolder"="搜索支持";
+"wirelessSettingHomeBtnTitle"="无线设置";
+"guestAccessHomeBtnTitle"="访客访问";
+"networkMapHomeBtnTitle"="网络映射";
+"parentalControlsHomeBtnTitle"="家长控制";
+"trafficMeterHomeBtnTitle"="流量控制";
+"myMediaHomeBtnTitle"="我的媒体";
+"qrCodeHomeBtnTitle"="QR 码";
+"appStoreBtnTitle"="Marketplace";
+
+//login view
+"loginMainPageTitle"="登录";
+"loginMainPageModeSwitcherTitle"="远程登录";
+"loginMainPageRouterAdminLabelTitle"="用户名";
+"loginMainPageSmartNetworkAccountLableTitle"="电子邮件";
+"loginMainPagePasswordLabelTitle"="密码";
+"loginMainPageRememberMeSwitcherTitle"="记住我";
+"loginMainPageDefaultPasswordPrompt"="默认为\“password\”";
+
+"loginRemoteRouterListPageTitle"="我的设备";
+"loginRemoteRouterListPageSerialLabelTtitle"="序列号";
+
+"loginRemoteRouterLoginPageTitle"="路由器登录";
+"loginRemoteRouterLoginAccountTitle"="用户名";
+"loginRemoteRouterLoginPasswordTitle"="密码";
+"loginRemoteRouterLoginRememberMeSwitcherTitle"="记住我";
+
+"loginRemoteOnlineStatus"="联机";
+"loginRemoteOfflineStatus"="脱机";
+//about view
+"aboutDialogTitle"="关于";
+"aboutDialogRouterModelTitle"="路由器型号";
+"aboutDialogFirmwareVersionTitle"="固件版本";
+"aboutDialogGenieVersionTitle"="版本";
+"aboutDialogCopyRightInfo"="Copyright (c) 2012, NETGEAR Inc.";
+"aboutDialogAllRightInfo"="版权所有。";
+"aboutDialogPoweredByInfo"="由 SiteView 提供支持";
+"aboutDialogLicenseTitle"="许可";
+//wireless setting
+"wirelessSettingInfoPageTitle"="设置";
+
+"wirelessSSIDTitle"="名称/无线网络标识";
+"wirelessChannelTitle"="频道";
+"wirelessPasswordTitle"="密钥/密码";
+
+"wirelessSetPageTitle"="编辑设置";
+"wirelessSecurityModeTitle"="安全";
+"wirelessPasswordLengthLimitPrompt"="8-63 个字符或 64 位十六进制值";
+//guest access
+"guestAccessInfoPageTitle"="访客访问";
+
+"guestAccessSwitcherTitle"="访客访问";
+"guestAccessSSIDTitle"="名称/无线网络标识";
+"guestAccessPasswordTitle"="密钥/密码";
+"guestAccessTimePeriodTitle"="时间段";
+
+"guestAccessSetPageTitle"="访客设置";
+"guestAccessSecurityModeTitle"="安全";
+"guestAccessPasswordLengthLimitPrompt"="8-63 个字符或 64 位十六进制值";
+
+"timePeriodAllways"="始终";
+"timePeriodOneHour"="1 小时";
+"timePeriodFiveHours"="5 小时";
+"timePeriodTenHours"="10 小时";
+"timePeriodOneDay"="1 天";
+"timePeriodOneWeek"="1 星期";
+//network map
+"networkMapInfoPageTitle"="网络映射";
+"networkMapInternetLableText"="因特网";
+"networkMapOnlineStatus"="联机";
+"networkMapOfflineStatus"="脱机";
+"networkMapDeviceInfoNameTitle"="设备";
+"networkMapDeviceInfoTypeTitle"="类型";
+"networkMapDeviceInfoFirmwareVersionTitle"="固件版本";
+"networkMapDeviceInfoIpAddrTitle"="IP地址";
+"networkMapDeviceInfoStatusTitle"="状态";
+"networkMapDeviceInfoSignalStengthTitle"="信号强度";
+"networkMapDeviceInfoLinkSpeedTitle"="连接速度";
+"networkMapDeviceInfoMacAddrTitle"="MAC 地址";
+"networkMapDeviceInfoBlockTitle"="阻止";
+"networkMapBlockSwitcherTitle"="访问控制";
+//lpc
+"lpcFirstPageForShowInfo"="家长控制";
+"lpcFirstPageForLogin"="OpenDNS";
+"lpcFirstPageForCreateAccount"="创建一个免费的OpenDNS账号";
+"lpcBtnTitleForLogin"="登录";
+"lpcBtnTitleForCreateAccount"="Create";
+
+"lpcCreateAccountPageUserNameTitle"="用户名";
+"lpcCreateAccountPagePasswordTitle"="密码";
+"lpcCreateAccountPageConfirmPasswordTitle"="确认密码";
+"lpcCreateAccountPageEmailTitle"="电子邮件";
+"lpcCreateAccountPageConfirmEmailTitle"="确认电子邮件地址";
+"lpcLoginPageUserNameTitle"="用户名";
+"lpcLoginPagePasswordTitle"="密码";
+"lpcShowInfoPageSwitcherTitle"="家长控制";
+"lpcShowInfoPageFilteringLevelTitle"="过滤级别";
+"lpcShowInfoPageCustomSettingTitle"="更改定制的设置";
+"lpcShowInfoPageOpenDNSAccountTitle"="OpenDNS 帐户";
+"lpcShowInfoPageBypassAccountTitle"="Bypass Account";
+
+"lpcAskUserHadOpenDNSAccountBtnYESTitle"=" 是 ";
+"lpcAskUserHadOpenDNSAccountBtnNOTitle"=" 否 ";
+
+"lpcFilterLevelPageTitle"="过滤级别";
+"lpcFilterLevelHighTitle"="高";
+"lpcFilterLevelModerateTitle"="中等";
+"lpcFilterLevelLowTitle"="低";
+"lpcFilterLevelMinimalTitle"="最小";
+"lpcFilterLevelNoneTitle"="无";
+"lpcFilterLevelCustomTitle"="定制";
+
+"lpcFilterLevelHithDescription"="阻止所有与成人有关的网站、非法活动、社交网站、共享视频网站、钓鱼网站以及浪费时间的内容";
+"lpcFilterLevelModerateDescription"="阻止所有与成人有关的网站、非法活动和网络钓鱼。";
+"lpcFilterLevelLowDescription"="阻止情色网站和网络钓鱼。";
+"lpcFilterLevelMinimalDescription"="仅阻止网络钓鱼。";
+"lpcFilterLevelNoneDescription"="不阻止。";
+
+"lpcBypassAccountListPageTitle"="Bypass Account";
+"lpcBypassAccountLoginAccountLabel"="Bypass Account";
+"lpcBypassAccountLoginPasswordLabel"="密码";
+"lpcBypassAccountLogoutPageTitle"="Bypass Account";
+"lpcBypassAccountPromptOfLoggedIn"="您已登录为";
+
+//traffic
+"trafficMeterInfoPageTitle"="流量控制";
+
+"trafficMeterNoLimit"="无限";
+"trafficMeterDownloadLimit"="只下载";
+"trafficMeterBothLimit"="下载与上传";
+
+"trafficMeterSwitchTitle"="流量控制";
+"trafficMeterMonthlyLimitTitleOnInfoPage"="每月限制 (MB)";
+"trafficMeterDayTitleOnInfoPage"="计数器启动日期";
+"trafficMeterTimeTitleOnInfoPage"="计数器启动时间";
+"trafficMeterLimitModeTitleOnInfoPage"="流量限制";
+
+"trafficMeterTotalInfoDiagramSubject" = "Total";
+"trafficMeterAverageInfoDiagramSubject" = "Average";
+"trafficMeterDiagramUnitTitle" = "Mbytes";
+"trafficMeterCategoryToday" = "Today";
+"trafficMeterCategoryYesterday" = "Yesterday";
+"trafficMeterCategoryThisWeek" = "This week";
+"trafficMeterCategoryThisMonth" = "This month";
+"trafficMeterCategoryLastMonth" = "Last month";
+"trafficMeterPromptUpload" = "Upload";
+"trafficMeterPromptDownload" = "Download";
+
+"trafficMeterSetPageTitle"="流量控制";
+"trafficMeterMonthlyLimitTitleOnModifyPage"="每月限制 (MB)";
+"trafficMeterDayTitleOnModifyPage"="日期";
+"trafficMeterTimeTitleOnModifyPage"="时间";
+"trafficMeterTimeOfHourLabelTitle"="时";
+"trafficMeterTimeOfMinuteLabelTitle"="点";
+"trafficMeterLimitModeTitleOnModifyPage"="流量限制";
+"trafficMeterLimitModeTitleForSelectItemPage"="控制方式";
+"trafficMeterConterStartPrompt"="流量计启动时间";
+
+//QR Code
+"qrCodeMainPageTitle"="QR 码";
+"qrCodeCameraIsUnavailable"="您的设备无法拍摄照片或扫描 QR 码。";
+"qrCodeScanBtnTitle"="扫描";
+"qrCodeWifiSSIDTitle"="无线网络标识(SSID)";
+"qrCodeWifiPasswordTitle"="密码";
+"qrCodePromptUserHowToScaning"="对齐帧内的 QR 码，开始扫描。";
+"qrCodePromptForGetWebAddressInfo"="它将使用此 URL 打开浏览器。";
+"qrCodePromptForFindURL"="已找到 URL：";
+"qrCodePromptForOpenURL"="是否要打开？";
+"qrCodePromptForGetWIFIInfo"="密码已复制到剪贴板。要连接此网络，请选择“设置”>“无线”。";
+//my media
+
+
+//---------------------------------------------My media---------------------------------------------------
+"Loading My Media"="正在加载我的媒体";
+
+"Wait Message"="请等待一会...";
+"Media not support"="该媒体文件格式不受支持。";
+"No player find"="找不到播放器。要播放此设备上的文件，请前往“选项”并选择\“允许在网络中播放。\”";
+
+"Select source"="请选择来源。";
+
+"Select player"="请选择播放器。";
+
+"No device find"="找不到共享的设备。要使用此功能，您需要为网络中的设备启用文件共享功能。如果路由器支持 USB 存储连接功能，也可将 USB 存储设备连接到路由器上。";
+
+"Restart media"="重新启动媒体服务";
+"Refresh source"="刷新源文件夹";
+"Share files"="在网络中共享文件";
+
+"Allow play"="允许在网络中播放";
+
+//Option界面 功能说明
+
+//media note:
+"myMediaOptionNote_title"="注意：";
+"myMediaOptionNote_1"="在无线网络设置有更改时重新启动媒体服务。";
+"myMediaOptionNote_2"="在网络中共享文件，可以让大家通过网络访问此设备上的文件。";
+"myMediaOptionNote_3"="允许大家通过网络使用此设备播放文件。";
+"myMediaOptionNote_4"="如果媒体文件有任何更改，请点击“刷新源文件夹”。";
+
+
+//提示用户打开定位服务
+"Attention title"="请注意";
+//"Attention content"="NOTE: To gain access to your iOS device's photos and videos you need to grant Location Services permission to Genie(Settings->Location Services->Genie shall be switched on). This behavior is enforced by iOS APIs.";
+
+"Attention content"="注意： 要访问您的 iOS 设备上的照片和视频，您需要将位置服务访问权授予精灵。要授予此权限，请选择“设置”>“位置服务”>“精灵”。";
+
+"Attention content6"="注意： 要访问您的 iOS 设备上的照片和视频，您需要将位置服务访问权授予精灵。要授予此权限，请选择“设置”>“隐私”>“定位服务”>“精灵”。";
+
+"tabBarLabelSource"="来源";
+"tabBarLabelPlayer"="播放器";
+"tabBarLabelPlaying"="正在播放";
+"titleOptions"="选项";

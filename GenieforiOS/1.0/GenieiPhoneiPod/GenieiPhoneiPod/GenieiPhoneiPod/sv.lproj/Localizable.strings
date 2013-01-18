@@ -1,0 +1,289 @@
+﻿/* 
+ Localizable.strings
+ GenieiPad
+ 
+ Created by cs Siteview on 12-3-10.
+ Copyright 2012年 __MyCompanyName__. All rights reserved.
+ */
+
+//约定： 所有的多语言的Key都以小写字母开头，并且都应该能通过其名称反应出其被使用的地方
+//general
+"cancel"="Avbryt";
+"close"="Stäng";
+"ok"="OK";
+"login"="Logga in";
+"logout"="Logga ut";
+"back"="Tillbaka";
+"save"="Säkerhetskopiera";
+
+///////////////////////
+//wait msg
+"wait"="Vänta...";
+"waitForLoadWirelessInfo"="Läser in trådlösa inställningar";
+"waitForRefreshWirelessInfo"="Läser in trådlösa inställningar";
+"waitForSetWirelessInfo"="Vänta...";
+"waitForLoadGuestInfo"="Läser in gäståtkomst";
+"waitForRefreshGuestInfo"="Läser in gäståtkomst";
+"waitForSetGuestInfo"="Vänta...";
+"waitForLoadNetworkMapInfo"="Läser in nätverkskarta";
+"waitForRefreshNetworkMapInfo"="Läser in nätverkskarta";
+"waitForSetNetworkMapInfo"="Vänta...";
+"waitForLoadTrafficMeterInfo"="Läser in trafikräknare";
+"waitForRefreshTrafficMeterInfo"="Läser in trafikräknare";
+"waitForSetTrafficMeterInfo"="Vänta...";
+
+"waitForLoadLPCInfo"="Läser in föräldrakontroller";
+"waitForRefreshLPCInfo"="Läser in föräldrakontroller";
+"waitForSetLPCEnableStatus"="Vänta...";
+"waitForSetLPCFilter"="Konfigurera Live Parental Controls";
+"waitForSignInOpenDns"="Loggar in på OpenDNS…";
+"waitForCreateOpenDNSAccount"="Ditt OpenDNS-konto skapas …";
+"waitForGetLPCAccountRelay"="Kommunicerar med OpenDNS…";
+
+"msgForNoWIFI"="Anslut enheten trådlöst till din NETGEAR-router, och försök sedan igen.";
+"msgForNoInternet"="Ingen Internet-anslutning upptäckt.";
+"msgForNetworkError"="På grund av ett nätverksproblem kan du inte ansluta till NETGEAR-servern. Försök igen. Om du redan är inloggad kan du prova att logga ut och sedan in igen.";
+"msgForRouterFirmwareNotSupport"="Routern stöder inte den här funktionen.";
+"msgForNotNetgearRouter"="NETGEAR-routern hittades inte, eller så <a href=http://www.netgear.com/landing/en-us/netgear-genie-routers.aspx>stöds</a> den inte.";
+"msgForLoginGeniePasskeyInvalid"="Inloggningen misslyckades. Ange rätt administratörslösenord igen för din NETGEAR-router.";
+"msgForTimeout"="Tidsgränsen för åtgärden gick ut. Försök igen.";
+"msgForSetAndRebootRouter"="Ändring av inställningarna kan störa aktiv trafik på det trådlösa nätverket. Vill du fortsätta?";
+"msgForSetAndRebootRouterSuccessed"="Den trådlösa inställningen ändrades. Återanslut ditt trådlösa nätverk genom att tillämpa den nya trådlösa inställningen och logga in på genie.";
+"msgForTimePeriodOutdate"="Gäståtkomst används. Avaktivering kan störa aktiv trafik på det trådlösa nätverket. Vill du fortsätta?";
+"msgForPasswordNoMatchUsername"="Lösenordet matchar inte användarnamnet, försök igen.";
+
+"msgForAskIfUserHaveOpenDNSAccount"="Om du ska ange Live Parental Controls måste du ha ett OpenDNS-konto. Har du redan ett konto?";
+"msgForOpenDNSHostIsNotAvailable"="Internet är inte tillgängligt. Anslut routern till internet först.";
+"msgForAuthenticationFailed"="Routerautentisering misslyckades. Logga in igen på routern.";
+"msgForLPCCheckUserNameNotAvailable"="Användarnamnet är inte tillgängligt.";
+"msgForLPCSignInOpenDNSPassKeyWrong"="Användarnamnet eller lösenordet känns inte igen.";
+"msgForLPCSignInOpenDNSDeviceIsNotMine"="Användarnamnet är inte tillgängligt.";
+"msgForLPCCreateAccountUserNameFormatIllegal"="Användarnamnet måste börja och sluta med en bokstav eller siffra. De kan även innehålla \".\", \"-\" och \"_\".";
+"msgForLPCCreateAccountPasswordLengthIllegal"="Lösenordet måste vara mellan 6 och 20 tecken långt.";
+"msgForLPCCreateAccountConfirmPasswordIllegal"="Bekräfta lösenord";
+"msgForLPCCreateAccountEmailFormatIllegal"="Ogiltig e-postadress";
+"msgForLPCCreateAccountConfirmEmailIllegal"="Bekräfta e-postadress";
+"msgForLPCCreateAccountEmailIsUnavailable"="E-postadressen används redan.";
+"msgForLPCCreateAccountFailed"="Ett fel inträffade när ditt konto skulle skapas. Försök igen.";
+"msgForLPCCreateAccountSuccessed"="Ditt konto har skapats.";
+
+"msgForSmartNetworkLoginKeyWrong"="Ogiltigt användarnamn eller lösenord.";
+"msgForSmartNetworkForgetPasswordHTML"="<a href=https://genie.netgear.com/UserProfile/#ForgotPasswordPlace:>Har du glömt ditt lösenord?</a>";
+"msgForSmartNetworkSignUpHTML"="Har du inte något id? <a href=https://genie.netgear.com/UserProfile/#NewUserPlace:>Registrera dig.</a>";
+"msgForSmartNetworkNoRemoteRouterFound"="No devices were found. To activate your NETGEAR device in genie+ Marketplace:<br/>1. Make sure that your device supports genie+ Marketplace.<br/>2. From a web browser that is on the same local area network as your device (not remote), log into genie+ Marketplace <a href=https://genie.netgear.com>https://genie.netgear.com</a>.<br/>3. Click \"Activate\" on the device to activate it.";
+
+////////////////////////////////
+//HomePage
+"searchBarPlaceHolder"="Söksupport";
+"wirelessSettingHomeBtnTitle"="Trådlösa inställningar";
+"guestAccessHomeBtnTitle"="Gäståtkomst";
+"networkMapHomeBtnTitle"="Nätverkskarta";
+"parentalControlsHomeBtnTitle"="Föräldrakontroller";
+"trafficMeterHomeBtnTitle"="Trafikräknare";
+"myMediaHomeBtnTitle"="Mina media";
+"qrCodeHomeBtnTitle"="QR-kod";
+"appStoreBtnTitle"="Marketplace";
+
+//login view
+"loginMainPageTitle"="Logga in";
+"loginMainPageModeSwitcherTitle"="avlägsen logik";
+"loginMainPageRouterAdminLabelTitle"="Användarnamn";
+"loginMainPageSmartNetworkAccountLableTitle"="E-post";
+"loginMainPagePasswordLabelTitle"="Lösenord";
+"loginMainPageRememberMeSwitcherTitle"="Kom ihåg mig";
+"loginMainPageDefaultPasswordPrompt"="Standardlösenordet är \"password\"";
+
+"loginRemoteRouterListPageTitle"="Mina enheter";
+"loginRemoteRouterListPageSerialLabelTtitle"="Serie";
+
+"loginRemoteRouterLoginPageTitle"="Routerinloggning";
+"loginRemoteRouterLoginAccountTitle"="Användarnamn";
+"loginRemoteRouterLoginPasswordTitle"="Lösenord";
+"loginRemoteRouterLoginRememberMeSwitcherTitle"="Kom ihåg mig";
+
+"loginRemoteOnlineStatus"="Online";
+"loginRemoteOfflineStatus"="Offline";
+//about view
+"aboutDialogTitle"="Om";
+"aboutDialogRouterModelTitle"="Router-modell";
+"aboutDialogFirmwareVersionTitle"="Version av fast programvara";
+"aboutDialogGenieVersionTitle"="Version";
+"aboutDialogCopyRightInfo"="Copyright (c) 2012, NETGEAR Inc.";
+"aboutDialogAllRightInfo"="Med ensamrätt.";
+"aboutDialogPoweredByInfo"="Drivs av SiteView";
+"aboutDialogLicenseTitle"="Licens";
+//wireless setting
+"wirelessSettingInfoPageTitle"="Inställningar";
+
+"wirelessSSIDTitle"="Namn/SSID";
+"wirelessChannelTitle"="Kanal";
+"wirelessPasswordTitle"="Nyckel/lösenord";
+
+"wirelessSetPageTitle"="Redigera inställningar";
+"wirelessSecurityModeTitle"="Säkerhet";
+"wirelessPasswordLengthLimitPrompt"="8–63 tecken eller 64 hexadecimala värden";
+//guest access
+"guestAccessInfoPageTitle"="Gäståtkomst";
+
+"guestAccessSwitcherTitle"="Gäståtkomst";
+"guestAccessSSIDTitle"="Namn/SSID";
+"guestAccessPasswordTitle"="Nyckel/lösenord";
+"guestAccessTimePeriodTitle"="Tidsperiod";
+
+"guestAccessSetPageTitle"="Gästinställningar";
+"guestAccessSecurityModeTitle"="Säkerhet";
+"guestAccessPasswordLengthLimitPrompt"="8–63 tecken eller 64 hexadecimala värden";
+
+"timePeriodAllways"="Alltid";
+"timePeriodOneHour"="1 timme";
+"timePeriodFiveHours"="5 timmar";
+"timePeriodTenHours"="10 timmar";
+"timePeriodOneDay"="1 dag";
+"timePeriodOneWeek"="1 vecka";
+//network map
+"networkMapInfoPageTitle"="Nätverkskarta";
+"networkMapInternetLableText"="Internet";
+"networkMapOnlineStatus"="Online";
+"networkMapOfflineStatus"="Offline";
+"networkMapDeviceInfoNameTitle"="Enhet";
+"networkMapDeviceInfoTypeTitle"="Typ";
+"networkMapDeviceInfoFirmwareVersionTitle"="Version av fast programvara";
+"networkMapDeviceInfoIpAddrTitle"="IP-adress";
+"networkMapDeviceInfoStatusTitle"="Status";
+"networkMapDeviceInfoSignalStengthTitle"="Signalstyrka";
+"networkMapDeviceInfoLinkSpeedTitle"="Länkhastighet";
+"networkMapDeviceInfoMacAddrTitle"="MAC-adress";
+"networkMapDeviceInfoBlockTitle"="Blockera";
+"networkMapBlockSwitcherTitle"="Åtkomstkontroll";
+//lpc
+"lpcFirstPageForShowInfo"="Föräldrakontroller";
+"lpcFirstPageForLogin"="OpenDNS";
+"lpcFirstPageForCreateAccount"="Skapa ett kostnadsfritt OpenDNS-konto";
+"lpcBtnTitleForLogin"="Logga in";
+"lpcBtnTitleForCreateAccount"="Create";
+
+"lpcCreateAccountPageUserNameTitle"="Användarnamn";
+"lpcCreateAccountPagePasswordTitle"="Lösenord";
+"lpcCreateAccountPageConfirmPasswordTitle"="Bekräfta lösenord";
+"lpcCreateAccountPageEmailTitle"="E-post";
+"lpcCreateAccountPageConfirmEmailTitle"="Bekräfta e-postadress";
+"lpcLoginPageUserNameTitle"="Användarnamn";
+"lpcLoginPagePasswordTitle"="Lösenord";
+"lpcShowInfoPageSwitcherTitle"="Föräldrakontroller";
+"lpcShowInfoPageFilteringLevelTitle"="Filtreringsnivå";
+"lpcShowInfoPageCustomSettingTitle"="Ändra anpassade inställningar";
+"lpcShowInfoPageOpenDNSAccountTitle"="OpenDNS-konto";
+"lpcShowInfoPageBypassAccountTitle"="Bypass Account";
+
+"lpcAskUserHadOpenDNSAccountBtnYESTitle"="Ja";
+"lpcAskUserHadOpenDNSAccountBtnNOTitle"="Nej";
+
+"lpcFilterLevelPageTitle"="Filtreringsnivå";
+"lpcFilterLevelHighTitle"="Hög";
+"lpcFilterLevelModerateTitle"="Mellanhög";
+"lpcFilterLevelLowTitle"="Låg";
+"lpcFilterLevelMinimalTitle"="Lägst";
+"lpcFilterLevelNoneTitle"="Ingen";
+"lpcFilterLevelCustomTitle"="Anpassat";
+
+"lpcFilterLevelHithDescription"="Blockerar och skyddar mot alla webbplatser med grovt innehåll, kriminella handlingar, webbplatser för socialt nätverkande, webbplatser för videodelning, nätfiskeförsök och allmänna tidsödare.";
+"lpcFilterLevelModerateDescription"="Blockerar och skyddar mot alla webbplatser med grovt innehåll, kriminella handlingar och nätfiskeförsök.";
+"lpcFilterLevelLowDescription"="Blockerar och skyddar mot porr och nätfiskeförsök.";
+"lpcFilterLevelMinimalDescription"="Skyddar endast mot nätfiskeförsök.";
+"lpcFilterLevelNoneDescription"="Ingenting har blockerats.";
+
+"lpcBypassAccountListPageTitle"="Bypass Account";
+"lpcBypassAccountLoginAccountLabel"="Bypass Account";
+"lpcBypassAccountLoginPasswordLabel"="Lösenord";
+"lpcBypassAccountLogoutPageTitle"="Bypass Account";
+"lpcBypassAccountPromptOfLoggedIn"="Du är inloggad som";
+
+//traffic
+"trafficMeterInfoPageTitle"="Trafikräknare";
+
+"trafficMeterNoLimit"="Obegränsat";
+"trafficMeterDownloadLimit"="Endast hämtning";
+"trafficMeterBothLimit"="Hämta och överföra";
+
+"trafficMeterSwitchTitle"="Trafikräknare";
+"trafficMeterMonthlyLimitTitleOnInfoPage"="Månadsbegränsning (MB)";
+"trafficMeterDayTitleOnInfoPage"="Startdag för räknare";
+"trafficMeterTimeTitleOnInfoPage"="Starttid för räknare";
+"trafficMeterLimitModeTitleOnInfoPage"="Gräns för trafikvolym";
+
+"trafficMeterTotalInfoDiagramSubject" = "Total";
+"trafficMeterAverageInfoDiagramSubject" = "Average";
+"trafficMeterDiagramUnitTitle" = "Mbytes";
+"trafficMeterCategoryToday" = "Today";
+"trafficMeterCategoryYesterday" = "Yesterday";
+"trafficMeterCategoryThisWeek" = "This week";
+"trafficMeterCategoryThisMonth" = "This month";
+"trafficMeterCategoryLastMonth" = "Last month";
+"trafficMeterPromptUpload" = "Upload";
+"trafficMeterPromptDownload" = "Download";
+
+
+"trafficMeterSetPageTitle"="Trafikräknare";
+"trafficMeterMonthlyLimitTitleOnModifyPage"="Månadsbegränsning (MB)";
+"trafficMeterDayTitleOnModifyPage"="Dag";
+"trafficMeterTimeTitleOnModifyPage"="Tid";
+"trafficMeterTimeOfHourLabelTitle"="Timme";
+"trafficMeterTimeOfMinuteLabelTitle"="Minut";
+"trafficMeterLimitModeTitleOnModifyPage"="Gräns för trafikvolym";
+"trafficMeterLimitModeTitleForSelectItemPage"="Kontrollmetod";
+"trafficMeterConterStartPrompt"="Starttid för trafikmätare";
+
+//QR Code
+"qrCodeMainPageTitle"="QR-kod";
+"qrCodeCameraIsUnavailable"="Din enhet kan inte ta bilder eller skanna QR-koden.";
+"qrCodeScanBtnTitle"="Skanna";
+"qrCodeWifiSSIDTitle"="SSID";
+"qrCodeWifiPasswordTitle"="Lösenord";
+"qrCodePromptUserHowToScaning"="Justera QR-koden innanför ramen för att börja skanna.";
+"qrCodePromptForGetWebAddressInfo"="Webbläsaren öppnas med den här URL-adressen.";
+"qrCodePromptForFindURL"="Hittade URL-adress:";
+"qrCodePromptForOpenURL"="Vill du öppna den?";
+"qrCodePromptForGetWIFIInfo"="Lösenordet kopieras till urklipp. Välj Inställningar > Wi-Fi om du vill ansluta till det här nätverket.";
+//my media
+
+
+//---------------------------------------------My media---------------------------------------------------
+"Loading My Media"="Läser in Mina media";
+
+"Wait Message"="Vänta...";
+"Media not support"="Mediefilformatet kan inte användas.";
+"No player find"="Ingen spelare hittades. Om du vill spela upp filer på den här enheten går du till Alternativ och väljer \"Tillåt uppspelning i nätverket\".";
+
+"Select source"="Välj en källa.";
+
+"Select player"="Välj en spelare.";
+
+"No device find"="Ingen delad enhet hittades. För att den här funktionen ska kunna användas måste du ha aktiverat fildelningsfunktionen för enheter i nätverket, eller ansluta en USB-enhet till routern om routern har funktioner för USB-anslutning.";
+
+"Restart media"="Starta om medietjänsten";
+"Refresh source"="Uppdatera källmappen";
+"Share files"="Dela filer i nätverket";
+
+"Allow play"="Tillåt uppspelning i nätverket";
+
+//Option界面 功能说明
+
+//media note:
+"myMediaOptionNote_title"="Obs!";
+"myMediaOptionNote_1"="Starta om medietjänsten när inställningarna för det trådlösa nätverket ändras.";
+"myMediaOptionNote_2"="Dela filer i ett nätverk så kan flera personer få åtkomst till filerna på den här enheten via nätverket.";
+"myMediaOptionNote_3"="Tillåt att flera personer kan använda den här enheten och spela upp filer via nätverket.";
+"myMediaOptionNote_4"="Tryck på Uppdatera källmappen om något ändrats i en/flera mediemappar.";
+
+
+//提示用户打开定位服务
+"Attention title"="Varning";
+//"Attention content"="NOTE: To gain access to your iOS device's photos and videos you need to grant Location Services permission to Genie(Settings->Location Services->Genie shall be switched on). This behavior is enforced by iOS APIs.";
+
+"Attention content"="Obs! För att du ska få åtkomst till foton och videor på din iOS-enhet måste du ge platstjänster behörighet till genie. Den här behörigheten beviljar du genom att välja Inställningar > Platstjänster > genie.";
+
+"Attention content6"="Obs! För att du ska få åtkomst till foton och videor på din iOS-enhet måste du ge platstjänster behörighet till genie. Den här behörigheten beviljar du genom att välja Inställningar > sekretess > Platstjänster > genie.";
+"tabBarLabelSource"="Källa";
+"tabBarLabelPlayer"="Spelare";
+"tabBarLabelPlaying"="Spelar";
+"titleOptions"="Alternativ";

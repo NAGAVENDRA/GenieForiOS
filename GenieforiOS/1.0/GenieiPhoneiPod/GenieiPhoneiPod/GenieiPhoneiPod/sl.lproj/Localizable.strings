@@ -1,0 +1,289 @@
+﻿/* 
+ Localizable.strings
+ GenieiPad
+ 
+ Created by cs Siteview on 12-3-10.
+ Copyright 2012年 __MyCompanyName__. All rights reserved.
+ */
+
+//约定： 所有的多语言的Key都以小写字母开头，并且都应该能通过其名称反应出其被使用的地方
+//general
+"cancel"="Prekliči";
+"close"="Zapri";
+"ok"="V redu";
+"login"="Prijava";
+"logout"="Odjava";
+"back"="Nazaj";
+"save"="Varnostno kopiranje";
+
+///////////////////////
+//wait msg
+"wait"="Počakajte...";
+"waitForLoadWirelessInfo"="Nalaganje nastavitev za brezžično omrežje";
+"waitForRefreshWirelessInfo"="Nalaganje nastavitev za brezžično omrežje";
+"waitForSetWirelessInfo"="Počakajte...";
+"waitForLoadGuestInfo"="Nalaganje dostopa gostom";
+"waitForRefreshGuestInfo"="Nalaganje dostopa gostom";
+"waitForSetGuestInfo"="Počakajte...";
+"waitForLoadNetworkMapInfo"="Nalaganje zemljevida omrežja";
+"waitForRefreshNetworkMapInfo"="Nalaganje zemljevida omrežja";
+"waitForSetNetworkMapInfo"="Počakajte...";
+"waitForLoadTrafficMeterInfo"="Nalaganje merilnika prometa";
+"waitForRefreshTrafficMeterInfo"="Nalaganje merilnika prometa";
+"waitForSetTrafficMeterInfo"="Počakajte...";
+
+"waitForLoadLPCInfo"="Nalaganje pripomočka Parental Controls";
+"waitForRefreshLPCInfo"="Nalaganje pripomočka Parental Controls";
+"waitForSetLPCEnableStatus"="Počakajte...";
+"waitForSetLPCFilter"="Nastavitev pripomočka Live Parental Controls";
+"waitForSignInOpenDns"="Vpisovanje v OpenDNS …";
+"waitForCreateOpenDNSAccount"="Ustvarjanje računa OpenDNS …";
+"waitForGetLPCAccountRelay"="Komunikacija z OpenDNS …";
+
+"msgForNoWIFI"="Napravo brezžično povežite z usmerjevalnikom NETGEAR in poskusite znova.";
+"msgForNoInternet"="Nobena internetna povezava ni zaznana.";
+"msgForNetworkError"="Zaradi težave v omrežju ne morete vzpostaviti povezave s strežnikom NETGEAR. Poskusite znova. Če ste že prijavljeni, se poskusite odjaviti in znova prijaviti.";
+"msgForRouterFirmwareNotSupport"="Usmerjevalnik ne podpira te funkcije.";
+"msgForNotNetgearRouter"="Usmerjevalnika NETGEAR ni bilo mogoče najti ali pa ni <a href=http://www.netgear.com/landing/en-us/netgear-genie-routers.aspx> podprt</a>.";
+"msgForLoginGeniePasskeyInvalid"="Prijava ni uspela. Znova vnesite pravilno skrbniško geslo za usmerjevalnik NETGEAR.";
+"msgForTimeout"="Časovna omejitev dejanja je potekla. Poskusite znova.";
+"msgForSetAndRebootRouter"="Spreminjanje nastavitev lahko onemogoči aktivni promet v brezžičnem omrežju. Ali želite nadaljevati?";
+"msgForSetAndRebootRouterSuccessed"="Brezžična nastavitev je uspešno spremenjena. Z novo brezžično nastavitvijo se ponovno pridružite v brezžično omrežje in se prijavite v program genie.";
+"msgForTimePeriodOutdate"="Dostop gostom je v uporabi. Če dostop onemogočite, lahko prekinete aktivni promet v brezžičnem omrežju. Ali želite nadaljevati?";
+"msgForPasswordNoMatchUsername"="Geslo se ne ujema z uporabniškim imenom Poskusite znova.";
+
+"msgForAskIfUserHaveOpenDNSAccount"="Če želite nastaviti Live Parental Controls, potrebujete račun OpenDNS. Ali že imate račun?";
+"msgForOpenDNSHostIsNotAvailable"="Internet ni na voljo. Najprej z usmerjevalnikom vzpostavite internetno povezavo.";
+"msgForAuthenticationFailed"="Preverjanje pristnosti usmerjevalnika ni uspelo. Ponovno se prijavite v usmerjevalnik.";
+"msgForLPCCheckUserNameNotAvailable"="Uporabniško ime ni na voljo.";
+"msgForLPCSignInOpenDNSPassKeyWrong"="Uporabniškega imena ali gesla ni mogoče prepoznati.";
+"msgForLPCSignInOpenDNSDeviceIsNotMine"="Uporabniško ime ni na voljo.";
+"msgForLPCCreateAccountUserNameFormatIllegal"="Uporabniška imena se morajo začeti in končati s črko ali številko in lahko vsebujejo znake \".\", \"-\" ter \"_\".";
+"msgForLPCCreateAccountPasswordLengthIllegal"="Gesla morajo imeti od 6 do 20 znakov.";
+"msgForLPCCreateAccountConfirmPasswordIllegal"="Potrditev gesla";
+"msgForLPCCreateAccountEmailFormatIllegal"="Neveljavna e-pošta";
+"msgForLPCCreateAccountConfirmEmailIllegal"="Potrditev e-pošte";
+"msgForLPCCreateAccountEmailIsUnavailable"="E-poštni naslov je že v uporabi.";
+"msgForLPCCreateAccountFailed"="Pri ustvarjanju računa je prišlo do napake, poskusite znova.";
+"msgForLPCCreateAccountSuccessed"="Vaš račun je uspešno ustvarjen!";
+
+"msgForSmartNetworkLoginKeyWrong"="Neveljavno uporabniško ime ali geslo.";
+"msgForSmartNetworkForgetPasswordHTML"="<a href=https://genie.netgear.com/UserProfile/#ForgotPasswordPlace:>Ste pozabili geslo?</a>";
+"msgForSmartNetworkSignUpHTML"="Nimate ID-ja? <a href=https://genie.netgear.com/UserProfile/#NewUserPlace:>Prijavite se.</a>";
+"msgForSmartNetworkNoRemoteRouterFound"="No devices were found. To activate your NETGEAR device in genie+ Marketplace:<br/>1. Make sure that your device supports genie+ Marketplace.<br/>2. From a web browser that is on the same local area network as your device (not remote), log into genie+ Marketplace <a href=https://genie.netgear.com>https://genie.netgear.com</a>.<br/>3. Click \"Activate\" on the device to activate it.";
+
+////////////////////////////////
+//HomePage
+"searchBarPlaceHolder"="Iskanje podpore";
+"wirelessSettingHomeBtnTitle"="Brezžične nastavitve";
+"guestAccessHomeBtnTitle"="Dostop gostom";
+"networkMapHomeBtnTitle"="Zemljevid omrežja";
+"parentalControlsHomeBtnTitle"="Parental Controls";
+"trafficMeterHomeBtnTitle"="Merilnik prometa";
+"myMediaHomeBtnTitle"="Moja predstavnost";
+"qrCodeHomeBtnTitle"="Koda QR";
+"appStoreBtnTitle"="Marketplace";
+
+//login view
+"loginMainPageTitle"="Prijava";
+"loginMainPageModeSwitcherTitle"="zakoten prepričevalnost";
+"loginMainPageRouterAdminLabelTitle"="Uporabniško ime";
+"loginMainPageSmartNetworkAccountLableTitle"="E-pošta";
+"loginMainPagePasswordLabelTitle"="Geslo";
+"loginMainPageRememberMeSwitcherTitle"="Zapomni si me";
+"loginMainPageDefaultPasswordPrompt"="Privzeto je \"password\"";
+
+"loginRemoteRouterListPageTitle"="Moje naprave";
+"loginRemoteRouterListPageSerialLabelTtitle"="Serijska številka";
+
+"loginRemoteRouterLoginPageTitle"="Prijavno ime za usmerjevalnik";
+"loginRemoteRouterLoginAccountTitle"="Uporabniško ime";
+"loginRemoteRouterLoginPasswordTitle"="Geslo";
+"loginRemoteRouterLoginRememberMeSwitcherTitle"="Zapomni si me";
+
+"loginRemoteOnlineStatus"="S povezavo";
+"loginRemoteOfflineStatus"="Brez povezave";
+//about view
+"aboutDialogTitle"="Vizitka";
+"aboutDialogRouterModelTitle"="Model usmerjevalnika";
+"aboutDialogFirmwareVersionTitle"="Različica vdelane programske opreme";
+"aboutDialogGenieVersionTitle"="Različica";
+"aboutDialogCopyRightInfo"="Copyright (c) 2012, NETGEAR Inc.";
+"aboutDialogAllRightInfo"="Vse pravice pridržane.";
+"aboutDialogPoweredByInfo"="Delovanje omogoča SiteView";
+"aboutDialogLicenseTitle"="Licenca";
+//wireless setting
+"wirelessSettingInfoPageTitle"="Nastavitve";
+
+"wirelessSSIDTitle"="Ime/SSID";
+"wirelessChannelTitle"="Kanal";
+"wirelessPasswordTitle"="Ključ/geslo";
+
+"wirelessSetPageTitle"="Uredi nastavitve";
+"wirelessSecurityModeTitle"="Varnost";
+"wirelessPasswordLengthLimitPrompt"="8–63 znakov ali 64 šestnajstiških vrednosti";
+//guest access
+"guestAccessInfoPageTitle"="Dostop gostom";
+
+"guestAccessSwitcherTitle"="Dostop gostom";
+"guestAccessSSIDTitle"="Ime/SSID";
+"guestAccessPasswordTitle"="Ključ/geslo";
+"guestAccessTimePeriodTitle"="Časovno obdobje";
+
+"guestAccessSetPageTitle"="Nastavitev gosta";
+"guestAccessSecurityModeTitle"="Varnost";
+"guestAccessPasswordLengthLimitPrompt"="8–63 znakov ali 64 šestnajstiških vrednosti";
+
+"timePeriodAllways"="Vedno";
+"timePeriodOneHour"="1 ura";
+"timePeriodFiveHours"="5 ur";
+"timePeriodTenHours"="10 ur";
+"timePeriodOneDay"="1 dan";
+"timePeriodOneWeek"="1 teden";
+//network map
+"networkMapInfoPageTitle"="Zemljevid omrežja";
+"networkMapInternetLableText"="Internet";
+"networkMapOnlineStatus"="S povezavo";
+"networkMapOfflineStatus"="Brez povezave";
+"networkMapDeviceInfoNameTitle"="Naprava";
+"networkMapDeviceInfoTypeTitle"="Vrsta";
+"networkMapDeviceInfoFirmwareVersionTitle"="Različica vdelane programske opreme";
+"networkMapDeviceInfoIpAddrTitle"="Naslov IP";
+"networkMapDeviceInfoStatusTitle"="Stanje";
+"networkMapDeviceInfoSignalStengthTitle"="Moč signala";
+"networkMapDeviceInfoLinkSpeedTitle"="Hitrost povezave";
+"networkMapDeviceInfoMacAddrTitle"="Naslov MAC";
+"networkMapDeviceInfoBlockTitle"="Zavrni";
+"networkMapBlockSwitcherTitle"="Nadzor dostopa";
+//lpc
+"lpcFirstPageForShowInfo"="Parental Controls";
+"lpcFirstPageForLogin"="OpenDNS";
+"lpcFirstPageForCreateAccount"="Ustvarjanje brezplačnega računa OpenDNS";
+"lpcBtnTitleForLogin"="Prijava";
+"lpcBtnTitleForCreateAccount"="Create";
+
+"lpcCreateAccountPageUserNameTitle"="Uporabniško ime";
+"lpcCreateAccountPagePasswordTitle"="Geslo";
+"lpcCreateAccountPageConfirmPasswordTitle"="Potrditev gesla";
+"lpcCreateAccountPageEmailTitle"="E-pošta";
+"lpcCreateAccountPageConfirmEmailTitle"="Potrditev e-pošte";
+"lpcLoginPageUserNameTitle"="Uporabniško ime";
+"lpcLoginPagePasswordTitle"="Geslo";
+"lpcShowInfoPageSwitcherTitle"="Parental Controls";
+"lpcShowInfoPageFilteringLevelTitle"="Raven filtriranja";
+"lpcShowInfoPageCustomSettingTitle"="Spreminjanje nastavitev po meri";
+"lpcShowInfoPageOpenDNSAccountTitle"="Račun OpenDNS";
+"lpcShowInfoPageBypassAccountTitle"="Bypass Account";
+
+"lpcAskUserHadOpenDNSAccountBtnYESTitle"="Da";
+"lpcAskUserHadOpenDNSAccountBtnNOTitle"="Ne";
+
+"lpcFilterLevelPageTitle"="Raven filtriranja";
+"lpcFilterLevelHighTitle"="Visoko";
+"lpcFilterLevelModerateTitle"="Zmerna";
+"lpcFilterLevelLowTitle"="Nizko";
+"lpcFilterLevelMinimalTitle"="Minimalna";
+"lpcFilterLevelNoneTitle"="Brez";
+"lpcFilterLevelCustomTitle"="Po meri";
+
+"lpcFilterLevelHithDescription"="Ščiti pred vsemi mesti z vsebino za odrasle, nezakonitimi dejavnostmi, družabnimi omrežji, mesti za izmenjavo videoposnetkov, napadi z lažnim predstavljanjem in ostalimi mesti za zapravljanje časa.";
+"lpcFilterLevelModerateDescription"="Ščiti pred vsemi mesti z vsebino za odrasle, nezakonitimi dejavnostmi in napadi z lažnim predstavljanjem.";
+"lpcFilterLevelLowDescription"="Ščiti pred pornografijo in napadi z lažnim predstavljanjem.";
+"lpcFilterLevelMinimalDescription"="Ščiti samo pred napadi z lažnim predstavljanjem.";
+"lpcFilterLevelNoneDescription"="Nič ni blokirano.";
+
+"lpcBypassAccountListPageTitle"="Bypass Account";
+"lpcBypassAccountLoginAccountLabel"="Bypass Account";
+"lpcBypassAccountLoginPasswordLabel"="Geslo";
+"lpcBypassAccountLogoutPageTitle"="Bypass Account";
+"lpcBypassAccountPromptOfLoggedIn"="Prijavljeni ste kot";
+
+//traffic
+"trafficMeterInfoPageTitle"="Merilnik prometa";
+
+"trafficMeterNoLimit"="Neomejeno";
+"trafficMeterDownloadLimit"="Samo prenos iz strežnika";
+"trafficMeterBothLimit"="Prenos in nalaganje";
+
+"trafficMeterSwitchTitle"="Merilnik prometa";
+"trafficMeterMonthlyLimitTitleOnInfoPage"="Mesečna mejna vrednost (MB)";
+"trafficMeterDayTitleOnInfoPage"="Začetni dan števca";
+"trafficMeterTimeTitleOnInfoPage"="Začetni čas števca";
+"trafficMeterLimitModeTitleOnInfoPage"="Mejna količina prometa";
+
+"trafficMeterTotalInfoDiagramSubject" = "Total";
+"trafficMeterAverageInfoDiagramSubject" = "Average";
+"trafficMeterDiagramUnitTitle" = "Mbytes";
+"trafficMeterCategoryToday" = "Today";
+"trafficMeterCategoryYesterday" = "Yesterday";
+"trafficMeterCategoryThisWeek" = "This week";
+"trafficMeterCategoryThisMonth" = "This month";
+"trafficMeterCategoryLastMonth" = "Last month";
+"trafficMeterPromptUpload" = "Upload";
+"trafficMeterPromptDownload" = "Download";
+
+
+"trafficMeterSetPageTitle"="Merilnik prometa";
+"trafficMeterMonthlyLimitTitleOnModifyPage"="Mesečna mejna vrednost (MB)";
+"trafficMeterDayTitleOnModifyPage"="Dan";
+"trafficMeterTimeTitleOnModifyPage"="Čas";
+"trafficMeterTimeOfHourLabelTitle"="Ura";
+"trafficMeterTimeOfMinuteLabelTitle"="Minuta";
+"trafficMeterLimitModeTitleOnModifyPage"="Mejna količina prometa";
+"trafficMeterLimitModeTitleForSelectItemPage"="Način nadzora";
+"trafficMeterConterStartPrompt"="Začetni čas merilnika prometa";
+
+//QR Code
+"qrCodeMainPageTitle"="Koda QR";
+"qrCodeCameraIsUnavailable"="Naprava ne more fotografirati ali skenirati Kode QR.";
+"qrCodeScanBtnTitle"="Skeniraj";
+"qrCodeWifiSSIDTitle"="SSID";
+"qrCodeWifiPasswordTitle"="Geslo";
+"qrCodePromptUserHowToScaning"="Če želite začeti skeniranje, kodo QR poravnajte znotraj okvirja.";
+"qrCodePromptForGetWebAddressInfo"="Odprl se bo brskalnik s tem URL-jem.";
+"qrCodePromptForFindURL"="Najdeni URL:";
+"qrCodePromptForOpenURL"="Ali ga želite odpreti";
+"qrCodePromptForGetWIFIInfo"="Geslo je bilo kopirano na odložišče. Če želite vzpostaviti povezavo s tem omrežjem, izberite Nastavitve > Wi-Fi.";
+//my media
+
+
+//---------------------------------------------My media---------------------------------------------------
+"Loading My Media"="Nalaganje moje predstavnosti";
+
+"Wait Message"="Počakajte...";
+"Media not support"="Format predstavnostne datoteke ni podprt.";
+"No player find"="Najden ni bil noben predvajalnik. Če želite predvajati datoteke s to napravo, v Možnosti izberite \"Dovoli predvajanje v omrežju\".";
+
+"Select source"="Izberite vir.";
+
+"Select player"="Izberite predvajalnik.";
+
+"No device find"="Najdena ni bila nobena naprava v skupni rabi. Za uporabo te funkcije morate omogočiti funkcijo izmenjave datotek za naprave v omrežju ali usmerjevalnik povezati s pomnilnikom USB, če usmerjevalnik podpira povezavo USB za shranjevanje.";
+
+"Restart media"="Ponovno zaženi predstavnostno storitev";
+"Refresh source"="Osveži izvirno mapo";
+"Share files"="Izmenjuj datoteke v omrežju";
+
+"Allow play"="Dovoli predvajanje v omrežju";
+
+//Option界面 功能说明
+
+//media note:
+"myMediaOptionNote_title"="Opomba:";
+"myMediaOptionNote_1"="Ponovno zaženi predstavnostno storitev, ko je spremenjena nastavitev brezžičnega omrežja.";
+"myMediaOptionNote_2"="Izmenjuj datoteko v omrežju, da bodo uporabniki lahko prek omrežja dostopali do datotek v tej napravi.";
+"myMediaOptionNote_3"="Uporabnikom dovoli uporabo te naprave za predvajanje datotek prek omrežja.";
+"myMediaOptionNote_4"="Pritisnite Osveži izvirno mapo v primeru spremembe v predstavnostnih mapah.";
+
+
+//提示用户打开定位服务
+"Attention title"="Pozor, prosim";
+//"Attention content"="NOTE: To gain access to your iOS device's photos and videos you need to grant Location Services permission to Genie(Settings->Location Services->Genie shall be switched on). This behavior is enforced by iOS APIs.";
+
+"Attention content"="OPOMBA: da pridobite dostop do fotografij in videoposnetkov v napravi iOS, morate programu genie dovoliti dostop do lokacijskih storitev. Če želite dovoliti ta dostop, izberite Nastavitve > Lokacijske storitve > genie.";
+
+"Attention content6"="OPOMBA: da pridobite dostop do fotografij in videoposnetkov v napravi iOS, morate programu genie dovoliti dostop do lokacijskih storitev. Če želite dovoliti ta dostop, izberite Nastavitve >  Zasebnost > Lokacijske storitve > genie.";
+"tabBarLabelSource"="Vir";
+"tabBarLabelPlayer"="Predvajalnik";
+"tabBarLabelPlaying"="Predvajanje";
+"titleOptions"="Možnosti";

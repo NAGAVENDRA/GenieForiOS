@@ -1,0 +1,289 @@
+﻿/* 
+ Localizable.strings
+ GenieiPad
+ 
+ Created by cs Siteview on 12-3-10.
+ Copyright 2012年 __MyCompanyName__. All rights reserved.
+ */
+
+//约定： 所有的多语言的Key都以小写字母开头，并且都应该能通过其名称反应出其被使用的地方
+//general
+"cancel"="Άκυρο";
+"close"="Κλείσιμο";
+"ok"="OK";
+"login"="Σύνδεση";
+"logout"="Αποσύνδεση";
+"back"="Πίσω";
+"save"="Δημιουργήστε αντ ασφαλείας";
+
+///////////////////////
+//wait msg
+"wait"="Παρακαλώ περιμένετε...";
+"waitForLoadWirelessInfo"="Φόρτωση ρυθμίσεων ασύρματου δικτύου";
+"waitForRefreshWirelessInfo"="Φόρτωση ρυθμίσεων ασύρματου δικτύου";
+"waitForSetWirelessInfo"="Παρακαλώ περιμένετε...";
+"waitForLoadGuestInfo"="Φόρτωση λειτουργίας πρόσβασης επισκέπτη";
+"waitForRefreshGuestInfo"="Φόρτωση λειτουργίας πρόσβασης επισκέπτη";
+"waitForSetGuestInfo"="Παρακαλώ περιμένετε...";
+"waitForLoadNetworkMapInfo"="Φόρτωση χάρτη δικτύου";
+"waitForRefreshNetworkMapInfo"="Φόρτωση χάρτη δικτύου";
+"waitForSetNetworkMapInfo"="Παρακαλώ περιμένετε...";
+"waitForLoadTrafficMeterInfo"="Φόρτωση μέτρησης κυκλοφορίας";
+"waitForRefreshTrafficMeterInfo"="Φόρτωση μέτρησης κυκλοφορίας";
+"waitForSetTrafficMeterInfo"="Παρακαλώ περιμένετε...";
+
+"waitForLoadLPCInfo"="Φόρτωση γονικών ελέγχων";
+"waitForRefreshLPCInfo"="Φόρτωση γονικών ελέγχων";
+"waitForSetLPCEnableStatus"="Παρακαλώ περιμένετε...";
+"waitForSetLPCFilter"="Εγκατάσταση του Live Parental Controls";
+"waitForSignInOpenDns"="Σύνδεση στο OpenDNS…";
+"waitForCreateOpenDNSAccount"="Δημιουργία λογαριασμού OpenDNS…";
+"waitForGetLPCAccountRelay"="Επικοινωνία με το OpenDNS…";
+
+"msgForNoWIFI"="Συνδέστε ασύρματα αυτή τη συσκευή στο δρομολογητή NETGEAR και δοκιμάστε ξανά.";
+"msgForNoInternet"="Δεν εντοπίστηκε σύνδεση Διαδικτύου.";
+"msgForNetworkError"="Κάποιο πρόβλημα στο δίκτυο εμποδίζει τη σύνδεση με το διακομιστή NETGEAR. Προσπαθήστε ξανά. Εάν έχετε ήδη συνδεθεί, δοκιμάστε να αποσυνδεθείτε και να επανασυνδεθείτε.";
+"msgForRouterFirmwareNotSupport"="Ο δρομολογητής δεν υποστηρίζει αυτήν τη λειτουργία.";
+"msgForNotNetgearRouter"="Ο δρομολογητής NETGEAR δεν βρέθηκε ή δεν <a href=http://www.netgear.com/landing/en-us/netgear-genie-routers.aspx>υποστηρίζεται</a>.";
+"msgForLoginGeniePasskeyInvalid"="Η σύνδεση απέτυχε. Πληκτρολογήστε ξανά τον σωστό κωδικό πρόσβασης διαχείρισης για το δρομολογητή NETGEAR.";
+"msgForTimeout"="Το χρονικό όριο για την ενέργεια έληξε. Προσπαθήστε ξανά.";
+"msgForSetAndRebootRouter"="Η αλλαγή των ρυθμίσεων μπορεί να διακόψει την ενεργή κυκλοφορία στο ασύρματο δίκτυο. Θέλετε να συνεχίσετε;";
+"msgForSetAndRebootRouterSuccessed"="Η ρύθμιση ασύρματου δικτύου άλλαξε με επιτυχία. Προσπελάστε ξανά το ασύρματο δίκτυο χρησιμοποιώντας τις νέες ρυθμίσεις ασύρματου δικτύου και τα στοιχεία σύνδεσης για το genie.";
+"msgForTimePeriodOutdate"="Χρησιμοποιείται η λειτουργία πρόσβασης επισκέπτη. Τυχόν απενεργοποίησή της μπορεί να διακόψει την ενεργή κυκλοφορία στο ασύρματο δίκτυο. Θέλετε να συνεχίσετε;";
+"msgForPasswordNoMatchUsername"="Ο κωδικός πρόσβασης δεν αντιστοιχεί σε αυτό το όνομα χρήστη. Προσπαθήστε ξανά.";
+
+"msgForAskIfUserHaveOpenDNSAccount"="Για να ορίσετε τους ελέγχους Live Parental Controls, χρειάζεστε ένα λογαριασμό OpenDNS. Μήπως έχετε ήδη ένα λογαριασμό;";
+"msgForOpenDNSHostIsNotAvailable"="Το Internet δεν είναι διαθέσιμο. Συνδέστε πρώτα το δρομολογητή στο Internet.";
+"msgForAuthenticationFailed"="Ο έλεγχος ταυτότητας του δρομολογητή απέτυχε. Συνδέστε ξανά το δρομολογητή.";
+"msgForLPCCheckUserNameNotAvailable"="Το όνομα χρήστη δεν είναι διαθέσιμο.";
+"msgForLPCSignInOpenDNSPassKeyWrong"="Δεν αναγνωρίζουμε αυτό το όνομα χρήστη ή τον κωδικό πρόσβασης.";
+"msgForLPCSignInOpenDNSDeviceIsNotMine"="Το όνομα χρήστη δεν είναι διαθέσιμο.";
+"msgForLPCCreateAccountUserNameFormatIllegal"="Το όνομα χρήστη πρέπει να ξεκινά και να τελειώνει με γράμμα ή αριθμό και μπορεί επίσης να περιέχει τα σύμβολα '.', '-' και '_'.";
+"msgForLPCCreateAccountPasswordLengthIllegal"="Το μήκος των κωδικών πρόσβασης πρέπει να είναι μεταξύ 6 και 20 χαρακτήρων.";
+"msgForLPCCreateAccountConfirmPasswordIllegal"="Επιβεβαίωση κωδικού πρόσβασης";
+"msgForLPCCreateAccountEmailFormatIllegal"="Μη έγκυρο email";
+"msgForLPCCreateAccountConfirmEmailIllegal"="Επιβεβαίωση email";
+"msgForLPCCreateAccountEmailIsUnavailable"="Το email χρησιμοποιείται ήδη.";
+"msgForLPCCreateAccountFailed"="Παρουσιάστηκε σφάλμα κατά τη δημιουργία του λογαριασμού, δοκιμάστε ξανά.";
+"msgForLPCCreateAccountSuccessed"="Ο λογαριασμός σας δημιουργήθηκε με επιτυχία!";
+
+"msgForSmartNetworkLoginKeyWrong"="Μη έγκυρο όνομα χρήστη ή κωδικός πρόσβασης.";
+"msgForSmartNetworkForgetPasswordHTML"="<a href=https://genie.netgear.com/UserProfile/#ForgotPasswordPlace:>Ξεχάσατε τον κωδικό πρόσβασης;</a>";
+"msgForSmartNetworkSignUpHTML"="Δεν διαθέτετε αναγνωριστικό; <a href=https://genie.netgear.com/UserProfile/#NewUserPlace:>Εγγραφή.</a>";
+"msgForSmartNetworkNoRemoteRouterFound"="No devices were found. To activate your NETGEAR device in genie+ Marketplace:<br/>1. Make sure that your device supports genie+ Marketplace.<br/>2. From a web browser that is on the same local area network as your device (not remote), log into genie+ Marketplace <a href=https://genie.netgear.com>https://genie.netgear.com</a>.<br/>3. Click \"Activate\" on the device to activate it.";
+
+////////////////////////////////
+//HomePage
+"searchBarPlaceHolder"="Αναζήτηση υποστήριξης";
+"wirelessSettingHomeBtnTitle"="Ρυθμίσεις ασύρμ. δικτύου";
+"guestAccessHomeBtnTitle"="Πρόσβαση επισκέπτη";
+"networkMapHomeBtnTitle"="Χάρτης δικτύου";
+"parentalControlsHomeBtnTitle"="Γονικός έλεγχος";
+"trafficMeterHomeBtnTitle"="Μέτρηση κυκλοφορίας";
+"myMediaHomeBtnTitle"="Τα μέσα μου";
+"qrCodeHomeBtnTitle"="Κωδικός QR";
+"appStoreBtnTitle"="Marketplace";
+
+//login view
+"loginMainPageTitle"="Σύνδεση";
+"loginMainPageModeSwitcherTitle"="μακρινός login";
+"loginMainPageRouterAdminLabelTitle"="Όνομα χρήστη";
+"loginMainPageSmartNetworkAccountLableTitle"="Email";
+"loginMainPagePasswordLabelTitle"="Κωδικός πρόσβασης";
+"loginMainPageRememberMeSwitcherTitle"="Απομνημόνευση των στοιχείων μου";
+"loginMainPageDefaultPasswordPrompt"="Η προεπιλογή είναι \"password\"";
+
+"loginRemoteRouterListPageTitle"="Οι συσκευές μου";
+"loginRemoteRouterListPageSerialLabelTtitle"="Σειριακός";
+
+"loginRemoteRouterLoginPageTitle"="Σύνδεση δρομολογητή";
+"loginRemoteRouterLoginAccountTitle"="Όνομα χρήστη";
+"loginRemoteRouterLoginPasswordTitle"="Κωδικός πρόσβασης";
+"loginRemoteRouterLoginRememberMeSwitcherTitle"="Απομνημόνευση των στοιχείων μου";
+
+"loginRemoteOnlineStatus"="Συνδεδεμένη";
+"loginRemoteOfflineStatus"="Εκτός σύνδεσης";
+//about view
+"aboutDialogTitle"="Πληροφορίες";
+"aboutDialogRouterModelTitle"="Μοντέλο δρομολογητή";
+"aboutDialogFirmwareVersionTitle"="Έκδοση υλικολογισμικού";
+"aboutDialogGenieVersionTitle"="Έκδοση";
+"aboutDialogCopyRightInfo"="Πνευματικά δικαιώματα (c) 2012, NETGEAR Inc.";
+"aboutDialogAllRightInfo"="Με την επιφύλαξη παντός δικαιώματος.";
+"aboutDialogPoweredByInfo"="Με την υποστήριξη της SiteView";
+"aboutDialogLicenseTitle"="Άδεια χρήσης";
+//wireless setting
+"wirelessSettingInfoPageTitle"="Ρυθμίσεις";
+
+"wirelessSSIDTitle"="Όνομα/SSID";
+"wirelessChannelTitle"="Κανάλι";
+"wirelessPasswordTitle"="Κλειδί/κωδικός πρόσβασης";
+
+"wirelessSetPageTitle"="Επεξεργασία ρυθμίσεων";
+"wirelessSecurityModeTitle"="Ασφάλεια";
+"wirelessPasswordLengthLimitPrompt"="8-63 χαρακτήρες ή 64 δεκαεξαδικές τιμές";
+//guest access
+"guestAccessInfoPageTitle"="Πρόσβαση επισκέπτη";
+
+"guestAccessSwitcherTitle"="Πρόσβαση επισκέπτη";
+"guestAccessSSIDTitle"="Όνομα/SSID";
+"guestAccessPasswordTitle"="Κλειδί/κωδικός πρόσβασης";
+"guestAccessTimePeriodTitle"="Χρονική περίοδος";
+
+"guestAccessSetPageTitle"="Ρυθμίσεις επισκέπτη";
+"guestAccessSecurityModeTitle"="Ασφάλεια";
+"guestAccessPasswordLengthLimitPrompt"="8-63 χαρακτήρες ή 64 δεκαεξαδικές τιμές";
+
+"timePeriodAllways"="Πάντα";
+"timePeriodOneHour"="1 ώρα";
+"timePeriodFiveHours"="5 ώρες";
+"timePeriodTenHours"="10 ώρες";
+"timePeriodOneDay"="1 ημέρα";
+"timePeriodOneWeek"="1 εβδομάδα";
+//network map
+"networkMapInfoPageTitle"="Χάρτης δικτύου";
+"networkMapInternetLableText"="Διαδίκτυο";
+"networkMapOnlineStatus"="Συνδεδεμένη";
+"networkMapOfflineStatus"="Εκτός σύνδεσης";
+"networkMapDeviceInfoNameTitle"="Συσκευή";
+"networkMapDeviceInfoTypeTitle"="Τύπος";
+"networkMapDeviceInfoFirmwareVersionTitle"="Έκδοση υλικολογισμικού";
+"networkMapDeviceInfoIpAddrTitle"="Διεύθυνση IP";
+"networkMapDeviceInfoStatusTitle"="Κατάσταση";
+"networkMapDeviceInfoSignalStengthTitle"="Ισχύς σήματος";
+"networkMapDeviceInfoLinkSpeedTitle"="Ταχύτητα σύνδεσης";
+"networkMapDeviceInfoMacAddrTitle"="Διεύθυνση MAC";
+"networkMapDeviceInfoBlockTitle"="Αποκλεισμός";
+"networkMapBlockSwitcherTitle"="Έλεγχος πρόσβασης";
+//lpc
+"lpcFirstPageForShowInfo"="Γονικός έλεγχος";
+"lpcFirstPageForLogin"="OpenDNS";
+"lpcFirstPageForCreateAccount"="Δημιουργήστε ένα δωρεάν λογαριασμό OpenDNS";
+"lpcBtnTitleForLogin"="Σύνδεση";
+"lpcBtnTitleForCreateAccount"="Create";
+
+"lpcCreateAccountPageUserNameTitle"="Όνομα χρήστη";
+"lpcCreateAccountPagePasswordTitle"="Κωδικός πρόσβασης";
+"lpcCreateAccountPageConfirmPasswordTitle"="Επιβεβαίωση κωδικού πρόσβασης";
+"lpcCreateAccountPageEmailTitle"="Email";
+"lpcCreateAccountPageConfirmEmailTitle"="Επιβεβαίωση email";
+"lpcLoginPageUserNameTitle"="Όνομα χρήστη";
+"lpcLoginPagePasswordTitle"="Κωδικός πρόσβασης";
+"lpcShowInfoPageSwitcherTitle"="Γονικός έλεγχος";
+"lpcShowInfoPageFilteringLevelTitle"="Επίπεδο φιλτραρίσματος";
+"lpcShowInfoPageCustomSettingTitle"="Αλλαγή προσαρμοσμένων ρυθμίσεων";
+"lpcShowInfoPageOpenDNSAccountTitle"="Λογαριασμός OpenDNS";
+"lpcShowInfoPageBypassAccountTitle"="Bypass Account";
+
+"lpcAskUserHadOpenDNSAccountBtnYESTitle"="Ναι";
+"lpcAskUserHadOpenDNSAccountBtnNOTitle"="Όχι";
+
+"lpcFilterLevelPageTitle"="Επίπεδο φιλτραρίσματος";
+"lpcFilterLevelHighTitle"="Υψηλή";
+"lpcFilterLevelModerateTitle"="Μέτρια";
+"lpcFilterLevelLowTitle"="Χαμηλή";
+"lpcFilterLevelMinimalTitle"="Ελάχιστη";
+"lpcFilterLevelNoneTitle"="Καμία";
+"lpcFilterLevelCustomTitle"="Προσαρμοσμένη";
+
+"lpcFilterLevelHithDescription"="Παρέχει προστασία από ιστότοπους με περιεχόμενο για ενηλίκους ή παράνομες δραστηριότητες, από ιστότοπους κοινωνικής δικτύωσης, ιστότοπους κοινής χρήσης βίντεο, επιθέσεις από ηλεκτρονικό \"ψάρεμα\" και γενικότερα ιστότοπους με ανούσιο περιεχόμενο .";
+"lpcFilterLevelModerateDescription"="Παρέχει προστασία από ιστότοπους με περιεχόμενο για ενηλίκους, με παράνομες δραστηριότητες και επιθέσεις από ηλεκτρονικό \"ψάρεμα\".";
+"lpcFilterLevelLowDescription"="Παρέχει προστασία από ιστότοπους με πορνογραφικό περιεχόμενο και επιθέσεις από ηλεκτρονικό \"ψάρεμα\".";
+"lpcFilterLevelMinimalDescription"="Παρέχει προστασία μόνο από επιθέσεις από ηλεκτρονικό \"ψάρεμα\".";
+"lpcFilterLevelNoneDescription"="Δεν έχει αποκλειστεί τίποτα.";
+
+"lpcBypassAccountListPageTitle"="Bypass Account";
+"lpcBypassAccountLoginAccountLabel"="Bypass Account";
+"lpcBypassAccountLoginPasswordLabel"="Κωδικός πρόσβασης";
+"lpcBypassAccountLogoutPageTitle"="Bypass Account";
+"lpcBypassAccountPromptOfLoggedIn"="Έχετε συνδεθεί ως";
+
+//traffic
+"trafficMeterInfoPageTitle"="Μέτρηση κυκλοφορίας";
+
+"trafficMeterNoLimit"="Απεριόριστο";
+"trafficMeterDownloadLimit"="Λήψη μόνο";
+"trafficMeterBothLimit"="Λήψη και αποστολή";
+
+"trafficMeterSwitchTitle"="Μέτρηση κυκλοφορίας";
+"trafficMeterMonthlyLimitTitleOnInfoPage"="Μηνιαίο όριο (MB)";
+"trafficMeterDayTitleOnInfoPage"="Ημέρα έναρξης μετρητή";
+"trafficMeterTimeTitleOnInfoPage"="Ώρα έναρξης μετρητή";
+"trafficMeterLimitModeTitleOnInfoPage"="Όριο όγκου κυκλοφορίας";
+
+"trafficMeterTotalInfoDiagramSubject" = "Total";
+"trafficMeterAverageInfoDiagramSubject" = "Average";
+"trafficMeterDiagramUnitTitle" = "Mbytes";
+"trafficMeterCategoryToday" = "Today";
+"trafficMeterCategoryYesterday" = "Yesterday";
+"trafficMeterCategoryThisWeek" = "This week";
+"trafficMeterCategoryThisMonth" = "This month";
+"trafficMeterCategoryLastMonth" = "Last month";
+"trafficMeterPromptUpload" = "Upload";
+"trafficMeterPromptDownload" = "Download";
+
+
+"trafficMeterSetPageTitle"="Μέτρηση κυκλοφορίας";
+"trafficMeterMonthlyLimitTitleOnModifyPage"="Μηνιαίο όριο (MB)";
+"trafficMeterDayTitleOnModifyPage"="Ημέρα";
+"trafficMeterTimeTitleOnModifyPage"="Ώρα";
+"trafficMeterTimeOfHourLabelTitle"="Ώρα";
+"trafficMeterTimeOfMinuteLabelTitle"="Λεπτό";
+"trafficMeterLimitModeTitleOnModifyPage"="Όριο όγκου κυκλοφορίας";
+"trafficMeterLimitModeTitleForSelectItemPage"="Μέθοδος ελέγχου";
+"trafficMeterConterStartPrompt"="Ώρα έναρξης μετρητή κυκλοφορίας";
+
+//QR Code
+"qrCodeMainPageTitle"="Κωδικός QR";
+"qrCodeCameraIsUnavailable"="Η συσκευή σας δεν μπορεί να τραβήξει φωτογραφίες ή να σαρώσει τον Kωδικό QR.";
+"qrCodeScanBtnTitle"="Σάρωση";
+"qrCodeWifiSSIDTitle"="SSID";
+"qrCodeWifiPasswordTitle"="Κωδικός πρόσβασης";
+"qrCodePromptUserHowToScaning"="Ευθυγραμμίστε τον κωδικό QR μέσα στο πλαίσιο για να αρχίσει η σάρωση.";
+"qrCodePromptForGetWebAddressInfo"="Θα ανοίξει το πρόγραμμα περιήγησης με αυτήν τη διεύθυνση URL.";
+"qrCodePromptForFindURL"="Η διεύθυνση URL βρέθηκε:";
+"qrCodePromptForOpenURL"="Θέλετε να το ανοίξετε;";
+"qrCodePromptForGetWIFIInfo"="Ο κωδικός πρόσβασης αντιγράφεται στο πρόχειρο. Για να συνδεθείτε σε αυτό το δίκτυο, επιλέξτε Ρυθμίσεις > Wi-Fi.";
+//my media
+
+
+//---------------------------------------------My media---------------------------------------------------
+"Loading My Media"="Γίνεται φόρτωση του στοιχείου Τα μέσα μου";
+
+"Wait Message"="Παρακαλώ περιμένετε...";
+"Media not support"="Η μορφή του αρχείου μέσων δεν υποστηρίζεται.";
+"No player find"="Δεν βρέθηκε συσκευή αναπαραγωγής. Για την αναπαραγωγή αρχείων σε αυτήν τη συσκευή, μεταβείτε στο στοιχείο Επιλογές και επιλέξτε \"Να επιτρέπεται η αναπαραγωγή στο δίκτυο.\"";
+
+"Select source"="Επιλέξτε πηγή.";
+
+"Select player"="Επιλέξτε συσκευή αναπαραγωγής.";
+
+"No device find"="Δεν βρέθηκε κοινόχρηστη συσκευή. Για να χρησιμοποιήσετε αυτήν τη δυνατότητα, πρέπει να ενεργοποιήσετε τη δυνατότητα κοινής χρήσης αρχείων για συσκευές στο δίκτυο ή να συνδέσετε μια μονάδα αποθήκευσης USB στο δρομολογητή, αν υποστηρίζει σύνδεση συσκευών αποθήκευσης USB.";
+
+"Restart media"="Επανεκκίνηση υπηρεσίας μέσων";
+"Refresh source"="Ανανέωση φακέλου προέλευσης";
+"Share files"="Κοινή χρήση αρχείων στο δίκτυο";
+
+"Allow play"="Να επιτρέπεται η αναπαραγωγή στο δίκτυο";
+
+//Option界面 功能说明
+
+//media note:
+"myMediaOptionNote_title"="Σημείωση:";
+"myMediaOptionNote_1"="Επανεκκίνηση υπηρεσίας μέσων όταν αλλάζει η ρύθμιση ασύρματου δικτύου.";
+"myMediaOptionNote_2"="Να γίνει κοινή χρήση του αρχείου στο δίκτυο ώστε να επιτρέπεται η πρόσβαση ατόμων σε αρχεία αυτής της συσκευής μέσω δικτύου.";
+"myMediaOptionNote_3"="Να επιτρέπεται η χρήση αυτής της συσκευής για την αναπαραγωγή αρχείων μέσω δικτύου.";
+"myMediaOptionNote_4"="Πατήστε Ανανέωση του φακέλου προέλευσης αν υπάρχει οποιαδήποτε αλλαγή στους φακέλους μέσων.";
+
+
+//提示用户打开定位服务
+"Attention title"="Προσοχή";
+//"Attention content"="NOTE: To gain access to your iOS device's photos and videos you need to grant Location Services permission to Genie(Settings->Location Services->Genie shall be switched on). This behavior is enforced by iOS APIs.";
+
+"Attention content"="ΣΗΜΕΙΩΣΗ: Για να αποκτήσετε πρόσβαση σε φωτογραφίες και βίντεο στη συσκευή σας iOS, πρέπει να εκχωρήσετε δικαίωμα Υπηρεσιών θέσης στο genie. Για να εκχωρήσετε αυτό το δικαίωμα, επιλέξτε Ρυθμίσεις > Υπηρεσίες θέσης > genie.";
+
+"Attention content6"="ΣΗΜΕΙΩΣΗ: Για να αποκτήσετε πρόσβαση σε φωτογραφίες και βίντεο στη συσκευή σας iOS, πρέπει να εκχωρήσετε δικαίωμα Υπηρεσιών θέσης στο genie. Για να εκχωρήσετε αυτό το δικαίωμα, επιλέξτε Ρυθμίσεις >  μυστικότητα > Υπηρεσίες θέσης > genie.";
+"tabBarLabelSource"="Πηγή";
+"tabBarLabelPlayer"="Συσκευή αναπαραγωγής";
+"tabBarLabelPlaying"="Αναπαραγωγή";
+"titleOptions"="Επιλογές";

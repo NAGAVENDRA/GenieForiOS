@@ -1,0 +1,286 @@
+﻿/* 
+ Localizable.strings
+ GenieiPad
+ 
+ Created by cs Siteview on 12-3-10.
+ Copyright 2012年 __MyCompanyName__. All rights reserved.
+ */
+
+//约定： 所有的多语言的Key都以小写字母开头，并且都应该能通过其名称反应出其被使用的地方
+//general
+"cancel"="Avbryt";
+"close"="Lukk";
+"ok"="OK";
+"login"="Logg på";
+"logout"="Logg av";
+"back"="Tilbake";
+"save"="Sikkerhetskopier";
+
+///////////////////////
+//wait msg
+"wait"="Vent litt...";
+"waitForLoadWirelessInfo"="Laster inn trådløsinnstillinger";
+"waitForRefreshWirelessInfo"="Laster inn trådløsinnstillinger";
+"waitForSetWirelessInfo"="Vent litt...";
+"waitForLoadGuestInfo"="Laste gjestetilgang";
+"waitForRefreshGuestInfo"="Laste gjestetilgang";
+"waitForSetGuestInfo"="Vent litt...";
+"waitForLoadNetworkMapInfo"="Laster nettverkskart";
+"waitForRefreshNetworkMapInfo"="Laster nettverkskart";
+"waitForSetNetworkMapInfo"="Vent litt...";
+"waitForLoadTrafficMeterInfo"="Laster trafikkmåler";
+"waitForRefreshTrafficMeterInfo"="Laster trafikkmåler";
+"waitForSetTrafficMeterInfo"="Vent litt...";
+
+"waitForLoadLPCInfo"="Laster Parental Controls";
+"waitForRefreshLPCInfo"="Laster Parental Controls";
+"waitForSetLPCEnableStatus"="Vent litt...";
+"waitForSetLPCFilter"="Konfigurere Live Parental Controls";
+"waitForSignInOpenDns"="Logger på OpenDNS …";
+"waitForCreateOpenDNSAccount"="Oppretter din OpenDNS-konto …";
+"waitForGetLPCAccountRelay"="Kommuniserer med OpenDNS…";
+
+"msgForNoWIFI"="Koble enheten trådløst til NETGEAR-ruteren og prøv igjen.";
+"msgForNoInternet"="Ingen Internett-tilkobling er oppdaget.";
+"msgForNetworkError"="En nettverksfeil forhindrer deg i å koble til NETGEAR-serveren. Prøv på nytt. Hvis du allerede er logget på, kan du prøve å logge av og deretter på igjen.";
+"msgForRouterFirmwareNotSupport"="Ruteren støtter ikke denne funksjonen.";
+"msgForNotNetgearRouter"="Finner ikke NETGEAR-ruter, eller den er ikke <a href=http://www.netgear.com/landing/en-us/netgear-genie-routers.aspx>støttet</a>.";
+"msgForLoginGeniePasskeyInvalid"="Pålogging mislyktes. Angi riktig adminpassord for NETGEAR-ruteren.";
+"msgForTimeout"="Tidsavbrudd for handling. Prøv på nytt.";
+"msgForSetAndRebootRouter"="Hvis du endrer innstillingene, kan dette forstyrre aktiv trafikk på det trådløse nettverket. Vil du fortsette?";
+"msgForSetAndRebootRouterSuccessed"="Trådløsinnstillingen ble endret. Koble til det trådløse nettverket på nytt ved hjelp av nye trådløsinnstillinger, og logg på genie.";
+"msgForTimePeriodOutdate"="Gjestetilgang er i bruk. Hvis du deaktiverer den, kan dette forstyrre aktiv trafikk på det trådløse nettverket. Vil du fortsette?";
+"msgForPasswordNoMatchUsername"="Passordet samsvarer ikke med brukernavnet. Prøv på nytt.";
+
+"msgForAskIfUserHaveOpenDNSAccount"="Hvis du vil angi Live Parental Controls, trenger du en OpenDNS-konto. Har du allerede en konto?";
+"msgForOpenDNSHostIsNotAvailable"="Internett er ikke tilgjengelig. Koble ruteren til Internett først.";
+"msgForAuthenticationFailed"="Ruterautentifiseringen mislyktes. Logg på ruteren på nytt.";
+"msgForLPCCheckUserNameNotAvailable"="Brukernavnet er utilgjengelig.";
+"msgForLPCSignInOpenDNSPassKeyWrong"="Vi kan ikke gjenkjenne dette brukernavnet eller passordet.";
+"msgForLPCSignInOpenDNSDeviceIsNotMine"="Brukernavnet er utilgjengelig.";
+"msgForLPCCreateAccountUserNameFormatIllegal"="Brukernavn må begynne og slutte med en bokstav eller et tall og kan også inneholde ., ,, - og _.";
+"msgForLPCCreateAccountPasswordLengthIllegal"="Passord må inneholde mellom 6 og 20 tegn.";
+"msgForLPCCreateAccountConfirmPasswordIllegal"="Bekreft passord";
+"msgForLPCCreateAccountEmailFormatIllegal"="Ugyldig e-post";
+"msgForLPCCreateAccountConfirmEmailIllegal"="Bekreft e-post";
+"msgForLPCCreateAccountEmailIsUnavailable"="E-postadressen er opptatt.";
+"msgForLPCCreateAccountFailed"="Det oppstod en feil under oppretting av kontoen. Prøv på nytt.";
+"msgForLPCCreateAccountSuccessed"="Kontoen din ble opprettet.";
+
+"msgForSmartNetworkLoginKeyWrong"="Ugyldig brukernavn eller passord.";
+"msgForSmartNetworkForgetPasswordHTML"="<a href=https://genie.netgear.com/UserProfile/#ForgotPasswordPlace:>Har du glemt passordet ditt?</a>";
+"msgForSmartNetworkSignUpHTML"="Har du ikke en ID? <a href=https://genie.netgear.com/UserProfile/#NewUserPlace:>Registrer deg.</a>";
+"msgForSmartNetworkNoRemoteRouterFound" = "No devices were found. To activate your NETGEAR device in genie+ Marketplace:<br/>1. Make sure that your device supports genie+ Marketplace.<br/>2. From a web browser that is on the same local area network as your device (not remote), log into genie+ Marketplace <a href=https://genie.netgear.com>https://genie.netgear.com</a>.<br/>3. Click \"Activate\" on the device to activate it."; 
+////////////////////////////////
+//HomePage
+"searchBarPlaceHolder"="Søkestøtte";
+"wirelessSettingHomeBtnTitle"="Trådløsinnstillinger";
+"guestAccessHomeBtnTitle"="Gjestetilgang";
+"networkMapHomeBtnTitle"="Nettverkskart";
+"parentalControlsHomeBtnTitle"="Parental Controls";
+"trafficMeterHomeBtnTitle"="Trafikkmåler";
+"myMediaHomeBtnTitle"="Mine medier";
+"qrCodeHomeBtnTitle"="QR-kode";
+"appStoreBtnTitle"="Marketplace";
+
+//login view
+"loginMainPageTitle"="Logg på";
+"loginMainPageModeSwitcherTitle"="fjern logikk";
+"loginMainPageRouterAdminLabelTitle"="Brukernavn";
+"loginMainPageSmartNetworkAccountLableTitle"="E-post";
+"loginMainPagePasswordLabelTitle"="Passord";
+"loginMainPageRememberMeSwitcherTitle"="Husk meg";
+"loginMainPageDefaultPasswordPrompt"="Standard er \"password\"";
+
+"loginRemoteRouterListPageTitle"="Mine enheter";
+"loginRemoteRouterListPageSerialLabelTtitle"="Seriell";
+
+"loginRemoteRouterLoginPageTitle"="Pålogging, ruter";
+"loginRemoteRouterLoginAccountTitle"="Brukernavn";
+"loginRemoteRouterLoginPasswordTitle"="Passord";
+"loginRemoteRouterLoginRememberMeSwitcherTitle"="Husk meg";
+
+"loginRemoteOnlineStatus"="Tilkoblet";
+"loginRemoteOfflineStatus"="Frakoblet";
+//about view
+"aboutDialogTitle"="Om";
+"aboutDialogRouterModelTitle"="Rutermodell";
+"aboutDialogFirmwareVersionTitle"="Fastvareversjon";
+"aboutDialogGenieVersionTitle"="Versjon";
+"aboutDialogCopyRightInfo"="Copyright (c) 2012, NETGEAR Inc.";
+"aboutDialogAllRightInfo"="Med enerett.";
+"aboutDialogPoweredByInfo"="Drevet av SiteView";
+"aboutDialogLicenseTitle"="Lisens";
+//wireless setting
+"wirelessSettingInfoPageTitle"="Innstillinger";
+
+"wirelessSSIDTitle"="Navn/SSID";
+"wirelessChannelTitle"="Kanal";
+"wirelessPasswordTitle"="Nøkkel/passord";
+
+"wirelessSetPageTitle"="Redigere innstillinger";
+"wirelessSecurityModeTitle"="Sikkerhet";
+"wirelessPasswordLengthLimitPrompt"="8–63 tegn eller 64 heksadesimalverdier";
+//guest access
+"guestAccessInfoPageTitle"="Gjestetilgang";
+
+"guestAccessSwitcherTitle"="Gjestetilgang";
+"guestAccessSSIDTitle"="Navn/SSID";
+"guestAccessPasswordTitle"="Nøkkel/passord";
+"guestAccessTimePeriodTitle"="Tidsperiode";
+
+"guestAccessSetPageTitle"="Gjesteinnstillinger";
+"guestAccessSecurityModeTitle"="Sikkerhet";
+"guestAccessPasswordLengthLimitPrompt"="8–63 tegn eller 64 heksadesimalverdier";
+
+"timePeriodAllways"="Alltid";
+"timePeriodOneHour"="1 time";
+"timePeriodFiveHours"="5 timer";
+"timePeriodTenHours"="10 timer";
+"timePeriodOneDay"="1 dag";
+"timePeriodOneWeek"="1 uke";
+//network map
+"networkMapInfoPageTitle"="Nettverkskart";
+"networkMapInternetLableText"="Internett";
+"networkMapOnlineStatus"="Tilkoblet";
+"networkMapOfflineStatus"="Frakoblet";
+"networkMapDeviceInfoNameTitle"="Enhet";
+"networkMapDeviceInfoTypeTitle"="Type";
+"networkMapDeviceInfoFirmwareVersionTitle"="Fastvareversjon";
+"networkMapDeviceInfoIpAddrTitle"="IP-adresse";
+"networkMapDeviceInfoStatusTitle"="Status";
+"networkMapDeviceInfoSignalStengthTitle"="Signalstyrke";
+"networkMapDeviceInfoLinkSpeedTitle"="Tilkoblingshastighet";
+"networkMapDeviceInfoMacAddrTitle"="MAC-adresse";
+"networkMapDeviceInfoBlockTitle"="Blokker";
+"networkMapBlockSwitcherTitle"="Tilgangskontrolll";
+//lpc
+"lpcFirstPageForShowInfo"="Parental Controls";
+"lpcFirstPageForLogin"="OpenDNS";
+"lpcFirstPageForCreateAccount"="Opprett en gratis OpenDNS-konto";
+"lpcBtnTitleForLogin"="Logg på";
+"lpcBtnTitleForCreateAccount"="Create";
+
+"lpcCreateAccountPageUserNameTitle"="Brukernavn";
+"lpcCreateAccountPagePasswordTitle"="Passord";
+"lpcCreateAccountPageConfirmPasswordTitle"="Bekreft passord";
+"lpcCreateAccountPageEmailTitle"="E-post";
+"lpcCreateAccountPageConfirmEmailTitle"="Bekreft e-post";
+"lpcLoginPageUserNameTitle"="Brukernavn";
+"lpcLoginPagePasswordTitle"="Passord";
+"lpcShowInfoPageSwitcherTitle"="Parental Controls";
+"lpcShowInfoPageFilteringLevelTitle"="Filtreringsnivå";
+"lpcShowInfoPageCustomSettingTitle"="Endre tilpassede innstillinger";
+"lpcShowInfoPageOpenDNSAccountTitle"="OpenDNS-konto";
+"lpcShowInfoPageBypassAccountTitle"="Bypass Account";
+
+"lpcAskUserHadOpenDNSAccountBtnYESTitle"="Ja";
+"lpcAskUserHadOpenDNSAccountBtnNOTitle"="Nei";
+
+"lpcFilterLevelPageTitle"="Filtreringsnivå";
+"lpcFilterLevelHighTitle"="Høy";
+"lpcFilterLevelModerateTitle"="Moderat";
+"lpcFilterLevelLowTitle"="Lav";
+"lpcFilterLevelMinimalTitle"="Minimal";
+"lpcFilterLevelNoneTitle"="Ingen";
+"lpcFilterLevelCustomTitle"="Tilpasset";
+
+"lpcFilterLevelHithDescription"="Beskytter mot alle områder med innhold for voksne, ulovlig aktivitet, områder for sosiale nettverk, videodelingsområder, svindelforsøk (phishing) og generelle områder som er bortkastet tid.";
+"lpcFilterLevelModerateDescription"="Beskytter mot alle områder med innhold for voksne, ulovlig aktivitet og svindelforsøk (phishing).";
+"lpcFilterLevelLowDescription"="Beskytter mot pornografi og svindelforsøk (phishing).";
+"lpcFilterLevelMinimalDescription"="Beskytter bare mot svindelforsøk (phishing).";
+"lpcFilterLevelNoneDescription"="Ingenting er blokkert.";
+
+"lpcBypassAccountListPageTitle"="Bypass Account";
+"lpcBypassAccountLoginAccountLabel"="Bypass Account";
+"lpcBypassAccountLoginPasswordLabel"="Passord";
+"lpcBypassAccountLogoutPageTitle"="Bypass Account";
+"lpcBypassAccountPromptOfLoggedIn"="Du er logget på som";
+
+//traffic
+"trafficMeterInfoPageTitle"="Trafikkmåler";
+
+"trafficMeterNoLimit"="Ubegrenset";
+"trafficMeterDownloadLimit"="Bare nedlasting";
+"trafficMeterBothLimit"="Nedlasting og opplasting";
+
+"trafficMeterSwitchTitle"="Trafikkmåler";
+"trafficMeterMonthlyLimitTitleOnInfoPage"="Månedlig grense (MB)";
+"trafficMeterDayTitleOnInfoPage"="Startdag for teller";
+"trafficMeterTimeTitleOnInfoPage"="Starttidspunkt for teller";
+"trafficMeterLimitModeTitleOnInfoPage"="Trafikkvolumgrense";
+
+"trafficMeterTotalInfoDiagramSubject" = "Total";
+"trafficMeterAverageInfoDiagramSubject" = "Average";
+"trafficMeterDiagramUnitTitle" = "Mbytes";
+"trafficMeterCategoryToday" = "Today";
+"trafficMeterCategoryYesterday" = "Yesterday";
+"trafficMeterCategoryThisWeek" = "This week";
+"trafficMeterCategoryThisMonth" = "This month";
+"trafficMeterCategoryLastMonth" = "Last month";
+"trafficMeterPromptUpload" = "Upload";
+"trafficMeterPromptDownload" = "Download";
+
+"trafficMeterSetPageTitle"="Trafikkmåler";
+"trafficMeterMonthlyLimitTitleOnModifyPage"="Månedlig grense (MB)";
+"trafficMeterDayTitleOnModifyPage"="Dag";
+"trafficMeterTimeTitleOnModifyPage"="Klokkeslett";
+"trafficMeterTimeOfHourLabelTitle"="Time";
+"trafficMeterTimeOfMinuteLabelTitle"="Minutt";
+"trafficMeterLimitModeTitleOnModifyPage"="Trafikkvolumgrense";
+"trafficMeterLimitModeTitleForSelectItemPage"="Kontrollmetode";
+"trafficMeterConterStartPrompt"="Starttid for trafikkmåler";
+
+//QR Code
+"qrCodeMainPageTitle"="QR-kode";
+"qrCodeCameraIsUnavailable"="Enheten kan ikke ta bilder eller skanne QR-koden.";
+"qrCodeScanBtnTitle"="Skann";
+"qrCodeWifiSSIDTitle"="SSID";
+"qrCodeWifiPasswordTitle"="Passord";
+"qrCodePromptUserHowToScaning"="Legg QR-koden innenfor rammen for å starte skanningen.";
+"qrCodePromptForGetWebAddressInfo"="Den åpner nettleseren med denne URL-adressen.";
+"qrCodePromptForFindURL"="URL funnet:";
+"qrCodePromptForOpenURL"="Vil du åpne den?";
+"qrCodePromptForGetWIFIInfo"="Passordet er kopiert til utklippstavlen. Velg Innstillinger > Wi-Fi for å koble til dette nettverket.";
+//my media
+
+
+//---------------------------------------------My media---------------------------------------------------
+"Loading My Media"="Laster inn mine medier";
+
+"Wait Message"="Vent litt...";
+"Media not support"="Mediefilformatet støttes ikke.";
+"No player find"="Finner ikke spiller. Hvis du vil spille av filer på denne enheten, går du til Alternativer og velger \"Tillat spilling på nettverk\".";
+
+"Select source"="Velg en kilde.";
+
+"Select player"="Velg en spiller.";
+
+"No device find"="Fant ingen delt enhet. Hvis du vil bruke denne funksjonen, må du aktivere fildelingsfunksjonen for enheter på nettverket, eller koble en USB-lagringsstasjon til ruteren hvis ruteren støtter USB-lagringstilkobling.";
+
+"Restart media"="Start medietjeneste på nytt";
+"Refresh source"="Oppdater kildemappe";
+"Share files"="Del filer på nettverk";
+
+"Allow play"="Tillat avspilling på nettverk";
+
+//Option界面 功能说明
+
+//media note:
+"myMediaOptionNote_title"="Merk:";
+"myMediaOptionNote_1"="Start medietjenesten på nytt når den innstillingen for det trådløse nettverket blir endret.";
+"myMediaOptionNote_2"="Del fil i nettverk for å gi folk tilgang til filer på denne enheten via nettverket.";
+"myMediaOptionNote_3"="Tillat at folk kan bruke denne enheten til å spille av filer via nettverket.";
+"myMediaOptionNote_4"="Trykk på Oppdater kildemappe hvis det blir gjort endringer i mediemappen(e).";
+
+
+//提示用户打开定位服务
+"Attention title"="Viktig";
+//"Attention content"="NOTE: To gain access to your iOS device's photos and videos you need to grant Location Services permission to Genie(Settings->Location Services->Genie shall be switched on). This behavior is enforced by iOS APIs.";
+
+"Attention content"="MERK: For å få tilgang til bilder og videoer på iOS-enheten, må du gi tillatelse for plasseringstjenester til genie. Hvis du vil gi denne tillatelsen, velger du Innstillinger > Plasseringstjenester > genie.";
+
+"tabBarLabelSource"="Kilde";
+"tabBarLabelPlayer"="Spiller";
+"tabBarLabelPlaying"="Spiller av";
+"titleOptions"="Alternativer";

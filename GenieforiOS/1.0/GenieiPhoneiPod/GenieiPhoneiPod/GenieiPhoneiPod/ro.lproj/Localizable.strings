@@ -1,0 +1,289 @@
+﻿/* 
+ Localizable.strings
+ GenieiPad
+ 
+ Created by cs Siteview on 12-3-10.
+ Copyright 2012年 __MyCompanyName__. All rights reserved.
+ */
+
+//约定： 所有的多语言的Key都以小写字母开头，并且都应该能通过其名称反应出其被使用的地方
+//general
+"cancel"="Anulare";
+"close"="Închidere";
+"ok"="OK";
+"login"="Conectare";
+"logout"="Deconectare";
+"back"="Înapoi";
+"save"="Salvare";
+
+///////////////////////
+//wait msg
+"wait"="Aºteptaþi...";
+"waitForLoadWirelessInfo"="Încărcare setări wireless";
+"waitForRefreshWirelessInfo"="Încărcare setări wireless";
+"waitForSetWirelessInfo"="Aºteptaþi...";
+"waitForLoadGuestInfo"="Încărcare acces vizitatori";
+"waitForRefreshGuestInfo"="Încărcare acces vizitatori";
+"waitForSetGuestInfo"="Aºteptaþi...";
+"waitForLoadNetworkMapInfo"="Încărcare hartă reţea";
+"waitForRefreshNetworkMapInfo"="Încărcare hartă reţea";
+"waitForSetNetworkMapInfo"="Aºteptaþi...";
+"waitForLoadTrafficMeterInfo"="Încărcare contor trafic";
+"waitForRefreshTrafficMeterInfo"="Încărcare contor trafic";
+"waitForSetTrafficMeterInfo"="Aºteptaþi...";
+
+"waitForLoadLPCInfo"="Încărcare comenzi parentale";
+"waitForRefreshLPCInfo"="Încărcare comenzi parentale";
+"waitForSetLPCEnableStatus"="Aºteptaþi...";
+"waitForSetLPCFilter"="Configurarea programului Live Parental Controls";
+"waitForSignInOpenDns"="Are loc conectarea la OpenDNS…";
+"waitForCreateOpenDNSAccount"="Se creează contul dvs. OpenDNS…";
+"waitForGetLPCAccountRelay"="În comunicare cu OpenDNS…";
+
+"msgForNoWIFI"="Conectaţi acest dispozitiv prin wireless la routerul NETGEAR, apoi încercaţi din nou.";
+"msgForNoInternet"="Nu este detectatã o conexiune la Internet.";
+"msgForNetworkError"="O problemă de reţea vă împiedică să vă conectaţi la serverul NETGEAR. Încercaţi din nou. Dacă v-aţi conectat deja, încercaţi să vă deconectaţi şi să vă conectaţi din nou.";
+"msgForRouterFirmwareNotSupport"="Routerul nu acceptă această funcţie.";
+"msgForNotNetgearRouter"="Routerul NETGEAR nu este găsit sau nu este <a href=http://www.netgear.com/landing/en-us/netgear-genie-routers.aspx>acceptat</a>.";
+"msgForLoginGeniePasskeyInvalid"="Conectarea a eşuat. Introduceţi din nou parola de admin corectă pentru routerul NETGEAR.";
+"msgForTimeout"="Acţiune expirată. Încercaţi din nou.";
+"msgForSetAndRebootRouter"="Modificarea setărilor poate întrerupe traficul activ din reţeaua wireless. Continuaţi?";
+"msgForSetAndRebootRouterSuccessed"="Setarea wireless a fost modificată cu succes. Alăturaţi-vă din nou reţelei dvs. wireless utilizând noua setare wireless şi conectaţi-vă la genie.";
+"msgForTimePeriodOutdate"="Accesul vizitatorilor este în curs de utilizare. Dezactivarea acestuia poate întrerupe traficul activ din reţeaua wireless. Continuaţi?";
+"msgForPasswordNoMatchUsername"="Parola nu corespunde acestui nume de utilizator Încercaţi din nou.";
+
+"msgForAskIfUserHaveOpenDNSAccount"="Pentru a seta Live Parental Controls, aveţi nevoie de un cont OpenDNS. Aveţi deja un cont?";
+"msgForOpenDNSHostIsNotAvailable"="Internetul nu este disponibil. Conectaţi-vă mai întâi routerul la Internet.";
+"msgForAuthenticationFailed"="Autentificare router eşuată. Reconectaţi-vă routerul.";
+"msgForLPCCheckUserNameNotAvailable"="Nume de utilizator indisponibil.";
+"msgForLPCSignInOpenDNSPassKeyWrong"="Nu recunoaştem acel nume de utilizator sau acea parolă.";
+"msgForLPCSignInOpenDNSDeviceIsNotMine"="Nume de utilizator indisponibil.";
+"msgForLPCCreateAccountUserNameFormatIllegal"="Numele de utilizator trebuie să înceapă şi să se sfârşească cu o literă sau o cifră şi poate conţine şi caracterele '.',  '-' şi '_'.";
+"msgForLPCCreateAccountPasswordLengthIllegal"="Parolele trebuie să conţină între 6 şi 20 de caractere.";
+"msgForLPCCreateAccountConfirmPasswordIllegal"="Confirmare parolă";
+"msgForLPCCreateAccountEmailFormatIllegal"="Adresă e-mail invalidă";
+"msgForLPCCreateAccountConfirmEmailIllegal"="Confirmare adresă e-mail";
+"msgForLPCCreateAccountEmailIsUnavailable"="Adresa e-mail a fost acceptată.";
+"msgForLPCCreateAccountFailed"="A avut loc o eroare la crearea contului dvs., încercaţi din nou.";
+"msgForLPCCreateAccountSuccessed"="Contul dvs. a fost creat cu succes!";
+
+"msgForSmartNetworkLoginKeyWrong"="Nume de utilizator sau parolă incorecte.";
+"msgForSmartNetworkForgetPasswordHTML"="<a href=https://genie.netgear.com/UserProfile/#ForgotPasswordPlace:>V-aţi uitat parola?</a>";
+"msgForSmartNetworkSignUpHTML"="Nu aveţi un ID? <a href=https://genie.netgear.com/UserProfile/#NewUserPlace:>Înregistrare.</a>";
+"msgForSmartNetworkNoRemoteRouterFound"="No devices were found. To activate your NETGEAR device in genie+ Marketplace:<br/>1. Make sure that your device supports genie+ Marketplace.<br/>2. From a web browser that is on the same local area network as your device (not remote), log into genie+ Marketplace <a href=https://genie.netgear.com>https://genie.netgear.com</a>.<br/>3. Click \"Activate\" on the device to activate it.";
+
+////////////////////////////////
+//HomePage
+"searchBarPlaceHolder"="Asistenţă la căutare";
+"wirelessSettingHomeBtnTitle"="Setãri wireless";
+"guestAccessHomeBtnTitle"="Acces vizitatori";
+"networkMapHomeBtnTitle"="Harta reţelei";
+"parentalControlsHomeBtnTitle"="Comenzi parentale";
+"trafficMeterHomeBtnTitle"="Contor trafic";
+"myMediaHomeBtnTitle"="Suport propriu";
+"qrCodeHomeBtnTitle"="Codul QR";
+"appStoreBtnTitle"="Marketplace";
+
+//login view
+"loginMainPageTitle"="Conectare";
+"loginMainPageModeSwitcherTitle"="autentificare de la distanță";
+"loginMainPageRouterAdminLabelTitle"="Nume utilizator";
+"loginMainPageSmartNetworkAccountLableTitle"="Adresă e-mail";
+"loginMainPagePasswordLabelTitle"="Parolã";
+"loginMainPageRememberMeSwitcherTitle"="Reţine-mă";
+"loginMainPageDefaultPasswordPrompt"="Implicită este \"password\"";
+
+"loginRemoteRouterListPageTitle"="Dispozitivele mele";
+"loginRemoteRouterListPageSerialLabelTtitle"="Serial";
+
+"loginRemoteRouterLoginPageTitle"="Conectare la router";
+"loginRemoteRouterLoginAccountTitle"="Nume utilizator";
+"loginRemoteRouterLoginPasswordTitle"="Parolã";
+"loginRemoteRouterLoginRememberMeSwitcherTitle"="Reţine-mă";
+
+"loginRemoteOnlineStatus"="Online";
+"loginRemoteOfflineStatus"="Offline";
+//about view
+"aboutDialogTitle"="Despre";
+"aboutDialogRouterModelTitle"="Model router";
+"aboutDialogFirmwareVersionTitle"="Versiune firmware";
+"aboutDialogGenieVersionTitle"="Versiune";
+"aboutDialogCopyRightInfo"="Copyright (c) 2012, NETGEAR Inc.";
+"aboutDialogAllRightInfo"="Toate drepturile rezervate.";
+"aboutDialogPoweredByInfo"="Bazat pe SiteView";
+"aboutDialogLicenseTitle"="Licenţă";
+//wireless setting
+"wirelessSettingInfoPageTitle"="Setări";
+
+"wirelessSSIDTitle"="Nume/SSID";
+"wirelessChannelTitle"="Canal";
+"wirelessPasswordTitle"="Cheie/Parolă";
+
+"wirelessSetPageTitle"="Editare setări";
+"wirelessSecurityModeTitle"="Securitate";
+"wirelessPasswordLengthLimitPrompt"="8-63 caractere sau 64 valori hexazecimale";
+//guest access
+"guestAccessInfoPageTitle"="Acces vizitatori";
+
+"guestAccessSwitcherTitle"="Acces vizitatori";
+"guestAccessSSIDTitle"="Nume/SSID";
+"guestAccessPasswordTitle"="Cheie/Parolă";
+"guestAccessTimePeriodTitle"="Perioadă de timp";
+
+"guestAccessSetPageTitle"="Setări vizitatori";
+"guestAccessSecurityModeTitle"="Securitate";
+"guestAccessPasswordLengthLimitPrompt"="8-63 caractere sau 64 valori hexazecimale";
+
+"timePeriodAllways"="Întotdeauna";
+"timePeriodOneHour"="1 oră";
+"timePeriodFiveHours"="5 ore";
+"timePeriodTenHours"="10 ore";
+"timePeriodOneDay"="1 zi";
+"timePeriodOneWeek"="1 săptămână";
+//network map
+"networkMapInfoPageTitle"="Harta reţelei";
+"networkMapInternetLableText"="Internet";
+"networkMapOnlineStatus"="Online";
+"networkMapOfflineStatus"="Offline";
+"networkMapDeviceInfoNameTitle"="Dispozitiv";
+"networkMapDeviceInfoTypeTitle"="Tip";
+"networkMapDeviceInfoFirmwareVersionTitle"="Versiune firmware";
+"networkMapDeviceInfoIpAddrTitle"="Adresă IP";
+"networkMapDeviceInfoStatusTitle"="Stare";
+"networkMapDeviceInfoSignalStengthTitle"="Intensitate semnal";
+"networkMapDeviceInfoLinkSpeedTitle"="Ratã legãturã";
+"networkMapDeviceInfoMacAddrTitle"="Adresã MAC";
+"networkMapDeviceInfoBlockTitle"="Blocare";
+"networkMapBlockSwitcherTitle"="Control acces";
+//lpc
+"lpcFirstPageForShowInfo"="Comenzi parentale";
+"lpcFirstPageForLogin"="OpenDNS";
+"lpcFirstPageForCreateAccount"="Creare cont OpenDNS gratuit";
+"lpcBtnTitleForLogin"="Conectare";
+"lpcBtnTitleForCreateAccount"="Create";
+
+"lpcCreateAccountPageUserNameTitle"="Nume utilizator";
+"lpcCreateAccountPagePasswordTitle"="Parolã";
+"lpcCreateAccountPageConfirmPasswordTitle"="Confirmare parolă";
+"lpcCreateAccountPageEmailTitle"="Adresă e-mail";
+"lpcCreateAccountPageConfirmEmailTitle"="Confirmare adresă e-mail";
+"lpcLoginPageUserNameTitle"="Nume utilizator";
+"lpcLoginPagePasswordTitle"="Parolã";
+"lpcShowInfoPageSwitcherTitle"="Comenzi parentale";
+"lpcShowInfoPageFilteringLevelTitle"="Nivel de filtrare";
+"lpcShowInfoPageCustomSettingTitle"="Modificare setări personalizate";
+"lpcShowInfoPageOpenDNSAccountTitle"="Cont OpenDNS";
+"lpcShowInfoPageBypassAccountTitle"="Bypass Account";
+
+"lpcAskUserHadOpenDNSAccountBtnYESTitle"="Da";
+"lpcAskUserHadOpenDNSAccountBtnNOTitle"="Nu";
+
+"lpcFilterLevelPageTitle"="Nivel de filtrare";
+"lpcFilterLevelHighTitle"="Înalt";
+"lpcFilterLevelModerateTitle"="Moderat";
+"lpcFilterLevelLowTitle"="Scãzut";
+"lpcFilterLevelMinimalTitle"="Minim";
+"lpcFilterLevelNoneTitle"="Fără";
+"lpcFilterLevelCustomTitle"="Personalizat";
+
+"lpcFilterLevelHithDescription"="Protejează împotriva tuturor site-urilor cu conţinut adult, a activităţilor ilegale, a site-urilor de socializare, a site-urilor de partajare de materiale video, a atacurilor de tip phishing şi a site-urilor generale de divertisment.";
+"lpcFilterLevelModerateDescription"="Protejează împotriva tuturor site-urilor cu conţinut adult, a activităţilor ilegale şi a atacurilor de tip phishing.";
+"lpcFilterLevelLowDescription"="Protejează împotriva pornografiei şi a atacurilor de tip phishing.";
+"lpcFilterLevelMinimalDescription"="Protejează împotriva atacurilor de tip phishing.";
+"lpcFilterLevelNoneDescription"="Nu se blochează nimic.";
+
+"lpcBypassAccountListPageTitle"="Bypass Account";
+"lpcBypassAccountLoginAccountLabel"="Bypass Account";
+"lpcBypassAccountLoginPasswordLabel"="Parolã";
+"lpcBypassAccountLogoutPageTitle"="Bypass Account";
+"lpcBypassAccountPromptOfLoggedIn"="Sunteţi conectat ca";
+
+//traffic
+"trafficMeterInfoPageTitle"="Contor trafic";
+
+"trafficMeterNoLimit"="Nelimitat";
+"trafficMeterDownloadLimit"="Doar descãrcare";
+"trafficMeterBothLimit"="Descărcare şi încărcare";
+
+"trafficMeterSwitchTitle"="Contor trafic";
+"trafficMeterMonthlyLimitTitleOnInfoPage"="Limită lunară (MB)";
+"trafficMeterDayTitleOnInfoPage"="Zi de pornire contor";
+"trafficMeterTimeTitleOnInfoPage"="Oră de pornire contor";
+"trafficMeterLimitModeTitleOnInfoPage"="Limită volum trafic";
+
+"trafficMeterTotalInfoDiagramSubject" = "Total";
+"trafficMeterAverageInfoDiagramSubject" = "Average";
+"trafficMeterDiagramUnitTitle" = "Mbytes";
+"trafficMeterCategoryToday" = "Today";
+"trafficMeterCategoryYesterday" = "Yesterday";
+"trafficMeterCategoryThisWeek" = "This week";
+"trafficMeterCategoryThisMonth" = "This month";
+"trafficMeterCategoryLastMonth" = "Last month";
+"trafficMeterPromptUpload" = "Upload";
+"trafficMeterPromptDownload" = "Download";
+
+
+"trafficMeterSetPageTitle"="Contor trafic";
+"trafficMeterMonthlyLimitTitleOnModifyPage"="Limită lunară (MB)";
+"trafficMeterDayTitleOnModifyPage"="Zi";
+"trafficMeterTimeTitleOnModifyPage"="Orã";
+"trafficMeterTimeOfHourLabelTitle"="Orã";
+"trafficMeterTimeOfMinuteLabelTitle"="Minut";
+"trafficMeterLimitModeTitleOnModifyPage"="Limită volum trafic";
+"trafficMeterLimitModeTitleForSelectItemPage"="Metodă de control";
+"trafficMeterConterStartPrompt"="Ora de pornire contor trafic";
+
+//QR Code
+"qrCodeMainPageTitle"="Codul QR";
+"qrCodeCameraIsUnavailable"="Dispozitivul dvs. nu poate realiza fotografii şi nu poate scana Codul QR.";
+"qrCodeScanBtnTitle"="Scanare";
+"qrCodeWifiSSIDTitle"="SSID";
+"qrCodeWifiPasswordTitle"="Parolã";
+"qrCodePromptUserHowToScaning"="Aliniaţi codul QR în cadru pentru a porni scanarea.";
+"qrCodePromptForGetWebAddressInfo"="Acesta va deschide browser-ul cu acest URL.";
+"qrCodePromptForFindURL"="URL găsit:";
+"qrCodePromptForOpenURL"="Doriţi să-l deschideţi?";
+"qrCodePromptForGetWIFIInfo"="Parola este copiată pe clipboard. Pentru a conecta această reţea, selectaţi Setări > Wi-Fi.";
+//my media
+
+
+//---------------------------------------------My media---------------------------------------------------
+"Loading My Media"="Încărcare Suport propriu";
+
+"Wait Message"="Aºteptaþi...";
+"Media not support"="Formatul de fişier media nu este acceptat.";
+"No player find"="Niciun player găsit. Pentru a reda fişiere pe acest dispozitiv, mergeţi la Opţiuni şi selectaţi \"Permitere redare în reţea.\"";
+
+"Select source"="Vă rugăm să selectaţi o sursă.";
+
+"Select player"="Vă rugăm să selectaţi un player.";
+
+"No device find"="Nu a fost găsit niciun dispozitiv partajat. Pentru a utiliza această caracteristică, trebuie să activaţi caracteristica de partajare fişiere pentru dispozitivele din reţea sau să conectaţi o unitate de stocare USB la router dacă routerul acceptă conexiunea de stocare USB.";
+
+"Restart media"="Repornire serviciu media";
+"Refresh source"="Reîmprospătare folder sursă";
+"Share files"="Partajare fişiere în reţea";
+
+"Allow play"="Permitere redare în reţea";
+
+//Option界面 功能说明
+
+//media note:
+"myMediaOptionNote_title"="Notă:";
+"myMediaOptionNote_1"="Repornire serviciu media la modificarea setării reţelei wireless.";
+"myMediaOptionNote_2"="Partajare fişiere în reţea pentru a permite accesul persoanelor din reţea la fişierele de pe acest dispozitiv.";
+"myMediaOptionNote_3"="Permitere utilizare acest dispozitiv de către persoane pentru a reda fişiere în reţea.";
+"myMediaOptionNote_4"="Atingeţi Reîmprospătare folder sursă dacă există orice modificare a folderului/folderelor media.";
+
+
+//提示用户打开定位服务
+"Attention title"="Atenţie vă rugăm";
+//"Attention content"="NOTE: To gain access to your iOS device's photos and videos you need to grant Location Services permission to Genie(Settings->Location Services->Genie shall be switched on). This behavior is enforced by iOS APIs.";
+
+"Attention content"="NOTĂ: Pentru a obţine acces la fotografii şi clipuri video de pe dispozitivului dvs. iOS, trebuie să acordaţi genie permisiunea pentru Servicii de locaţie. Pentru a acorda această permisiune, selectaţi Setări > Servicii de locaţie > genie.";
+
+"Attention content6"="NOTĂ: Pentru a obţine acces la fotografii şi clipuri video de pe dispozitivului dvs. iOS, trebuie să acordaţi genie permisiunea pentru Servicii de locaţie. Pentru a acorda această permisiune, selectaţi Setări > intimitate > Servicii de locaţie > genie.";
+"tabBarLabelSource"="Sursă";
+"tabBarLabelPlayer"="Player";
+"tabBarLabelPlaying"="Redare";
+"titleOptions"="Opţiuni";

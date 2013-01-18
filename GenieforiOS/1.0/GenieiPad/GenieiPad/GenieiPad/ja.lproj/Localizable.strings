@@ -1,0 +1,286 @@
+﻿/* 
+ Localizable.strings
+ GenieiPad
+ 
+ Created by cs Siteview on 12-3-10.
+ Copyright 2012年 __MyCompanyName__. All rights reserved.
+ */
+
+//约定： 所有的多语言的Key都以小写字母开头，并且都应该能通过其名称反应出其被使用的地方
+//general
+"cancel"="キャンセル";
+"close"="閉じる";
+"ok"="OK";
+"login"="ログイン";
+"logout"="ログアウト";
+"back"="戻る";
+"save"="保存";
+
+///////////////////////
+//wait msg
+"wait"="お待ちくださ...";
+"waitForLoadWirelessInfo"="ワイヤレス設定を読み込み中";
+"waitForRefreshWirelessInfo"="ワイヤレス設定を読み込み中";
+"waitForSetWirelessInfo"="お待ちくださ...";
+"waitForLoadGuestInfo"="ゲストアクセスを読み込み中";
+"waitForRefreshGuestInfo"="ゲストアクセスを読み込み中";
+"waitForSetGuestInfo"="お待ちくださ...";
+"waitForLoadNetworkMapInfo"="ネットワークマップを読み込み中";
+"waitForRefreshNetworkMapInfo"="ネットワークマップを読み込み中";
+"waitForSetNetworkMapInfo"="お待ちくださ...";
+"waitForLoadTrafficMeterInfo"="トラフィックメーターを読み込み中";
+"waitForRefreshTrafficMeterInfo"="トラフィックメーターを読み込み中";
+"waitForSetTrafficMeterInfo"="お待ちくださ...";
+
+"waitForLoadLPCInfo"="ペアレンタルコントロールを読み込み中";
+"waitForRefreshLPCInfo"="ペアレンタルコントロールを読み込み中";
+"waitForSetLPCEnableStatus"="お待ちくださ...";
+"waitForSetLPCFilter"="ライブペアレンタルコントロールのセットアップ";
+"waitForSignInOpenDns"="OpenDNSにサインイン…";
+"waitForCreateOpenDNSAccount"="OpenDNSアカウントを作成しています";
+"waitForGetLPCAccountRelay"="OpenDNSと通信しています…";
+
+"msgForNoWIFI"="このデバイスをワイヤレスでNETGEARルータに接続し、やり直してください。";
+"msgForNoInternet"="インターネット接続が検出されませんでした。";
+"msgForNetworkError"="ネットワークの問題で NETGEAR サーバーに接続できません。 やり直してください。 すでにログイン済みの場合、ログアウトしてから再度ログインしてください。";
+"msgForRouterFirmwareNotSupport"="ルータはこの機能に対応していません。";
+"msgForNotNetgearRouter"="NETGEAR ルーターが検出されない、または <a href=http://www.netgear.com/landing/en-us/netgear-genie-routers.aspx>対応</a>していません。";
+"msgForLoginGeniePasskeyInvalid"="ログインに失敗しました。NETGEARルータの正しい管理者パスワードをもう一度入力してください。";
+"msgForTimeout"="操作がタイムアウトしました。 やり直してください。";
+"msgForSetAndRebootRouter"="設定を変更すると現在実行中の無線通信が一時的に中断される場合があります。 続けますか？";
+"msgForSetAndRebootRouterSuccessed"="ワイヤレス設定が正常に変更されました。新しいワイヤレス設定を使用してワイヤレスネットワークに再接続し、genieにログインしてください。";
+"msgForTimePeriodOutdate"="ゲストアクセスは使用中です。 無効にすると、ワイヤレスネットワークの現在のトラフィックが切断される可能性があります。 続けますか？";
+"msgForPasswordNoMatchUsername"="ユーザー名とパスワードが一致しません。やり直してください。";
+
+"msgForAskIfUserHaveOpenDNSAccount"="ライブペアレンタルコントロールを設定するには、OpenDNSアカウントが必要です。アカウントをお持ちですか？";
+"msgForOpenDNSHostIsNotAvailable"="インターネットが利用できません。ルーターをインターネットに接続してください。";
+"msgForAuthenticationFailed"="ルーター認証に失敗しました。再度ログインしてください。";
+"msgForLPCCheckUserNameNotAvailable"="ユーザー名が使用できません。";
+"msgForLPCSignInOpenDNSPassKeyWrong"="ユーザー名またはパスワードが認識されませんでした。";
+"msgForLPCSignInOpenDNSDeviceIsNotMine"="ユーザー名が使用できません。";
+"msgForLPCCreateAccountUserNameFormatIllegal"="ユーザー名の最初と最後は文字または数字に設定する必要があります。ユーザー名は、 \".\"、\"-\"、\"_\"を含むことができます。";
+"msgForLPCCreateAccountPasswordLengthIllegal"="パスワードは6～20文字（半角）である必要があります。";
+"msgForLPCCreateAccountConfirmPasswordIllegal"="パスワード再入力";
+"msgForLPCCreateAccountEmailFormatIllegal"="無効なメール";
+"msgForLPCCreateAccountConfirmEmailIllegal"="メール再入力";
+"msgForLPCCreateAccountEmailIsUnavailable"="Eメールは受け取られました。";
+"msgForLPCCreateAccountFailed"="アカウント作成時にエラーが発生しました。やり直してください。";
+"msgForLPCCreateAccountSuccessed"="アカウントが作成されました。";
+
+"msgForSmartNetworkLoginKeyWrong"="ユーザ名またはパスワードが無効です。";
+"msgForSmartNetworkForgetPasswordHTML"="<a href=https://genie.netgear.com/UserProfile/#ForgotPasswordPlace:>パスワードを忘れた場合</a>";
+"msgForSmartNetworkSignUpHTML"="ID をお持ちでない場合 <a href=https://genie.netgear.com/UserProfile/#NewUserPlace:>サインアップしてください。</a>";
+"msgForSmartNetworkNoRemoteRouterFound" = "No devices were found. To activate your NETGEAR device in genie+ Marketplace:<br/>1. Make sure that your device supports genie+ Marketplace.<br/>2. From a web browser that is on the same local area network as your device (not remote), log into genie+ Marketplace <a href=https://genie.netgear.com>https://genie.netgear.com</a>.<br/>3. Click \"Activate\" on the device to activate it."; 
+////////////////////////////////
+//HomePage
+"searchBarPlaceHolder"="検索サポート";
+"wirelessSettingHomeBtnTitle"="ワイヤレス設定";
+"guestAccessHomeBtnTitle"="ゲストアクセス";
+"networkMapHomeBtnTitle"="ネットワークマップ";
+"parentalControlsHomeBtnTitle"="ペアレンタルコントロール";
+"trafficMeterHomeBtnTitle"="トラフィックメーター";
+"myMediaHomeBtnTitle"="マイメディア";
+"qrCodeHomeBtnTitle"="QR コード";
+"appStoreBtnTitle"="Marketplace";
+
+//login view
+"loginMainPageTitle"="ログイン";
+"loginMainPageModeSwitcherTitle"="リモートログイン";
+"loginMainPageRouterAdminLabelTitle"="ユーザ名";
+"loginMainPageSmartNetworkAccountLableTitle"="メール";
+"loginMainPagePasswordLabelTitle"="パスワード";
+"loginMainPageRememberMeSwitcherTitle"="覚えておいてください。";
+"loginMainPageDefaultPasswordPrompt"="デフォルトは\"password\"です。";
+
+"loginRemoteRouterListPageTitle"="マイデバイス";
+"loginRemoteRouterListPageSerialLabelTtitle"="シリアル";
+
+"loginRemoteRouterLoginPageTitle"="ルータログイン";
+"loginRemoteRouterLoginAccountTitle"="ユーザ名";
+"loginRemoteRouterLoginPasswordTitle"="パスワード";
+"loginRemoteRouterLoginRememberMeSwitcherTitle"="覚えておいてください。";
+
+"loginRemoteOnlineStatus"="オンライン";
+"loginRemoteOfflineStatus"="オフライン";
+//about view
+"aboutDialogTitle"="バージョン情報";
+"aboutDialogRouterModelTitle"="ルータモデル";
+"aboutDialogFirmwareVersionTitle"="ファームウェアバージョン";
+"aboutDialogGenieVersionTitle"="バージョン";
+"aboutDialogCopyRightInfo"="Copyright (c) 2012, NETGEAR Inc.";
+"aboutDialogAllRightInfo"="All Rights Reserved.";
+"aboutDialogPoweredByInfo"="Powered by SiteView";
+"aboutDialogLicenseTitle"="ライセンス";
+//wireless setting
+"wirelessSettingInfoPageTitle"="設定";
+
+"wirelessSSIDTitle"="ネットワーク名 (SSID)";
+"wirelessChannelTitle"="チャンネル";
+"wirelessPasswordTitle"="キー/パスワード";
+
+"wirelessSetPageTitle"="設定の編集";
+"wirelessSecurityModeTitle"="セキュリティ";
+"wirelessPasswordLengthLimitPrompt"="8～63文字または64桁の16進数値";
+//guest access
+"guestAccessInfoPageTitle"="ゲストアクセス";
+
+"guestAccessSwitcherTitle"="ゲストアクセス";
+"guestAccessSSIDTitle"="ネットワーク名 (SSID)";
+"guestAccessPasswordTitle"="キー/パスワード";
+"guestAccessTimePeriodTitle"="時間帯";
+
+"guestAccessSetPageTitle"="ゲスト設定";
+"guestAccessSecurityModeTitle"="セキュリティ";
+"guestAccessPasswordLengthLimitPrompt"="8～63文字または64桁の16進数値";
+
+"timePeriodAllways"="常にブロック";
+"timePeriodOneHour"="1時間";
+"timePeriodFiveHours"="5時間";
+"timePeriodTenHours"="10時間";
+"timePeriodOneDay"="1日";
+"timePeriodOneWeek"="1週間";
+//network map
+"networkMapInfoPageTitle"="ネットワークマップ";
+"networkMapInternetLableText"="インターネット";
+"networkMapOnlineStatus"="オンライン";
+"networkMapOfflineStatus"="オフライン";
+"networkMapDeviceInfoNameTitle"="デバイス";
+"networkMapDeviceInfoTypeTitle"="タイプ";
+"networkMapDeviceInfoFirmwareVersionTitle"="ファームウェアバージョン";
+"networkMapDeviceInfoIpAddrTitle"="IPアドレス";
+"networkMapDeviceInfoStatusTitle"="ステータス";
+"networkMapDeviceInfoSignalStengthTitle"="信号強度";
+"networkMapDeviceInfoLinkSpeedTitle"="接続速度";
+"networkMapDeviceInfoMacAddrTitle"="MACアドレス";
+"networkMapDeviceInfoBlockTitle"="禁止";
+"networkMapBlockSwitcherTitle"="アクセス制御";
+//lpc
+"lpcFirstPageForShowInfo"="ペアレンタルコントロール";
+"lpcFirstPageForLogin"="OpenDNS";
+"lpcFirstPageForCreateAccount"="\"無料のOpenDNSアカウントを作成";
+"lpcBtnTitleForLogin"="ログイン";
+"lpcBtnTitleForCreateAccount"="Create";
+
+"lpcCreateAccountPageUserNameTitle"="ユーザ名";
+"lpcCreateAccountPagePasswordTitle"="パスワード";
+"lpcCreateAccountPageConfirmPasswordTitle"="パスワード再入力";
+"lpcCreateAccountPageEmailTitle"="メール";
+"lpcCreateAccountPageConfirmEmailTitle"="メール再入力";
+"lpcLoginPageUserNameTitle"="ユーザ名";
+"lpcLoginPagePasswordTitle"="パスワード";
+"lpcShowInfoPageSwitcherTitle"="ペアレンタルコントロール";
+"lpcShowInfoPageFilteringLevelTitle"="フィルタリングレベル";
+"lpcShowInfoPageCustomSettingTitle"="カスタム設定を変更";
+"lpcShowInfoPageOpenDNSAccountTitle"="OpenDNSアカウント";
+"lpcShowInfoPageBypassAccountTitle"="Bypass Account";
+
+"lpcAskUserHadOpenDNSAccountBtnYESTitle"="はい。";
+"lpcAskUserHadOpenDNSAccountBtnNOTitle"="いいえ";
+
+"lpcFilterLevelPageTitle"="フィルタリングレベル";
+"lpcFilterLevelHighTitle"="高";
+"lpcFilterLevelModerateTitle"="中";
+"lpcFilterLevelLowTitle"="低";
+"lpcFilterLevelMinimalTitle"="最小";
+"lpcFilterLevelNoneTitle"="なし";
+"lpcFilterLevelCustomTitle"="カスタム";
+
+"lpcFilterLevelHithDescription"="すべてのアダルト関連サイト、不法行為、ソーシャルネットワーキングサイト、ビデオ共有サイト、フィッシング、攻撃、一般的に無価値なサイト防止する。";
+"lpcFilterLevelModerateDescription"="すべてのアダルト関連サイト、不法行為、フィッシング攻撃を防止する。";
+"lpcFilterLevelLowDescription"="ポルノおよびフィッシング攻撃を防止する。";
+"lpcFilterLevelMinimalDescription"="フィッシング攻撃のみ防止する。";
+"lpcFilterLevelNoneDescription"="防止しない。";
+
+"lpcBypassAccountListPageTitle"="Bypass Account";
+"lpcBypassAccountLoginAccountLabel"="Bypass Account";
+"lpcBypassAccountLoginPasswordLabel"="パスワード";
+"lpcBypassAccountLogoutPageTitle"="Bypass Account";
+"lpcBypassAccountPromptOfLoggedIn"="次のユーザーとしてログインしています：";
+
+//traffic
+"trafficMeterInfoPageTitle"="トラフィックメーター";
+
+"trafficMeterNoLimit"="無制限";
+"trafficMeterDownloadLimit"="ダウンロードのみ";
+"trafficMeterBothLimit"="ダウンロード & アップロード";
+
+"trafficMeterSwitchTitle"="トラフィックメーター";
+"trafficMeterMonthlyLimitTitleOnInfoPage"="月次制限 (MB)";
+"trafficMeterDayTitleOnInfoPage"="カウンター開始日";
+"trafficMeterTimeTitleOnInfoPage"="カウンター開始時刻";
+"trafficMeterLimitModeTitleOnInfoPage"="トラフィック容量制限";
+
+"trafficMeterTotalInfoDiagramSubject" = "Total";
+"trafficMeterAverageInfoDiagramSubject" = "Average";
+"trafficMeterDiagramUnitTitle" = "Mbytes";
+"trafficMeterCategoryToday" = "Today";
+"trafficMeterCategoryYesterday" = "Yesterday";
+"trafficMeterCategoryThisWeek" = "This week";
+"trafficMeterCategoryThisMonth" = "This month";
+"trafficMeterCategoryLastMonth" = "Last month";
+"trafficMeterPromptUpload" = "Upload";
+"trafficMeterPromptDownload" = "Download";
+
+"trafficMeterSetPageTitle"="トラフィックメーター";
+"trafficMeterMonthlyLimitTitleOnModifyPage"="月次制限 (MB)";
+"trafficMeterDayTitleOnModifyPage"="日";
+"trafficMeterTimeTitleOnModifyPage"="時刻";
+"trafficMeterTimeOfHourLabelTitle"="時間";
+"trafficMeterTimeOfMinuteLabelTitle"="分";
+"trafficMeterLimitModeTitleOnModifyPage"="トラフィック容量制限";
+"trafficMeterLimitModeTitleForSelectItemPage"="制御法";
+"trafficMeterConterStartPrompt"="トラフィックメーター開始時刻";
+
+//QR Code
+"qrCodeMainPageTitle"="QR コード";
+"qrCodeCameraIsUnavailable"="デバイスが写真を撮影できない、または QR コードをスキャンできません。";
+"qrCodeScanBtnTitle"="スキャン";
+"qrCodeWifiSSIDTitle"="SSID";
+"qrCodeWifiPasswordTitle"="パスワード";
+"qrCodePromptUserHowToScaning"="QR コードを枠内に捉えるとスキャンを開始します。";
+"qrCodePromptForGetWebAddressInfo"="この URL でブラウザーを開きます。";
+"qrCodePromptForFindURL"="URL が見つかりました：";
+"qrCodePromptForOpenURL"="開きますか？";
+"qrCodePromptForGetWIFIInfo"="パスワードがクリップボードにコピーされます。 このネットワークに接続するには、［設定］>［Wi-Fi］を選択します。";
+//my media
+
+
+//---------------------------------------------My media---------------------------------------------------
+"Loading My Media"="マイメディアを読み込んでいます";
+
+"Wait Message"="お待ちくださ...";
+"Media not support"="メディアファイル形式がサポートされていません。";
+"No player find"="プレイヤーが見つかりません。このデバイスでファイルを再生するには、［オプション］を開き、\［ネットワークで再生を許可\］を選択します。";
+
+"Select source"="ソースを選択してください。";
+
+"Select player"="プレイヤーを選択してください。";
+
+"No device find"="共有デバイスが見つかりませんでした。この機能を使用するには、ネットワーク中のデバイスのファイル共有機能を有効にするか、ルーターがUSB接続をサポートしている場合、USBドライブをルーターに接続する必要があります。";
+
+"Restart media"="メディアサービスを再起動";
+"Refresh source"="ソースフォルダーを更新";
+"Share files"="ネットワークでファイルを共有";
+
+"Allow play"="ネットワークで再生を許可";
+
+//Option界面 功能说明
+
+//media note:
+"myMediaOptionNote_title"="メモ:";
+"myMediaOptionNote_1"="ワイヤレスネットワーク設定が変更されたときメディアサービスを再起動します。";
+"myMediaOptionNote_2"="［ネットワークでファイルを共有］は、ネットワーク上でこのデバイス上のファイルにアクセスできるようにします。";
+"myMediaOptionNote_3"="このデバイスを使用してネットワーク上でファイルを再生できるようにします。";
+"myMediaOptionNote_4"="メディアフォルダーに変更があった場合は［ソースフォルダーを更新］をタップします。";
+
+
+//提示用户打开定位服务
+"Attention title"="ご注意ください";
+//"Attention content"="NOTE: To gain access to your iOS device's photos and videos you need to grant Location Services permission to Genie(Settings->Location Services->Genie shall be switched on). This behavior is enforced by iOS APIs.";
+
+"Attention content"="メモ: iOS 端末上の写真やビデオにアクセスできるようにするには、genieで位置情報サービスを有効にする必要があります。 有効にするには、［設定］>［位置情報サービス］>［genie］を選択します。";
+
+"tabBarLabelSource"="ソース";
+"tabBarLabelPlayer"="プレイヤー";
+"tabBarLabelPlaying"="再生中";
+"titleOptions"="オプション";
