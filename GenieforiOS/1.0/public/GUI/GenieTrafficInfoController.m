@@ -265,10 +265,12 @@
 {
     if (UIInterfaceOrientationIsPortrait(orientation))
     {
+        self.view.backgroundColor = BACKGROUNDCOLOR;
         m_tableview.frame = CGRectMake(CGZero, CGZero, iOSDeviceScreenWidth, iOSDeviceScreenHeight-iOSStatusBarHeight-Navi_Bar_Height_Portrait);
     }
     else if (UIInterfaceOrientationIsLandscape(orientation))
     {
+        self.view.backgroundColor = BACKGROUNDCOLOR;
         m_tableview.frame = CGRectMake(CGZero, CGZero, iOSDeviceScreenHeight, iOSDeviceScreenWidth-iOSStatusBarHeight-Navi_Bar_Height_Landscape);
     }
 }

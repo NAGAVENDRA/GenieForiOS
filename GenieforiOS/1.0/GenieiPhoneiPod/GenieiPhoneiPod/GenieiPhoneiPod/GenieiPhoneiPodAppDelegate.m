@@ -133,10 +133,29 @@
 
 - (void)dealloc
 {
-      [GenieRootController release];
+    [GenieRootController release];
     [GenieHelper ReleaseInstance];
     [GenieHelper ReleaseCoreData];
     [_window release];
     [super dealloc];
 }
+@end
+
+@implementation UINavigationController (Rotation_IOS6)
+
+-(BOOL)shouldAutorotate
+{
+    return [[self.viewControllers lastObject] shouldAutorotate];
+}
+
+-(NSUInteger)supportedInterfaceOrientations
+{
+    return [[self.viewControllers lastObject] supportedInterfaceOrientations];
+}
+
+- (UIInterfaceOrientation)preferredInterfaceOrientationForPresentation
+{
+    return [[self.viewControllers lastObject] preferredInterfaceOrientationForPresentation];
+}
+
 @end

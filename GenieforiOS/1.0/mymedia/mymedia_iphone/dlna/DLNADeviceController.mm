@@ -218,10 +218,12 @@ static BOOL isMoviePlayControllerHidded = YES;
 {
     if (orientation == UIInterfaceOrientationPortrait || orientation == UIInterfaceOrientationPortraitUpsideDown)
     {
+        self.view.backgroundColor = [UIColor colorWithWhite:.1 alpha:1];
         self.view.frame = VerticalScreen;
     }
     else
     {
+        self.view.backgroundColor = [UIColor colorWithWhite:.1 alpha:1];
         self.view.frame = HorizonScreen;
     }
     [self transformViewTo:orientation];

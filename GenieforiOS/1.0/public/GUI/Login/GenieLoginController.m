@@ -32,7 +32,7 @@
 #define KeyLabelFrame           CGRectMake(0, 0, LabelLength, DefaultRowHeight)
 #define TextFieldFrame          CGRectMake(0, 0, LoginPanelWidth - LabelLength, DefaultRowHeight)
 
-#define GENIE_TEST
+//#define GENIE_TEST
 @implementation GenieLoginController
 
 
@@ -497,10 +497,12 @@
 {
     if (UIInterfaceOrientationIsPortrait(orientation))
     {
+        self.view.backgroundColor = BACKGROUNDCOLOR;
         m_view.frame = CGRectMake(CGZero, CGZero, iOSDeviceScreenWidth, iOSDeviceScreenHeight-iOSStatusBarHeight-Navi_Bar_Height_Portrait);
     }
     else if (UIInterfaceOrientationIsLandscape(orientation))
     {
+        self.view.backgroundColor = BACKGROUNDCOLOR;
         m_view.frame = CGRectMake(CGZero, CGZero, iOSDeviceScreenHeight, iOSDeviceScreenWidth-iOSStatusBarHeight-Navi_Bar_Height_Landscape);
     }
     [self adjustLoginPanelWithOrientation:orientation];
