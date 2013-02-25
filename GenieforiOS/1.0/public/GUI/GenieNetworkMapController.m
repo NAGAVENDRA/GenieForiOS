@@ -194,7 +194,7 @@ static GenieDeviceInfo* g_activeCustomDevice = nil;//全局指针，指向当前
 }
 - (void) viewWillDisappear:(BOOL)animated
 {
-    [self saveUserCustomInfo];
+  //  [self saveUserCustomInfo];
 }
 #pragma mark -----------------
 - (BOOL)shouldAutorotate
@@ -773,6 +773,8 @@ static GenieDeviceInfo* g_activeCustomDevice = nil;//全局指针，指向当前
     [g_panelView release];
     g_panelView = nil;
     [self cachingUserCustomInfo];
+    
+    [self saveUserCustomInfo];
 }
 - (void) panelView:(GPanelView*)panelView clickBtnWithBtnIndex:(NSInteger)index
 {

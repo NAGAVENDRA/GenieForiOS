@@ -279,6 +279,9 @@ NSString *DEFAULT_LOCAL_PATH = @"/soap/server_sa/";
 		"<SOAP-ENV:Envelope xmlns:SOAP-ENV=\"http://schemas.xmlsoap.org/soap/envelope/\">\r\n"
 		"<SOAP-ENV:Header>\r\n"
 		"<SessionID>%@</SessionID>\r\n"
+        "<connection: keep-Alive>\r\n"
+        "<Cache-Control: no-cache>\r\n"
+        "<Pragma: no-cache>\r\n"
 		"</SOAP-ENV:Header>\r\n"
 		"<SOAP-ENV:Body>\r\n"
 		"%@\r\n"
@@ -335,6 +338,9 @@ NSString *DEFAULT_LOCAL_PATH = @"/soap/server_sa/";
 	[req setValue:@"text/xml" forHTTPHeaderField:@"Accept"];
 	[req setValue:soapAction forHTTPHeaderField:@"SOAPAction"];
 	[req setValue:@"text/xml; charset=utf-8" forHTTPHeaderField:@"Content-Type"];
+    [req setValue:@"Keep-Alive" forHTTPHeaderField:@"Connection"];
+    [req setValue:@"no-cache" forHTTPHeaderField:@"Cache-Control"];
+    [req setValue:@"no-cache" forHTTPHeaderField:@"Pragma"];
 	[req setValue:[NSString stringWithFormat:@"%d", soapTextLen] forHTTPHeaderField:@"Content-Length"];
 	//[req setValue:@"Keep-Alive" forHTTPHeaderField:@"Connection"];
 	//[req setValue:@"gzip" forHTTPHeaderField:@"Accept-Encoding"];
@@ -670,6 +676,17 @@ NSString *DEFAULT_LOCAL_PATH = @"/soap/server_sa/";
 	if ([op succeeded]) {
 		m_succeeded = YES;
 		m_responseCode = [op responseCode];
+        if (m_responseCode == -1)
+        {
+            if (m_activePort == 80)
+            {
+                m_activePort = 5000;
+            }
+            else
+            {
+                m_activePort = 80;
+            }
+        }
 		[m_result addEntriesFromDictionary:[op result]];
 		[m_core adjustPort:m_activePort];
 		[self notifyFinished];

@@ -2220,9 +2220,9 @@
 		F6A2B229150B204400916094 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = "$(ARCHS_UNIVERSAL_IPHONE_OS)";
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CODE_SIGN_IDENTITY = "iPhone Developer: dragon flow (V2DSY6KBFJ)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: dragon flow (V2DSY6KBFJ)";
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -2234,6 +2234,8 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
+				PROVISIONING_PROFILE = "CA366FF7-131A-4A28-A993-4A2FCB4C18FA";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "CA366FF7-131A-4A28-A993-4A2FCB4C18FA";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = 2;
 			};
@@ -2242,9 +2244,9 @@
 		F6A2B22A150B204400916094 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = "$(ARCHS_UNIVERSAL_IPHONE_OS)";
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CODE_SIGN_IDENTITY = "iPhone Developer: dragon flow (V2DSY6KBFJ)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: dragon flow (V2DSY6KBFJ)";
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					DLNACORE_PLATFORM_IOS,
@@ -2255,6 +2257,8 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PROVISIONING_PROFILE = "CA366FF7-131A-4A28-A993-4A2FCB4C18FA";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "CA366FF7-131A-4A28-A993-4A2FCB4C18FA";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = 2;
 			};
@@ -2264,8 +2268,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = YES;
-				CODE_SIGN_IDENTITY = "iPhone Distribution: DRAGONFLOW NETWORK, INC.";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: DRAGONFLOW NETWORK, INC.";
+				CODE_SIGN_IDENTITY = "iPhone Developer: dragon flow (V2DSY6KBFJ)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: dragon flow (V2DSY6KBFJ)";
 				COPY_PHASE_STRIP = NO;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
@@ -2282,8 +2286,8 @@
 					"\"$(SRCROOT)/../../public/GUI/googlePlus\"",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "7CAE786A-8F61-493E-9A06-6358EEB10F6D";
-				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "7CAE786A-8F61-493E-9A06-6358EEB10F6D";
+				PROVISIONING_PROFILE = "CA366FF7-131A-4A28-A993-4A2FCB4C18FA";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "CA366FF7-131A-4A28-A993-4A2FCB4C18FA";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -2292,8 +2296,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = YES;
-				CODE_SIGN_IDENTITY = "iPhone Distribution: DRAGONFLOW NETWORK, INC.";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: DRAGONFLOW NETWORK, INC.";
+				CODE_SIGN_IDENTITY = "iPhone Developer: dragon flow (V2DSY6KBFJ)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: dragon flow (V2DSY6KBFJ)";
 				COPY_PHASE_STRIP = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "GenieiPad/GenieiPad-Prefix.pch";
@@ -2309,8 +2313,8 @@
 					"\"$(SRCROOT)/../../public/GUI/googlePlus\"",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "7CAE786A-8F61-493E-9A06-6358EEB10F6D";
-				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "7CAE786A-8F61-493E-9A06-6358EEB10F6D";
+				PROVISIONING_PROFILE = "CA366FF7-131A-4A28-A993-4A2FCB4C18FA";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "CA366FF7-131A-4A28-A993-4A2FCB4C18FA";
 				VALIDATE_PRODUCT = YES;
 				WRAPPER_EXTENSION = app;
 			};

@@ -254,6 +254,7 @@
         self.tableView.hidden = YES;
     }
 }
+//刷新数据源
 - (void)reloadData:(const deejay::DeviceDescList&)data withCurrentRenderID:(const NPT_String&)renderId
 {
     *m_list = data;
@@ -303,7 +304,7 @@
 }
 
 
-
+//刷新播放器
 - (void) refresh
 {
     if (!m_nodeviceview.hidden)
